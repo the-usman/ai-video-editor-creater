@@ -1,0 +1,71 @@
+{
+  "title": "My generated video",
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "transition": "fade",
+  "transitionDurationInSeconds": 0.5,
+  "assets": [
+    {
+      "name": "newvideo.mp4",
+      "src": "uploads/1788512723184-newvideo.mp4",
+      "kind": "video",
+      "durationInSeconds": 60
+    }
+  ],
+  "audio": null,
+  "scenes": [
+    {
+      "id": "video-mtmqb4tm-0",
+      "durationInSeconds": 30,
+      "overlays": [
+        {
+          "id": "ov-mtmqb7hp-1",
+          "text": "This is from Usman",
+          "position": "bottom",
+          "startSeconds": 0,
+          "endSeconds": 60,
+          "fontSize": 48,
+          "color": "#ffffff",
+          "background": ""
+        }
+      ],
+      "type": "video",
+      "src": "uploads/1788512723184-newvideo.mp4",
+      "caption": "",
+      "trimStartSeconds": 0,
+      "speed": 1
+    },
+    {
+      "id": "video-mtmqcgr2-2",
+      "durationInSeconds": 15,
+      "overlays": [
+        {
+          "id": "ov-mtmqck56-4",
+          "text": "this for testing actually",
+          "position": "bottom",
+          "startSeconds": 0,
+          "endSeconds": 15,
+          "fontSize": 48,
+          "color": "#ffffff",
+          "background": ""
+        }
+      ],
+      "type": "video",
+      "src": "uploads/1788512723184-newvideo.mp4",
+      "caption": "",
+      "trimStartSeconds": 30,
+      "speed": 1
+    },
+    {
+      "id": "video-mtmqcigk-3",
+      "durationInSeconds": 15,
+      "overlays": [],
+      "type": "video",
+      "src": "uploads/1788512723184-newvideo.mp4",
+      "caption": "",
+      "trimStartSeconds": 45,
+      "speed": 1
+    }
+  ]
+}

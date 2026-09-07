@@ -5,3 +5,11 @@ dist
 
 # Ignore the output video from Git but not videos you import into src/.
 out
+
+# Builder uploads and generated project state
+public/uploads/*
+!public/uploads/.gitkeep
+
+# Vite
+dist-app
+.vite
