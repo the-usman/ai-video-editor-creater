@@ -9,7 +9,22 @@ const projectRoot = dirname(fileURLToPath(import.meta.url));
 // under "/" — this avoids Vite's "/@fs/" URLs, which break when the project
 // path contains a space (e.g. C:\Users\NEXT GEN\...). The editor is at /app/.
 export default defineConfig({
-  plugins: [react()],
+  plugins: [
+    react(),
+    {
+      name: "app-root-redirect",
+      configureServer(server) {
+        server.middlewares.use((req, res, next) => {
+          if (req.url === "/" || req.url === "/index.html") {
+            res.writeHead(302, { Location: "/app/" });
+            res.end();
+            return;
+          }
+          next();
+        });
+      },
+    },
+  ],
   root: projectRoot,
   publicDir: false,
   resolve: {
