@@ -5,6 +5,7 @@ import { defaultProject } from "@shared/project/defaultProject";
 import type { Project, UploadedAsset } from "@shared/project/types";
 import {
   getProject,
+  openEditorCode,
   removeAsset,
   renderVideo,
   saveProject,
@@ -15,12 +16,15 @@ import {
 import { probeDuration, probeDurationFromUrl } from "./probeDuration";
 import { AssetTray } from "./components/AssetTray";
 import { Chat } from "./components/Chat";
+import { Creator } from "./components/Creator";
+import { ImageMaker } from "./components/ImageMaker";
 import { Inspector } from "./components/Inspector";
 import { Preview } from "./components/Preview";
 import { box, btn, c, label, primaryBtn } from "./theme";
 
 export const App: React.FC = () => {
   const [project, setProject] = useState<Project>(defaultProject);
+  const [mode, setMode] = useState<"editor" | "creator" | "image">("editor");
   const [messages, setMessages] = useState<ChatTurn[]>([]);
   const [draft, setDraft] = useState("");
   const [busy, setBusy] = useState(false);
@@ -116,6 +120,16 @@ export const App: React.FC = () => {
     },
     [],
   );
+
+  const openCode = useCallback(async () => {
+    setStatus("Opening the animation code in your editor…");
+    try {
+      const r = await openEditorCode();
+      setStatus(r.error ?? r.message ?? (r.ok ? "Opened in your editor ✓" : "Could not open"));
+    } catch {
+      setStatus("Could not open the editor — is the server running?");
+    }
+  }, []);
 
   const downloadVideo = useCallback(async () => {
     if (rendering) return;
@@ -235,28 +249,74 @@ export const App: React.FC = () => {
           <div style={{ fontSize: 12, color: c.dim }}>Chat to build · drop media anywhere</div>
         </div>
 
-        <div style={{ ...box, padding: 10 }}>
-          <AssetTray
-            assets={project.assets}
-            selected={selected}
-            onToggleSelect={(src) =>
-              setSelected((s) => (s.includes(src) ? s.filter((x) => x !== src) : [...s, src]))
-            }
-            onPick={doUpload}
-            onQuickAdd={quickAdd}
-            onDelete={deleteAsset}
-          />
+        {/* Editor / Creator toggle */}
+        <div
+          style={{
+            display: "flex",
+            gap: 4,
+            background: c.panel2,
+            border: `1px solid ${c.border}`,
+            borderRadius: 10,
+            padding: 4,
+          }}
+        >
+          {(
+            [
+              { id: "editor", label: "🎬 Editor" },
+              { id: "creator", label: "✨ Creator" },
+              { id: "image", label: "🖼 Image" },
+            ] as const
+          ).map((m) => (
+            <button
+              key={m.id}
+              onClick={() => setMode(m.id)}
+              style={{
+                flex: 1,
+                padding: "7px 0",
+                borderRadius: 7,
+                border: "none",
+                fontSize: 12.5,
+                fontWeight: 700,
+                cursor: "pointer",
+                background: mode === m.id ? c.accent : "transparent",
+                color: mode === m.id ? "#fff" : c.dim,
+              }}
+            >
+              {m.label}
+            </button>
+          ))}
         </div>
 
-        <Chat
-          messages={messages}
-          busy={busy}
-          draft={draft}
-          setDraft={setDraft}
-          attached={attached}
-          onClearAttached={() => setSelected([])}
-          onSend={send}
-        />
+        {mode === "creator" ? (
+          <Creator onProject={update} setStatus={setStatus} />
+        ) : mode === "image" ? (
+          <ImageMaker setStatus={setStatus} />
+        ) : (
+          <>
+            <div style={{ ...box, padding: 10 }}>
+              <AssetTray
+                assets={project.assets}
+                selected={selected}
+                onToggleSelect={(src) =>
+                  setSelected((s) => (s.includes(src) ? s.filter((x) => x !== src) : [...s, src]))
+                }
+                onPick={doUpload}
+                onQuickAdd={quickAdd}
+                onDelete={deleteAsset}
+              />
+            </div>
+
+            <Chat
+              messages={messages}
+              busy={busy}
+              draft={draft}
+              setDraft={setDraft}
+              attached={attached}
+              onClearAttached={() => setSelected([])}
+              onSend={send}
+            />
+          </>
+        )}
       </aside>
 
       {/* Main */}
@@ -279,6 +339,9 @@ export const App: React.FC = () => {
             <span style={{ ...label, minWidth: 160, textAlign: "right" }}>{status}</span>
             <button style={btn} onClick={() => update(applyAction(project, "clear_scenes", {}).project)}>
               Clear
+            </button>
+            <button style={primaryBtn} onClick={() => void openCode()}>
+              ✏️ Open in editor
             </button>
             <button
               style={{

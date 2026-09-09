@@ -1,0 +1,3751 @@
+[
+  {
+    "id": "job-mtr76x9n-1",
+    "format": "mix",
+    "title": "The life cycle of a monarch butterfly\nPick: Animated text, 2 scenes, Target length 10 s. Upload 1–2 butterfly photos.",
+    "createdAt": 1788782993498,
+    "project": {
+      "title": "The life cycle of a monarch butterfly\nPick: Animated text, 2 scenes, Target length 10 s. Upload 1–2 butterfly photos.",
+      "fps": 30,
+      "width": 1280,
+      "height": 720,
+      "transition": "fade",
+      "transitionDurationInSeconds": 0.5,
+      "assets": [
+        {
+          "name": "newvideo.mp4",
+          "src": "uploads/1788512723184-newvideo.mp4",
+          "kind": "video",
+          "durationInSeconds": 60
+        },
+        {
+          "name": "Scene 2 image",
+          "src": "uploads/generated/img-jobmtr75-2.jpg",
+          "kind": "image"
+        },
+        {
+          "name": "Scene 3 image",
+          "src": "uploads/generated/img-jobmtr76-3.jpg",
+          "kind": "image"
+        }
+      ],
+      "audio": null,
+      "scenes": [
+        {
+          "id": "create-jobmtr76-1",
+          "durationInSeconds": 13,
+          "overlays": [],
+          "type": "text",
+          "prompt": "The Journey Begins",
+          "subtitle": "In fields of milkweed and sunlight, a tiny miracle begins—the story of the monarch butterfly's remarkable transformation from egg to flight.",
+          "background": "#0b1021",
+          "color": "#ffffff",
+          "variant": "classic"
+        },
+        {
+          "id": "create-jobmtr76-2",
+          "durationInSeconds": 11,
+          "overlays": [],
+          "type": "image",
+          "src": "uploads/1788782882694-logo1.jpeg",
+          "caption": "The Hungry Caterpillar",
+          "kenBurns": true,
+          "variant": "wordpop"
+        },
+        {
+          "id": "create-jobmtr76-3",
+          "durationInSeconds": 12,
+          "overlays": [],
+          "type": "image",
+          "src": "uploads/generated/img-jobmtr76-3.jpg",
+          "caption": "The Quiet Metamorphosis",
+          "kenBurns": true,
+          "variant": "wordpop"
+        },
+        {
+          "id": "create-jobmtr76-4",
+          "durationInSeconds": 11,
+          "overlays": [],
+          "type": "text",
+          "prompt": "A New Beginning",
+          "subtitle": "After weeks of change, the chrysalis cracks open, revealing a brilliant orange and black butterfly ready to spread its wings.",
+          "background": "#0f3443",
+          "color": "#ffffff",
+          "variant": "wordpop"
+        },
+        {
+          "id": "create-jobmtr76-5",
+          "durationInSeconds": 12,
+          "overlays": [],
+          "type": "text",
+          "prompt": "The Cycle Complete",
+          "subtitle": "As it takes flight across golden fields, the monarch completes its journey—an enduring symbol of transformation, resilience, and hope.",
+          "background": "#1e3a2f",
+          "color": "#ffffff",
+          "variant": "wordpop"
+        }
+      ]
+    }
+  },
+  {
+    "id": "job-mtr77x4x-2",
+    "format": "animated",
+    "title": "The life cycle of a monarch butterfly\nPick: Animated text, 2 scenes, Target length 10 s. Upload 1–2 butterfly photos.",
+    "createdAt": 1788783026462,
+    "project": {
+      "title": "The life cycle of a monarch butterfly\nPick: Animated text, 2 scenes, Target length 10 s. Upload 1–2 butterfly photos.",
+      "fps": 30,
+      "width": 1280,
+      "height": 720,
+      "transition": "fade",
+      "transitionDurationInSeconds": 0.5,
+      "assets": [
+        {
+          "name": "newvideo.mp4",
+          "src": "uploads/1788512723184-newvideo.mp4",
+          "kind": "video",
+          "durationInSeconds": 60
+        },
+        {
+          "name": "Scene 2 image",
+          "src": "uploads/generated/img-jobmtr75-2.jpg",
+          "kind": "image"
+        },
+        {
+          "name": "Scene 3 image",
+          "src": "uploads/generated/img-jobmtr76-3.jpg",
+          "kind": "image"
+        }
+      ],
+      "audio": null,
+      "scenes": [
+        {
+          "id": "create-jobmtr77-1",
+          "durationInSeconds": 14,
+          "overlays": [],
+          "type": "image",
+          "src": "uploads/1788782882694-logo1.jpeg",
+          "caption": "The Monarch's Story",
+          "kenBurns": true,
+          "variant": "wordpop"
+        },
+        {
+          "id": "create-jobmtr77-2",
+          "durationInSeconds": 11,
+          "overlays": [],
+          "type": "text",
+          "prompt": "The Egg",
+          "subtitle": "It begins as a tiny egg, laid delicately on the underside of a milkweed leaf, holding within it the promise of new life.",
+          "background": "#16245b",
+          "color": "#ffffff",
+          "variant": "wordpop"
+        },
+        {
+          "id": "create-jobmtr77-3",
+          "durationInSeconds": 13,
+          "overlays": [],
+          "type": "text",
+          "prompt": "The Caterpillar",
+          "subtitle": "Days later, a striped caterpillar emerges, devouring milkweed leaves and growing rapidly as it prepares for its astonishing metamorphosis.",
+          "background": "#3d1a5e",
+          "color": "#ffffff",
+          "variant": "wordpop"
+        },
+        {
+          "id": "create-jobmtr77-4",
+          "durationInSeconds": 12,
+          "overlays": [],
+          "type": "text",
+          "prompt": "The Chrysalis",
+          "subtitle": "Inside a jade-green chrysalis, the caterpillar dissolves and rebuilds itself, emerging weeks later as a delicate, winged butterfly.",
+          "background": "#0f3443",
+          "color": "#ffffff",
+          "variant": "wordpop"
+        },
+        {
+          "id": "create-jobmtr77-5",
+          "durationInSeconds": 13,
+          "overlays": [],
+          "type": "text",
+          "prompt": "The Journey Begins",
+          "subtitle": "As orange and black wings unfurl, the monarch takes flight — beginning a journey of thousands of miles, continuing a cycle as old as time.",
+          "background": "#1e3a2f",
+          "color": "#ffffff",
+          "variant": "wordpop"
+        }
+      ]
+    }
+  },
+  {
+    "id": "job-mtsh5bb4-0",
+    "format": "animated",
+    "title": "use that uploaded images nand cange its 5 bg color and its length should be max 10 seconds",
+    "createdAt": 1788860160726,
+    "project": {
+      "title": "use that uploaded images nand cange its 5 bg color and its length should be max 10 seconds",
+      "fps": 30,
+      "width": 1280,
+      "height": 720,
+      "transition": "fade",
+      "transitionDurationInSeconds": 0.5,
+      "assets": [],
+      "audio": null,
+      "scenes": [
+        {
+          "id": "create-jobmtsh5-1",
+          "durationInSeconds": 8,
+          "overlays": [],
+          "type": "image",
+          "src": "uploads/1788860148522-logo1.jpeg",
+          "caption": "Upload Your Image",
+          "kenBurns": true,
+          "variant": "wordpop",
+          "background": "#0b1021"
+        },
+        {
+          "id": "create-jobmtsh5-2",
+          "durationInSeconds": 8,
+          "overlays": [],
+          "type": "image",
+          "src": "uploads/1788860148522-logo1.jpeg",
+          "caption": "Five Colors, Instantly",
+          "kenBurns": true,
+          "variant": "wordpop",
+          "background": "#16245b"
+        }
+      ]
+    }
+  },
+  {
+    "id": "job-mtshrjbw-0",
+    "format": "animated",
+    "title": "use that uploaded images nand cange its 5 bg color and its length should be max 10 seconds",
+    "createdAt": 1788861196423,
+    "project": {
+      "title": "use that uploaded images nand cange its 5 bg color and its length should be max 10 seconds",
+      "fps": 30,
+      "width": 1280,
+      "height": 720,
+      "transition": "fade",
+      "transitionDurationInSeconds": 0.5,
+      "assets": [],
+      "audio": null,
+      "scenes": [
+        {
+          "id": "create-jobmtshr-1",
+          "durationInSeconds": 6.5,
+          "overlays": [],
+          "type": "image",
+          "src": "uploads/1788861180644-logo1.jpeg",
+          "caption": "",
+          "kenBurns": true,
+          "variant": "wordpop",
+          "background": "#0b1021"
+        },
+        {
+          "id": "create-jobmtshr-2",
+          "durationInSeconds": 4.5,
+          "overlays": [],
+          "type": "image",
+          "src": "uploads/1788861180644-logo1.jpeg",
+          "caption": "",
+          "kenBurns": true,
+          "variant": "wordpop",
+          "background": "#16245b"
+        }
+      ]
+    }
+  },
+  {
+    "id": "job-mtsi08en-0",
+    "format": "animated",
+    "title": "use that uploaded images nand cange its 5 bg color and its length should be max 10 seconds",
+    "createdAt": 1788861606814,
+    "project": {
+      "title": "use that uploaded images nand cange its 5 bg color and its length should be max 10 seconds",
+      "fps": 30,
+      "width": 1280,
+      "height": 720,
+      "transition": "fade",
+      "transitionDurationInSeconds": 0.5,
+      "assets": [],
+      "audio": null,
+      "scenes": [
+        {
+          "id": "create-jobmtsi0-1",
+          "durationInSeconds": 2,
+          "overlays": [],
+          "type": "image",
+          "src": "uploads/1788861580131-logo1.jpeg",
+          "caption": "",
+          "kenBurns": true,
+          "variant": "wordpop",
+          "background": "#0b1021"
+        },
+        {
+          "id": "create-jobmtsi0-2",
+          "durationInSeconds": 2,
+          "overlays": [],
+          "type": "image",
+          "src": "uploads/1788861580131-logo1.jpeg",
+          "caption": "",
+          "kenBurns": true,
+          "variant": "wordpop",
+          "background": "#16245b"
+        },
+        {
+          "id": "create-jobmtsi0-3",
+          "durationInSeconds": 2,
+          "overlays": [],
+          "type": "image",
+          "src": "uploads/1788861580131-logo1.jpeg",
+          "caption": "",
+          "kenBurns": true,
+          "variant": "wordpop",
+          "background": "#3d1a5e"
+        },
+        {
+          "id": "create-jobmtsi0-4",
+          "durationInSeconds": 2,
+          "overlays": [],
+          "type": "image",
+          "src": "uploads/1788861580131-logo1.jpeg",
+          "caption": "",
+          "kenBurns": true,
+          "variant": "wordpop",
+          "background": "#0f3443"
+        },
+        {
+          "id": "create-jobmtsi0-5",
+          "durationInSeconds": 2,
+          "overlays": [],
+          "type": "image",
+          "src": "uploads/1788861580131-logo1.jpeg",
+          "caption": "",
+          "kenBurns": true,
+          "variant": "wordpop",
+          "background": "#1e3a2f"
+        }
+      ]
+    }
+  },
+  {
+    "id": "job-mtsi8dwh-1",
+    "format": "animated",
+    "title": "use that uploaded images nand cange its 5 bg color and its length should be max 10 seconds",
+    "createdAt": 1788861987032,
+    "project": {
+      "title": "use that uploaded images nand cange its 5 bg color and its length should be max 10 seconds",
+      "fps": 30,
+      "width": 1080,
+      "height": 1920,
+      "transition": "fade",
+      "transitionDurationInSeconds": 0.5,
+      "assets": [],
+      "audio": null,
+      "scenes": [
+        {
+          "id": "create-jobmtsi8-1",
+          "durationInSeconds": 2,
+          "overlays": [],
+          "type": "image",
+          "src": "uploads/1788861580131-logo1.jpeg",
+          "caption": "",
+          "kenBurns": true,
+          "variant": "wordpop",
+          "background": "#0b1021"
+        },
+        {
+          "id": "create-jobmtsi8-2",
+          "durationInSeconds": 2,
+          "overlays": [],
+          "type": "image",
+          "src": "uploads/1788861580131-logo1.jpeg",
+          "caption": "",
+          "kenBurns": true,
+          "variant": "wordpop",
+          "background": "#16245b"
+        },
+        {
+          "id": "create-jobmtsi8-3",
+          "durationInSeconds": 2,
+          "overlays": [],
+          "type": "image",
+          "src": "uploads/1788861580131-logo1.jpeg",
+          "caption": "",
+          "kenBurns": true,
+          "variant": "wordpop",
+          "background": "#3d1a5e"
+        },
+        {
+          "id": "create-jobmtsi8-4",
+          "durationInSeconds": 2,
+          "overlays": [],
+          "type": "image",
+          "src": "uploads/1788861580131-logo1.jpeg",
+          "caption": "",
+          "kenBurns": true,
+          "variant": "wordpop",
+          "background": "#0f3443"
+        },
+        {
+          "id": "create-jobmtsi8-5",
+          "durationInSeconds": 2,
+          "overlays": [],
+          "type": "image",
+          "src": "uploads/1788861580131-logo1.jpeg",
+          "caption": "",
+          "kenBurns": true,
+          "variant": "wordpop",
+          "background": "#1e3a2f"
+        }
+      ]
+    }
+  },
+  {
+    "id": "job-mtsibm63-2",
+    "format": "animated",
+    "title": "Create a 15-second vertical 9:16 text-only brand reel for D2 Media Communication.\n\nSTYLE:\nBold, playful, confident kinetic typography inspired by the attached reference image. Use oversized words that fill the screen, with some words intentionally cropped off the edges. Arrange typography at different angles, sizes and positions to create a dynamic editorial composition. Allow words to overlap, slide, rotate, scale and quickly rearrange between scenes. The overall feeling should be confident, unconventional, clever, energetic and premium — never corporate or generic.\n\nDo NOT use photography, illustrations, icons, people, objects or imagery. Typography is the only visual element.\n\nBRAND COLOURS:\nBackground: Indigo #0E0B20\nPurple text: #AD00FF\nCoral text: #FF0063\n\nFONT:\nJost only. Use bold/heavy weights for maximum visual impact. Clean, modern, geometric and highly legible.\n\nTEXT SEQUENCE:\n0–2 sec:\n“BOLD.”\n\n2–4 sec:\n“DIFFERENT.”\n\n4–6 sec:\n“SHARP.”\n\n6–8 sec:\n“FEARLESS.”\n\n8–10 sec:\n“UNMISSABLE.”\n\n10–12 sec:\n“RELIABLE.”\n\n12–15 sec:\n“D2 MEDIA”\nfollowed by:\n“MAKE YOUR MESSAGE MATTER.”\n\nANIMATION:\nStart immediately with oversized typography entering rapidly from different directions. Words should move with purpose rather than simply fade in. Use quick slides, rotations, scaling and position changes. Introduce words one at a time, then briefly create moments where multiple words appear together in a playful typographic collage.\n\nAlternate purple #AD00FF and coral #FF0063 for emphasis. Keep the indigo background consistently dominant.\n\nFor the final 3 seconds, slow the movement slightly and create a strong visual payoff: “D2 MEDIA” should appear large and confident, followed by “MAKE YOUR MESSAGE MATTER.” Keep the final frame clean enough to read instantly.\n\nOverall pacing: energetic, punchy and contemporary, with approximately 1–2 seconds per key word. Make the typography feel like it is taking over the screen.\n\nNo voiceover. No stock footage. No music-dependent storytelling. The reel must communicate entirely through typography and motion.\n\nThe finished reel should feel like a creative agency saying:\n“We know who we are. We know what we do. And we’re not here to blend in.”",
+    "createdAt": 1788862143363,
+    "project": {
+      "title": "Create a 15-second vertical 9:16 text-only brand reel for D2 Media Communication.\n\nSTYLE:\nBold, playful, confident kinetic typography inspired by the attached reference image. Use oversized words that fill the screen, with some words intentionally cropped off the edges. Arrange typography at different angles, sizes and positions to create a dynamic editorial composition. Allow words to overlap, slide, rotate, scale and quickly rearrange between scenes. The overall feeling should be confident, unconventional, clever, energetic and premium — never corporate or generic.\n\nDo NOT use photography, illustrations, icons, people, objects or imagery. Typography is the only visual element.\n\nBRAND COLOURS:\nBackground: Indigo #0E0B20\nPurple text: #AD00FF\nCoral text: #FF0063\n\nFONT:\nJost only. Use bold/heavy weights for maximum visual impact. Clean, modern, geometric and highly legible.\n\nTEXT SEQUENCE:\n0–2 sec:\n“BOLD.”\n\n2–4 sec:\n“DIFFERENT.”\n\n4–6 sec:\n“SHARP.”\n\n6–8 sec:\n“FEARLESS.”\n\n8–10 sec:\n“UNMISSABLE.”\n\n10–12 sec:\n“RELIABLE.”\n\n12–15 sec:\n“D2 MEDIA”\nfollowed by:\n“MAKE YOUR MESSAGE MATTER.”\n\nANIMATION:\nStart immediately with oversized typography entering rapidly from different directions. Words should move with purpose rather than simply fade in. Use quick slides, rotations, scaling and position changes. Introduce words one at a time, then briefly create moments where multiple words appear together in a playful typographic collage.\n\nAlternate purple #AD00FF and coral #FF0063 for emphasis. Keep the indigo background consistently dominant.\n\nFor the final 3 seconds, slow the movement slightly and create a strong visual payoff: “D2 MEDIA” should appear large and confident, followed by “MAKE YOUR MESSAGE MATTER.” Keep the final frame clean enough to read instantly.\n\nOverall pacing: energetic, punchy and contemporary, with approximately 1–2 seconds per key word. Make the typography feel like it is taking over the screen.\n\nNo voiceover. No stock footage. No music-dependent storytelling. The reel must communicate entirely through typography and motion.\n\nThe finished reel should feel like a creative agency saying:\n“We know who we are. We know what we do. And we’re not here to blend in.”",
+      "fps": 30,
+      "width": 1080,
+      "height": 1920,
+      "transition": "fade",
+      "transitionDurationInSeconds": 0.5,
+      "assets": [],
+      "audio": null,
+      "scenes": [
+        {
+          "id": "create-jobmtsib-1",
+          "durationInSeconds": 2,
+          "overlays": [],
+          "type": "image",
+          "src": "uploads/1788862117939-WhatsApp-Image-2026-09-08-at-12-53-52.jpeg",
+          "caption": "",
+          "kenBurns": true,
+          "variant": "wordpop",
+          "background": "#0b1021"
+        },
+        {
+          "id": "create-jobmtsib-2",
+          "durationInSeconds": 2,
+          "overlays": [],
+          "type": "image",
+          "src": "uploads/1788862117939-WhatsApp-Image-2026-09-08-at-12-53-52.jpeg",
+          "caption": "",
+          "kenBurns": true,
+          "variant": "wordpop",
+          "background": "#16245b"
+        },
+        {
+          "id": "create-jobmtsib-3",
+          "durationInSeconds": 2,
+          "overlays": [],
+          "type": "image",
+          "src": "uploads/1788862117939-WhatsApp-Image-2026-09-08-at-12-53-52.jpeg",
+          "caption": "",
+          "kenBurns": true,
+          "variant": "wordpop",
+          "background": "#3d1a5e"
+        },
+        {
+          "id": "create-jobmtsib-4",
+          "durationInSeconds": 2,
+          "overlays": [],
+          "type": "image",
+          "src": "uploads/1788862117939-WhatsApp-Image-2026-09-08-at-12-53-52.jpeg",
+          "caption": "",
+          "kenBurns": true,
+          "variant": "wordpop",
+          "background": "#0f3443"
+        },
+        {
+          "id": "create-jobmtsib-5",
+          "durationInSeconds": 2,
+          "overlays": [],
+          "type": "image",
+          "src": "uploads/1788862117939-WhatsApp-Image-2026-09-08-at-12-53-52.jpeg",
+          "caption": "",
+          "kenBurns": true,
+          "variant": "wordpop",
+          "background": "#1e3a2f"
+        }
+      ]
+    }
+  },
+  {
+    "id": "job-mtsicy7j-3",
+    "format": "animated",
+    "title": "Create a 15-second vertical 9:16 text-only brand reel for D2 Media Communication.\n\nSTYLE:\nBold, playful, confident kinetic typography inspired by the attached reference image. Use oversized words that fill the screen, with some words intentionally cropped off the edges. Arrange typography at different angles, sizes and positions to create a dynamic editorial composition. Allow words to overlap, slide, rotate, scale and quickly rearrange between scenes. The overall feeling should be confident, unconventional, clever, energetic and premium — never corporate or generic.\n\nDo NOT use photography, illustrations, icons, people, objects or imagery. Typography is the only visual element.\n\nBRAND COLOURS:\nBackground: Indigo #0E0B20\nPurple text: #AD00FF\nCoral text: #FF0063\n\nFONT:\nJost only. Use bold/heavy weights for maximum visual impact. Clean, modern, geometric and highly legible.\n\nTEXT SEQUENCE:\n0–2 sec:\n“BOLD.”\n\n2–4 sec:\n“DIFFERENT.”\n\n4–6 sec:\n“SHARP.”\n\n6–8 sec:\n“FEARLESS.”\n\n8–10 sec:\n“UNMISSABLE.”\n\n10–12 sec:\n“RELIABLE.”\n\n12–15 sec:\n“D2 MEDIA”\nfollowed by:\n“MAKE YOUR MESSAGE MATTER.”\n\nANIMATION:\nStart immediately with oversized typography entering rapidly from different directions. Words should move with purpose rather than simply fade in. Use quick slides, rotations, scaling and position changes. Introduce words one at a time, then briefly create moments where multiple words appear together in a playful typographic collage.\n\nAlternate purple #AD00FF and coral #FF0063 for emphasis. Keep the indigo background consistently dominant.\n\nFor the final 3 seconds, slow the movement slightly and create a strong visual payoff: “D2 MEDIA” should appear large and confident, followed by “MAKE YOUR MESSAGE MATTER.” Keep the final frame clean enough to read instantly.\n\nOverall pacing: energetic, punchy and contemporary, with approximately 1–2 seconds per key word. Make the typography feel like it is taking over the screen.\n\nNo voiceover. No stock footage. No music-dependent storytelling. The reel must communicate entirely through typography and motion.\n\nThe finished reel should feel like a creative agency saying:\n“We know who we are. We know what we do. And we’re not here to blend in.”",
+    "createdAt": 1788862205247,
+    "project": {
+      "title": "Create a 15-second vertical 9:16 text-only brand reel for D2 Media Communication.\n\nSTYLE:\nBold, playful, confident kinetic typography inspired by the attached reference image. Use oversized words that fill the screen, with some words intentionally cropped off the edges. Arrange typography at different angles, sizes and positions to create a dynamic editorial composition. Allow words to overlap, slide, rotate, scale and quickly rearrange between scenes. The overall feeling should be confident, unconventional, clever, energetic and premium — never corporate or generic.\n\nDo NOT use photography, illustrations, icons, people, objects or imagery. Typography is the only visual element.\n\nBRAND COLOURS:\nBackground: Indigo #0E0B20\nPurple text: #AD00FF\nCoral text: #FF0063\n\nFONT:\nJost only. Use bold/heavy weights for maximum visual impact. Clean, modern, geometric and highly legible.\n\nTEXT SEQUENCE:\n0–2 sec:\n“BOLD.”\n\n2–4 sec:\n“DIFFERENT.”\n\n4–6 sec:\n“SHARP.”\n\n6–8 sec:\n“FEARLESS.”\n\n8–10 sec:\n“UNMISSABLE.”\n\n10–12 sec:\n“RELIABLE.”\n\n12–15 sec:\n“D2 MEDIA”\nfollowed by:\n“MAKE YOUR MESSAGE MATTER.”\n\nANIMATION:\nStart immediately with oversized typography entering rapidly from different directions. Words should move with purpose rather than simply fade in. Use quick slides, rotations, scaling and position changes. Introduce words one at a time, then briefly create moments where multiple words appear together in a playful typographic collage.\n\nAlternate purple #AD00FF and coral #FF0063 for emphasis. Keep the indigo background consistently dominant.\n\nFor the final 3 seconds, slow the movement slightly and create a strong visual payoff: “D2 MEDIA” should appear large and confident, followed by “MAKE YOUR MESSAGE MATTER.” Keep the final frame clean enough to read instantly.\n\nOverall pacing: energetic, punchy and contemporary, with approximately 1–2 seconds per key word. Make the typography feel like it is taking over the screen.\n\nNo voiceover. No stock footage. No music-dependent storytelling. The reel must communicate entirely through typography and motion.\n\nThe finished reel should feel like a creative agency saying:\n“We know who we are. We know what we do. And we’re not here to blend in.”",
+      "fps": 30,
+      "width": 1080,
+      "height": 1920,
+      "transition": "fade",
+      "transitionDurationInSeconds": 0.5,
+      "assets": [],
+      "audio": null,
+      "scenes": [
+        {
+          "id": "create-jobmtsic-1",
+          "durationInSeconds": 2,
+          "overlays": [],
+          "type": "text",
+          "prompt": "Bold. Different.",
+          "subtitle": "Bold. Different.",
+          "background": "#0b1021",
+          "color": "#ffffff",
+          "variant": "wordpop"
+        },
+        {
+          "id": "create-jobmtsic-2",
+          "durationInSeconds": 2,
+          "overlays": [],
+          "type": "text",
+          "prompt": "Sharp. Fearless.",
+          "subtitle": "Sharp. Fearless.",
+          "background": "#16245b",
+          "color": "#ffffff",
+          "variant": "wordpop"
+        },
+        {
+          "id": "create-jobmtsic-3",
+          "durationInSeconds": 2,
+          "overlays": [],
+          "type": "text",
+          "prompt": "Unmissable. Reliable.",
+          "subtitle": "Unmissable. Reliable.",
+          "background": "#3d1a5e",
+          "color": "#ffffff",
+          "variant": "wordpop"
+        },
+        {
+          "id": "create-jobmtsic-4",
+          "durationInSeconds": 2,
+          "overlays": [],
+          "type": "text",
+          "prompt": "D2 Media",
+          "subtitle": "D2 Media.",
+          "background": "#0f3443",
+          "color": "#ffffff",
+          "variant": "wordpop"
+        },
+        {
+          "id": "create-jobmtsic-5",
+          "durationInSeconds": 2,
+          "overlays": [],
+          "type": "text",
+          "prompt": "Make It Matter",
+          "subtitle": "Make it matter.",
+          "background": "#1e3a2f",
+          "color": "#ffffff",
+          "variant": "wordpop"
+        }
+      ]
+    }
+  },
+  {
+    "id": "job-mtsidvut-4",
+    "format": "animated",
+    "title": "Create a 15-second vertical 9:16 text-only brand reel for D2 Media Communication.\n\nSTYLE:\nBold, playful, confident kinetic typography inspired by the attached reference image. Use oversized words that fill the screen, with some words intentionally cropped off the edges. Arrange typography at different angles, sizes and positions to create a dynamic editorial composition. Allow words to overlap, slide, rotate, scale and quickly rearrange between scenes. The overall feeling should be confident, unconventional, clever, energetic and premium — never corporate or generic.\n\nDo NOT use photography, illustrations, icons, people, objects or imagery. Typography is the only visual element.\n\nBRAND COLOURS:\nBackground: Indigo #0E0B20\nPurple text: #AD00FF\nCoral text: #FF0063\n\nFONT:\nJost only. Use bold/heavy weights for maximum visual impact. Clean, modern, geometric and highly legible.\n\nTEXT SEQUENCE:\n0–2 sec:\n“BOLD.”\n\n2–4 sec:\n“DIFFERENT.”\n\n4–6 sec:\n“SHARP.”\n\n6–8 sec:\n“FEARLESS.”\n\n8–10 sec:\n“UNMISSABLE.”\n\n10–12 sec:\n“RELIABLE.”\n\n12–15 sec:\n“D2 MEDIA”\nfollowed by:\n“MAKE YOUR MESSAGE MATTER.”\n\nANIMATION:\nStart immediately with oversized typography entering rapidly from different directions. Words should move with purpose rather than simply fade in. Use quick slides, rotations, scaling and position changes. Introduce words one at a time, then briefly create moments where multiple words appear together in a playful typographic collage.\n\nAlternate purple #AD00FF and coral #FF0063 for emphasis. Keep the indigo background consistently dominant.\n\nFor the final 3 seconds, slow the movement slightly and create a strong visual payoff: “D2 MEDIA” should appear large and confident, followed by “MAKE YOUR MESSAGE MATTER.” Keep the final frame clean enough to read instantly.\n\nOverall pacing: energetic, punchy and contemporary, with approximately 1–2 seconds per key word. Make the typography feel like it is taking over the screen.\n\nNo voiceover. No stock footage. No music-dependent storytelling. The reel must communicate entirely through typography and motion.\n\nThe finished reel should feel like a creative agency saying:\n“We know who we are. We know what we do. And we’re not here to blend in.”",
+    "createdAt": 1788862251198,
+    "project": {
+      "title": "Create a 15-second vertical 9:16 text-only brand reel for D2 Media Communication.\n\nSTYLE:\nBold, playful, confident kinetic typography inspired by the attached reference image. Use oversized words that fill the screen, with some words intentionally cropped off the edges. Arrange typography at different angles, sizes and positions to create a dynamic editorial composition. Allow words to overlap, slide, rotate, scale and quickly rearrange between scenes. The overall feeling should be confident, unconventional, clever, energetic and premium — never corporate or generic.\n\nDo NOT use photography, illustrations, icons, people, objects or imagery. Typography is the only visual element.\n\nBRAND COLOURS:\nBackground: Indigo #0E0B20\nPurple text: #AD00FF\nCoral text: #FF0063\n\nFONT:\nJost only. Use bold/heavy weights for maximum visual impact. Clean, modern, geometric and highly legible.\n\nTEXT SEQUENCE:\n0–2 sec:\n“BOLD.”\n\n2–4 sec:\n“DIFFERENT.”\n\n4–6 sec:\n“SHARP.”\n\n6–8 sec:\n“FEARLESS.”\n\n8–10 sec:\n“UNMISSABLE.”\n\n10–12 sec:\n“RELIABLE.”\n\n12–15 sec:\n“D2 MEDIA”\nfollowed by:\n“MAKE YOUR MESSAGE MATTER.”\n\nANIMATION:\nStart immediately with oversized typography entering rapidly from different directions. Words should move with purpose rather than simply fade in. Use quick slides, rotations, scaling and position changes. Introduce words one at a time, then briefly create moments where multiple words appear together in a playful typographic collage.\n\nAlternate purple #AD00FF and coral #FF0063 for emphasis. Keep the indigo background consistently dominant.\n\nFor the final 3 seconds, slow the movement slightly and create a strong visual payoff: “D2 MEDIA” should appear large and confident, followed by “MAKE YOUR MESSAGE MATTER.” Keep the final frame clean enough to read instantly.\n\nOverall pacing: energetic, punchy and contemporary, with approximately 1–2 seconds per key word. Make the typography feel like it is taking over the screen.\n\nNo voiceover. No stock footage. No music-dependent storytelling. The reel must communicate entirely through typography and motion.\n\nThe finished reel should feel like a creative agency saying:\n“We know who we are. We know what we do. And we’re not here to blend in.”",
+      "fps": 30,
+      "width": 1080,
+      "height": 1920,
+      "transition": "fade",
+      "transitionDurationInSeconds": 0.5,
+      "assets": [],
+      "audio": null,
+      "scenes": [
+        {
+          "id": "create-jobmtsid-1",
+          "durationInSeconds": 2.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "BOLD. DIFFERENT.",
+          "subtitle": "Bold and different, typography takes over the screen instantly.",
+          "background": "#0b1021",
+          "color": "#ffffff",
+          "variant": "wordpop"
+        },
+        {
+          "id": "create-jobmtsid-2",
+          "durationInSeconds": 2.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "SHARP. FEARLESS.",
+          "subtitle": "Sharp, fearless words rotate and collide with striking confidence.",
+          "background": "#16245b",
+          "color": "#ffffff",
+          "variant": "wordpop"
+        },
+        {
+          "id": "create-jobmtsid-3",
+          "durationInSeconds": 2.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "UNMISSABLE. RELIABLE.",
+          "subtitle": "Unmissable, reliable, the message builds with unstoppable rhythmic energy.",
+          "background": "#3d1a5e",
+          "color": "#ffffff",
+          "variant": "wordpop"
+        },
+        {
+          "id": "create-jobmtsid-4",
+          "durationInSeconds": 2.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "D2 MEDIA",
+          "subtitle": "D2 Media arrives, bold letters commanding the entire screen.",
+          "background": "#0f3443",
+          "color": "#ffffff",
+          "variant": "wordpop"
+        },
+        {
+          "id": "create-jobmtsid-5",
+          "durationInSeconds": 2.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "MAKE IT MATTER.",
+          "subtitle": "Make your message matter — clear, sharp, and unforgettable.",
+          "background": "#1e3a2f",
+          "color": "#ffffff",
+          "variant": "wordpop"
+        }
+      ]
+    }
+  },
+  {
+    "id": "job-mtsiege0-5",
+    "format": "animated",
+    "title": "Create a 15-second vertical 9:16 text-only brand reel for D2 Media Communication.\n\nSTYLE:\nBold, playful, confident kinetic typography inspired by the attached reference image. Use oversized words that fill the screen, with some words intentionally cropped off the edges. Arrange typography at different angles, sizes and positions to create a dynamic editorial composition. Allow words to overlap, slide, rotate, scale and quickly rearrange between scenes. The overall feeling should be confident, unconventional, clever, energetic and premium — never corporate or generic.\n\nDo NOT use photography, illustrations, icons, people, objects or imagery. Typography is the only visual element.\n\nBRAND COLOURS:\nBackground: Indigo #0E0B20\nPurple text: #AD00FF\nCoral text: #FF0063\n\nFONT:\nJost only. Use bold/heavy weights for maximum visual impact. Clean, modern, geometric and highly legible.\n\nTEXT SEQUENCE:\n0–2 sec:\n“BOLD.”\n\n2–4 sec:\n“DIFFERENT.”\n\n4–6 sec:\n“SHARP.”\n\n6–8 sec:\n“FEARLESS.”\n\n8–10 sec:\n“UNMISSABLE.”\n\n10–12 sec:\n“RELIABLE.”\n\n12–15 sec:\n“D2 MEDIA”\nfollowed by:\n“MAKE YOUR MESSAGE MATTER.”\n\nANIMATION:\nStart immediately with oversized typography entering rapidly from different directions. Words should move with purpose rather than simply fade in. Use quick slides, rotations, scaling and position changes. Introduce words one at a time, then briefly create moments where multiple words appear together in a playful typographic collage.\n\nAlternate purple #AD00FF and coral #FF0063 for emphasis. Keep the indigo background consistently dominant.\n\nFor the final 3 seconds, slow the movement slightly and create a strong visual payoff: “D2 MEDIA” should appear large and confident, followed by “MAKE YOUR MESSAGE MATTER.” Keep the final frame clean enough to read instantly.\n\nOverall pacing: energetic, punchy and contemporary, with approximately 1–2 seconds per key word. Make the typography feel like it is taking over the screen.\n\nNo voiceover. No stock footage. No music-dependent storytelling. The reel must communicate entirely through typography and motion.\n\nThe finished reel should feel like a creative agency saying:\n“We know who we are. We know what we do. And we’re not here to blend in.”",
+    "createdAt": 1788862277391,
+    "project": {
+      "title": "Create a 15-second vertical 9:16 text-only brand reel for D2 Media Communication.\n\nSTYLE:\nBold, playful, confident kinetic typography inspired by the attached reference image. Use oversized words that fill the screen, with some words intentionally cropped off the edges. Arrange typography at different angles, sizes and positions to create a dynamic editorial composition. Allow words to overlap, slide, rotate, scale and quickly rearrange between scenes. The overall feeling should be confident, unconventional, clever, energetic and premium — never corporate or generic.\n\nDo NOT use photography, illustrations, icons, people, objects or imagery. Typography is the only visual element.\n\nBRAND COLOURS:\nBackground: Indigo #0E0B20\nPurple text: #AD00FF\nCoral text: #FF0063\n\nFONT:\nJost only. Use bold/heavy weights for maximum visual impact. Clean, modern, geometric and highly legible.\n\nTEXT SEQUENCE:\n0–2 sec:\n“BOLD.”\n\n2–4 sec:\n“DIFFERENT.”\n\n4–6 sec:\n“SHARP.”\n\n6–8 sec:\n“FEARLESS.”\n\n8–10 sec:\n“UNMISSABLE.”\n\n10–12 sec:\n“RELIABLE.”\n\n12–15 sec:\n“D2 MEDIA”\nfollowed by:\n“MAKE YOUR MESSAGE MATTER.”\n\nANIMATION:\nStart immediately with oversized typography entering rapidly from different directions. Words should move with purpose rather than simply fade in. Use quick slides, rotations, scaling and position changes. Introduce words one at a time, then briefly create moments where multiple words appear together in a playful typographic collage.\n\nAlternate purple #AD00FF and coral #FF0063 for emphasis. Keep the indigo background consistently dominant.\n\nFor the final 3 seconds, slow the movement slightly and create a strong visual payoff: “D2 MEDIA” should appear large and confident, followed by “MAKE YOUR MESSAGE MATTER.” Keep the final frame clean enough to read instantly.\n\nOverall pacing: energetic, punchy and contemporary, with approximately 1–2 seconds per key word. Make the typography feel like it is taking over the screen.\n\nNo voiceover. No stock footage. No music-dependent storytelling. The reel must communicate entirely through typography and motion.\n\nThe finished reel should feel like a creative agency saying:\n“We know who we are. We know what we do. And we’re not here to blend in.”",
+      "fps": 30,
+      "width": 1080,
+      "height": 1920,
+      "transition": "fade",
+      "transitionDurationInSeconds": 0.5,
+      "assets": [],
+      "audio": null,
+      "scenes": [
+        {
+          "id": "create-jobmtsie-1",
+          "durationInSeconds": 5.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "BOLD.",
+          "subtitle": "Bold typography explodes onto a deep indigo screen instantly.",
+          "background": "#0b1021",
+          "color": "#ffffff",
+          "variant": "wordpop"
+        },
+        {
+          "id": "create-jobmtsie-2",
+          "durationInSeconds": 5.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "DIFFERENT.",
+          "subtitle": "Words slide and rotate, refusing to look like everyone else.",
+          "background": "#16245b",
+          "color": "#ffffff",
+          "variant": "wordpop"
+        },
+        {
+          "id": "create-jobmtsie-3",
+          "durationInSeconds": 5.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "SHARP. FEARLESS.",
+          "subtitle": "Sharp angles and fearless words collide in fast rhythm.",
+          "background": "#3d1a5e",
+          "color": "#ffffff",
+          "variant": "wordpop"
+        },
+        {
+          "id": "create-jobmtsie-4",
+          "durationInSeconds": 6.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "UNMISSABLE. RELIABLE.",
+          "subtitle": "Unmissable, reliable — typography stacking into a confident collage.",
+          "background": "#0f3443",
+          "color": "#ffffff",
+          "variant": "wordpop"
+        },
+        {
+          "id": "create-jobmtsie-5",
+          "durationInSeconds": 5.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "D2 MEDIA.",
+          "subtitle": "D2 Media arrives bold, clear, making every message matter.",
+          "background": "#1e3a2f",
+          "color": "#ffffff",
+          "variant": "wordpop"
+        }
+      ]
+    }
+  },
+  {
+    "id": "job-mtsm4lny-0",
+    "format": "animated",
+    "title": "so if i give you  the video and ask youundertand thast video i want thesimmilar type video fromncode so first you    will underatnd",
+    "createdAt": 1788868534455,
+    "project": {
+      "title": "so if i give you  the video and ask youundertand thast video i want thesimmilar type video fromncode so first you    will underatnd",
+      "fps": 30,
+      "width": 1280,
+      "height": 720,
+      "transition": "fade",
+      "transitionDurationInSeconds": 0.5,
+      "assets": [],
+      "audio": null,
+      "scenes": [
+        {
+          "id": "create-jobmtsm4-1",
+          "durationInSeconds": 15.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "The Challenge Begins",
+          "subtitle": "In a world driven by artificial intelligence, a new challenge emerges: teaching machines to watch a video, truly understand it, and recreate something similar using nothing but code.",
+          "background": "#0d1b2a",
+          "color": "#ffffff",
+          "variant": "wordpop"
+        },
+        {
+          "id": "create-jobmtsm4-2",
+          "durationInSeconds": 12.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "Analyzing the Video",
+          "subtitle": "First, the system must watch the original video carefully, breaking it down frame by frame to grasp its motion, colors, pacing, and structure.",
+          "background": "#12294d",
+          "color": "#ffffff",
+          "variant": "wordpop"
+        },
+        {
+          "id": "create-jobmtsm4-3",
+          "durationInSeconds": 12.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "Extracting Patterns",
+          "subtitle": "Next, the AI extracts patterns—identifying objects, transitions, and rhythm—turning raw visuals into structured data the code can understand.",
+          "background": "#1b3358",
+          "color": "#ffffff",
+          "variant": "wordpop"
+        },
+        {
+          "id": "create-jobmtsm4-4",
+          "durationInSeconds": 13.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "Generating the Copy",
+          "subtitle": "With understanding complete, the code begins generating a new video—mirroring the style, tone, and energy of the original, frame by carefully written frame.",
+          "background": "#24406b",
+          "color": "#ffffff",
+          "variant": "wordpop"
+        },
+        {
+          "id": "create-jobmtsm4-5",
+          "durationInSeconds": 11.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "Understanding Meets Creation",
+          "subtitle": "In the end, two videos play side by side—one original, one born from code—proof that machines can learn not just to see, but to create.",
+          "background": "#0d1b2a",
+          "color": "#ffffff",
+          "variant": "wordpop"
+        }
+      ]
+    }
+  },
+  {
+    "id": "job-mtsmgw20-0",
+    "format": "images",
+    "title": "Create a 15-second vertical 9:16 text-only brand reel for D2 Media Communication.\n\nSTYLE:\nBold, playful, confident kinetic typography inspired by the attached reference image. Use oversized words that fill the screen, with some words intentionally cropped off the edges. Arrange typography at different angles, sizes and positions to create a dynamic editorial composition. Allow words to overlap, slide, rotate, scale and quickly rearrange between scenes. The overall feeling should be confident, unconventional, clever, energetic and premium — never corporate or generic.\n\nDo NOT use photography, illustrations, icons, people, objects or imagery. Typography is the only visual element.\n\nBRAND COLOURS:\nBackground: Indigo #0E0B20\nPurple text: #AD00FF\nCoral text: #FF0063\n\nFONT:\nJost only. Use bold/heavy weights for maximum visual impact. Clean, modern, geometric and highly legible.\n\nTEXT SEQUENCE:\n0–2 sec:\n“BOLD.”\n\n2–4 sec:\n“DIFFERENT.”\n\n4–6 sec:\n“SHARP.”\n\n6–8 sec:\n“FEARLESS.”\n\n8–10 sec:\n“UNMISSABLE.”\n\n10–12 sec:\n“RELIABLE.”\n\n12–15 sec:\n“D2 MEDIA”\nfollowed by:\n“MAKE YOUR MESSAGE MATTER.”\n\nANIMATION:\nStart immediately with oversized typography entering rapidly from different directions. Words should move with purpose rather than simply fade in. Use quick slides, rotations, scaling and position changes. Introduce words one at a time, then briefly create moments where multiple words appear together in a playful typographic collage.\n\nAlternate purple #AD00FF and coral #FF0063 for emphasis. Keep the indigo background consistently dominant.\n\nFor the final 3 seconds, slow the movement slightly and create a strong visual payoff: “D2 MEDIA” should appear large and confident, followed by “MAKE YOUR MESSAGE MATTER.” Keep the final frame clean enough to read instantly.\n\nOverall pacing: energetic, punchy and contemporary, with approximately 1–2 seconds per key word. Make the typography feel like it is taking over the screen.\n\nNo voiceover. No stock footage. No music-dependent storytelling. The reel must communicate entirely through typography and motion.\n\nThe finished reel should feel like a creative agency saying:\n“We know who we are. We know what we do. And we’re not here to blend in.”",
+    "createdAt": 1788869133694,
+    "project": {
+      "title": "Create a 15-second vertical 9:16 text-only brand reel for D2 Media Communication.\n\nSTYLE:\nBold, playful, confident kinetic typography inspired by the attached reference image. Use oversized words that fill the screen, with some words intentionally cropped off the edges. Arrange typography at different angles, sizes and positions to create a dynamic editorial composition. Allow words to overlap, slide, rotate, scale and quickly rearrange between scenes. The overall feeling should be confident, unconventional, clever, energetic and premium — never corporate or generic.\n\nDo NOT use photography, illustrations, icons, people, objects or imagery. Typography is the only visual element.\n\nBRAND COLOURS:\nBackground: Indigo #0E0B20\nPurple text: #AD00FF\nCoral text: #FF0063\n\nFONT:\nJost only. Use bold/heavy weights for maximum visual impact. Clean, modern, geometric and highly legible.\n\nTEXT SEQUENCE:\n0–2 sec:\n“BOLD.”\n\n2–4 sec:\n“DIFFERENT.”\n\n4–6 sec:\n“SHARP.”\n\n6–8 sec:\n“FEARLESS.”\n\n8–10 sec:\n“UNMISSABLE.”\n\n10–12 sec:\n“RELIABLE.”\n\n12–15 sec:\n“D2 MEDIA”\nfollowed by:\n“MAKE YOUR MESSAGE MATTER.”\n\nANIMATION:\nStart immediately with oversized typography entering rapidly from different directions. Words should move with purpose rather than simply fade in. Use quick slides, rotations, scaling and position changes. Introduce words one at a time, then briefly create moments where multiple words appear together in a playful typographic collage.\n\nAlternate purple #AD00FF and coral #FF0063 for emphasis. Keep the indigo background consistently dominant.\n\nFor the final 3 seconds, slow the movement slightly and create a strong visual payoff: “D2 MEDIA” should appear large and confident, followed by “MAKE YOUR MESSAGE MATTER.” Keep the final frame clean enough to read instantly.\n\nOverall pacing: energetic, punchy and contemporary, with approximately 1–2 seconds per key word. Make the typography feel like it is taking over the screen.\n\nNo voiceover. No stock footage. No music-dependent storytelling. The reel must communicate entirely through typography and motion.\n\nThe finished reel should feel like a creative agency saying:\n“We know who we are. We know what we do. And we’re not here to blend in.”",
+      "fps": 30,
+      "width": 1280,
+      "height": 720,
+      "transition": "fade",
+      "transitionDurationInSeconds": 0.5,
+      "assets": [],
+      "audio": null,
+      "scenes": [
+        {
+          "id": "create-jobmtsmg-1",
+          "durationInSeconds": 2,
+          "overlays": [],
+          "type": "text",
+          "prompt": "BOLD. DIFFERENT.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#FF0063",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "BOLD.",
+              "x": 0.55,
+              "y": 0.3,
+              "size": 0.42,
+              "rotation": -8,
+              "color": "#FF0063",
+              "dir": "left",
+              "start": 0,
+              "dur": 0.5,
+              "order": 1
+            },
+            {
+              "text": "DIFFERENT.",
+              "x": 0.45,
+              "y": 0.68,
+              "size": 0.34,
+              "rotation": 5,
+              "color": "#AD00FF",
+              "dir": "right",
+              "start": 1,
+              "dur": 0.6,
+              "order": 2
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtsmg-2",
+          "durationInSeconds": 2,
+          "overlays": [],
+          "type": "text",
+          "prompt": "SHARP. FEARLESS.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#AD00FF",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "SHARP.",
+              "x": 0.5,
+              "y": 0.25,
+              "size": 0.44,
+              "rotation": 10,
+              "color": "#AD00FF",
+              "dir": "up",
+              "start": 0,
+              "dur": 0.5,
+              "order": 1
+            },
+            {
+              "text": "FEARLESS.",
+              "x": 0.55,
+              "y": 0.72,
+              "size": 0.32,
+              "rotation": -6,
+              "color": "#FF0063",
+              "dir": "down",
+              "start": 1,
+              "dur": 0.6,
+              "order": 2
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtsmg-3",
+          "durationInSeconds": 2,
+          "overlays": [],
+          "type": "text",
+          "prompt": "UNMISSABLE. RELIABLE.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#FF0063",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "UNMISSABLE.",
+              "x": 0.5,
+              "y": 0.3,
+              "size": 0.34,
+              "rotation": -4,
+              "color": "#FF0063",
+              "dir": "left",
+              "start": 0,
+              "dur": 0.5,
+              "order": 1
+            },
+            {
+              "text": "RELIABLE.",
+              "x": 0.5,
+              "y": 0.68,
+              "size": 0.36,
+              "rotation": 8,
+              "color": "#AD00FF",
+              "dir": "right",
+              "start": 1,
+              "dur": 0.6,
+              "order": 2
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtsmg-4",
+          "durationInSeconds": 2,
+          "overlays": [],
+          "type": "text",
+          "prompt": "D2 MEDIA",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#FF0063",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "D2",
+              "x": 0.4,
+              "y": 0.45,
+              "size": 0.45,
+              "rotation": 0,
+              "color": "#FF0063",
+              "dir": "zoom",
+              "start": 0,
+              "dur": 0.6,
+              "order": 1
+            },
+            {
+              "text": "MEDIA",
+              "x": 0.65,
+              "y": 0.55,
+              "size": 0.4,
+              "rotation": 0,
+              "color": "#AD00FF",
+              "dir": "zoom",
+              "start": 0.3,
+              "dur": 0.6,
+              "order": 2
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtsmg-5",
+          "durationInSeconds": 2,
+          "overlays": [],
+          "type": "text",
+          "prompt": "MAKE YOUR MESSAGE MATTER.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#FF0063",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "MAKE",
+              "x": 0.3,
+              "y": 0.4,
+              "size": 0.2,
+              "rotation": -3,
+              "color": "#FF0063",
+              "dir": "pop",
+              "start": 0,
+              "dur": 0.4,
+              "order": 1
+            },
+            {
+              "text": "YOUR",
+              "x": 0.6,
+              "y": 0.45,
+              "size": 0.2,
+              "rotation": 2,
+              "color": "#AD00FF",
+              "dir": "pop",
+              "start": 0.3,
+              "dur": 0.4,
+              "order": 2
+            },
+            {
+              "text": "MESSAGE",
+              "x": 0.45,
+              "y": 0.55,
+              "size": 0.22,
+              "rotation": -2,
+              "color": "#FF0063",
+              "dir": "pop",
+              "start": 0.6,
+              "dur": 0.4,
+              "order": 3
+            },
+            {
+              "text": "MATTER.",
+              "x": 0.55,
+              "y": 0.65,
+              "size": 0.24,
+              "rotation": 3,
+              "color": "#AD00FF",
+              "dir": "pop",
+              "start": 0.9,
+              "dur": 0.5,
+              "order": 4
+            }
+          ],
+          "tagline": "MAKE YOUR MESSAGE MATTER."
+        }
+      ]
+    }
+  },
+  {
+    "id": "job-mtsmioxz-1",
+    "format": "animated",
+    "title": "Create a 15-second vertical 9:16 text-only brand reel for D2 Media Communication.\n\nSTYLE:\nBold, playful, confident kinetic typography inspired by the attached reference image. Use oversized words that fill the screen, with some words intentionally cropped off the edges. Arrange typography at different angles, sizes and positions to create a dynamic editorial composition. Allow words to overlap, slide, rotate, scale and quickly rearrange between scenes. The overall feeling should be confident, unconventional, clever, energetic and premium — never corporate or generic.\n\nDo NOT use photography, illustrations, icons, people, objects or imagery. Typography is the only visual element.\n\nBRAND COLOURS:\nBackground: Indigo #0E0B20\nPurple text: #AD00FF\nCoral text: #FF0063\n\nFONT:\nJost only. Use bold/heavy weights for maximum visual impact. Clean, modern, geometric and highly legible.\n\nTEXT SEQUENCE:\n0–2 sec:\n“BOLD.”\n\n2–4 sec:\n“DIFFERENT.”\n\n4–6 sec:\n“SHARP.”\n\n6–8 sec:\n“FEARLESS.”\n\n8–10 sec:\n“UNMISSABLE.”\n\n10–12 sec:\n“RELIABLE.”\n\n12–15 sec:\n“D2 MEDIA”\nfollowed by:\n“MAKE YOUR MESSAGE MATTER.”\n\nANIMATION:\nStart immediately with oversized typography entering rapidly from different directions. Words should move with purpose rather than simply fade in. Use quick slides, rotations, scaling and position changes. Introduce words one at a time, then briefly create moments where multiple words appear together in a playful typographic collage.\n\nAlternate purple #AD00FF and coral #FF0063 for emphasis. Keep the indigo background consistently dominant.\n\nFor the final 3 seconds, slow the movement slightly and create a strong visual payoff: “D2 MEDIA” should appear large and confident, followed by “MAKE YOUR MESSAGE MATTER.” Keep the final frame clean enough to read instantly.\n\nOverall pacing: energetic, punchy and contemporary, with approximately 1–2 seconds per key word. Make the typography feel like it is taking over the screen.\n\nNo voiceover. No stock footage. No music-dependent storytelling. The reel must communicate entirely through typography and motion.\n\nThe finished reel should feel like a creative agency saying:\n“We know who we are. We know what we do. And we’re not here to blend in.”",
+    "createdAt": 1788869193197,
+    "project": {
+      "title": "Create a 15-second vertical 9:16 text-only brand reel for D2 Media Communication.\n\nSTYLE:\nBold, playful, confident kinetic typography inspired by the attached reference image. Use oversized words that fill the screen, with some words intentionally cropped off the edges. Arrange typography at different angles, sizes and positions to create a dynamic editorial composition. Allow words to overlap, slide, rotate, scale and quickly rearrange between scenes. The overall feeling should be confident, unconventional, clever, energetic and premium — never corporate or generic.\n\nDo NOT use photography, illustrations, icons, people, objects or imagery. Typography is the only visual element.\n\nBRAND COLOURS:\nBackground: Indigo #0E0B20\nPurple text: #AD00FF\nCoral text: #FF0063\n\nFONT:\nJost only. Use bold/heavy weights for maximum visual impact. Clean, modern, geometric and highly legible.\n\nTEXT SEQUENCE:\n0–2 sec:\n“BOLD.”\n\n2–4 sec:\n“DIFFERENT.”\n\n4–6 sec:\n“SHARP.”\n\n6–8 sec:\n“FEARLESS.”\n\n8–10 sec:\n“UNMISSABLE.”\n\n10–12 sec:\n“RELIABLE.”\n\n12–15 sec:\n“D2 MEDIA”\nfollowed by:\n“MAKE YOUR MESSAGE MATTER.”\n\nANIMATION:\nStart immediately with oversized typography entering rapidly from different directions. Words should move with purpose rather than simply fade in. Use quick slides, rotations, scaling and position changes. Introduce words one at a time, then briefly create moments where multiple words appear together in a playful typographic collage.\n\nAlternate purple #AD00FF and coral #FF0063 for emphasis. Keep the indigo background consistently dominant.\n\nFor the final 3 seconds, slow the movement slightly and create a strong visual payoff: “D2 MEDIA” should appear large and confident, followed by “MAKE YOUR MESSAGE MATTER.” Keep the final frame clean enough to read instantly.\n\nOverall pacing: energetic, punchy and contemporary, with approximately 1–2 seconds per key word. Make the typography feel like it is taking over the screen.\n\nNo voiceover. No stock footage. No music-dependent storytelling. The reel must communicate entirely through typography and motion.\n\nThe finished reel should feel like a creative agency saying:\n“We know who we are. We know what we do. And we’re not here to blend in.”",
+      "fps": 30,
+      "width": 1920,
+      "height": 1080,
+      "transition": "fade",
+      "transitionDurationInSeconds": 0.5,
+      "assets": [],
+      "audio": null,
+      "scenes": [
+        {
+          "id": "create-jobmtsmi-1",
+          "durationInSeconds": 2,
+          "overlays": [],
+          "type": "text",
+          "prompt": "BOLD. DIFFERENT.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#AD00FF",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "BOLD.",
+              "x": 0.5,
+              "y": 0.35,
+              "size": 0.42,
+              "rotation": -8,
+              "color": "#AD00FF",
+              "dir": "left",
+              "start": 0,
+              "dur": 0.5,
+              "order": 2
+            },
+            {
+              "text": "DIFFERENT.",
+              "x": 0.55,
+              "y": 0.68,
+              "size": 0.3,
+              "rotation": 6,
+              "color": "#FF0063",
+              "dir": "right",
+              "start": 1.6,
+              "dur": 0.6,
+              "order": 1
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtsmi-2",
+          "durationInSeconds": 2,
+          "overlays": [],
+          "type": "text",
+          "prompt": "SHARP. FEARLESS.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#FF0063",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "SHARP.",
+              "x": 0.35,
+              "y": 0.3,
+              "size": 0.4,
+              "rotation": 10,
+              "color": "#FF0063",
+              "dir": "up",
+              "start": 0,
+              "dur": 0.5,
+              "order": 2
+            },
+            {
+              "text": "FEARLESS.",
+              "x": 0.6,
+              "y": 0.65,
+              "size": 0.34,
+              "rotation": -5,
+              "color": "#AD00FF",
+              "dir": "down",
+              "start": 1.6,
+              "dur": 0.6,
+              "order": 1
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtsmi-3",
+          "durationInSeconds": 2,
+          "overlays": [],
+          "type": "text",
+          "prompt": "UNMISSABLE. RELIABLE.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#AD00FF",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "UNMISSABLE.",
+              "x": 0.45,
+              "y": 0.32,
+              "size": 0.3,
+              "rotation": -6,
+              "color": "#AD00FF",
+              "dir": "zoom",
+              "start": 0,
+              "dur": 0.6,
+              "order": 2
+            },
+            {
+              "text": "RELIABLE.",
+              "x": 0.55,
+              "y": 0.68,
+              "size": 0.36,
+              "rotation": 4,
+              "color": "#FF0063",
+              "dir": "pop",
+              "start": 1.8,
+              "dur": 0.6,
+              "order": 1
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtsmi-4",
+          "durationInSeconds": 2,
+          "overlays": [],
+          "type": "text",
+          "prompt": "D2 MEDIA",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#AD00FF",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "D2",
+              "x": 0.4,
+              "y": 0.45,
+              "size": 0.4,
+              "rotation": 0,
+              "color": "#AD00FF",
+              "dir": "zoom",
+              "start": 0,
+              "dur": 0.6,
+              "order": 2
+            },
+            {
+              "text": "MEDIA",
+              "x": 0.62,
+              "y": 0.55,
+              "size": 0.34,
+              "rotation": 0,
+              "color": "#FF0063",
+              "dir": "zoom",
+              "start": 0.4,
+              "dur": 0.6,
+              "order": 1
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtsmi-5",
+          "durationInSeconds": 2,
+          "overlays": [],
+          "type": "text",
+          "prompt": "MAKE YOUR MESSAGE MATTER.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#AD00FF",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "MAKE YOUR MESSAGE MATTER.",
+              "x": 0.5,
+              "y": 0.5,
+              "size": 0.22,
+              "rotation": 0,
+              "color": "#AD00FF",
+              "dir": "zoom",
+              "start": 0,
+              "dur": 0.8,
+              "order": 1
+            }
+          ],
+          "tagline": "MAKE YOUR MESSAGE MATTER."
+        }
+      ]
+    }
+  },
+  {
+    "id": "job-mtsmlcr1-2",
+    "format": "animated",
+    "title": "Create a 15-second vertical 9:16 text-only brand reel for D2 Media Communication.\n\nSTYLE:\nBold, playful, confident kinetic typography inspired by the attached reference image. Use oversized words that fill the screen, with some words intentionally cropped off the edges. Arrange typography at different angles, sizes and positions to create a dynamic editorial composition. Allow words to overlap, slide, rotate, scale and quickly rearrange between scenes. The overall feeling should be confident, unconventional, clever, energetic and premium — never corporate or generic.\n\nDo NOT use photography, illustrations, icons, people, objects or imagery. Typography is the only visual element.\n\nBRAND COLOURS:\nBackground: Indigo #0E0B20\nPurple text: #AD00FF\nCoral text: #FF0063\n\nFONT:\nJost only. Use bold/heavy weights for maximum visual impact. Clean, modern, geometric and highly legible.\n\nTEXT SEQUENCE:\n0–2 sec:\n“BOLD.”\n\n2–4 sec:\n“DIFFERENT.”\n\n4–6 sec:\n“SHARP.”\n\n6–8 sec:\n“FEARLESS.”\n\n8–10 sec:\n“UNMISSABLE.”\n\n10–12 sec:\n“RELIABLE.”\n\n12–15 sec:\n“D2 MEDIA”\nfollowed by:\n“MAKE YOUR MESSAGE MATTER.”\n\nANIMATION:\nStart immediately with oversized typography entering rapidly from different directions. Words should move with purpose rather than simply fade in. Use quick slides, rotations, scaling and position changes. Introduce words one at a time, then briefly create moments where multiple words appear together in a playful typographic collage.\n\nAlternate purple #AD00FF and coral #FF0063 for emphasis. Keep the indigo background consistently dominant.\n\nFor the final 3 seconds, slow the movement slightly and create a strong visual payoff: “D2 MEDIA” should appear large and confident, followed by “MAKE YOUR MESSAGE MATTER.” Keep the final frame clean enough to read instantly.\n\nOverall pacing: energetic, punchy and contemporary, with approximately 1–2 seconds per key word. Make the typography feel like it is taking over the screen.\n\nNo voiceover. No stock footage. No music-dependent storytelling. The reel must communicate entirely through typography and motion.\n\nThe finished reel should feel like a creative agency saying:\n“We know who we are. We know what we do. And we’re not here to blend in.”",
+    "createdAt": 1788869323088,
+    "project": {
+      "title": "Create a 15-second vertical 9:16 text-only brand reel for D2 Media Communication.\n\nSTYLE:\nBold, playful, confident kinetic typography inspired by the attached reference image. Use oversized words that fill the screen, with some words intentionally cropped off the edges. Arrange typography at different angles, sizes and positions to create a dynamic editorial composition. Allow words to overlap, slide, rotate, scale and quickly rearrange between scenes. The overall feeling should be confident, unconventional, clever, energetic and premium — never corporate or generic.\n\nDo NOT use photography, illustrations, icons, people, objects or imagery. Typography is the only visual element.\n\nBRAND COLOURS:\nBackground: Indigo #0E0B20\nPurple text: #AD00FF\nCoral text: #FF0063\n\nFONT:\nJost only. Use bold/heavy weights for maximum visual impact. Clean, modern, geometric and highly legible.\n\nTEXT SEQUENCE:\n0–2 sec:\n“BOLD.”\n\n2–4 sec:\n“DIFFERENT.”\n\n4–6 sec:\n“SHARP.”\n\n6–8 sec:\n“FEARLESS.”\n\n8–10 sec:\n“UNMISSABLE.”\n\n10–12 sec:\n“RELIABLE.”\n\n12–15 sec:\n“D2 MEDIA”\nfollowed by:\n“MAKE YOUR MESSAGE MATTER.”\n\nANIMATION:\nStart immediately with oversized typography entering rapidly from different directions. Words should move with purpose rather than simply fade in. Use quick slides, rotations, scaling and position changes. Introduce words one at a time, then briefly create moments where multiple words appear together in a playful typographic collage.\n\nAlternate purple #AD00FF and coral #FF0063 for emphasis. Keep the indigo background consistently dominant.\n\nFor the final 3 seconds, slow the movement slightly and create a strong visual payoff: “D2 MEDIA” should appear large and confident, followed by “MAKE YOUR MESSAGE MATTER.” Keep the final frame clean enough to read instantly.\n\nOverall pacing: energetic, punchy and contemporary, with approximately 1–2 seconds per key word. Make the typography feel like it is taking over the screen.\n\nNo voiceover. No stock footage. No music-dependent storytelling. The reel must communicate entirely through typography and motion.\n\nThe finished reel should feel like a creative agency saying:\n“We know who we are. We know what we do. And we’re not here to blend in.”",
+      "fps": 30,
+      "width": 1080,
+      "height": 1920,
+      "transition": "fade",
+      "transitionDurationInSeconds": 0.5,
+      "assets": [],
+      "audio": null,
+      "scenes": [
+        {
+          "id": "create-jobmtsml-1",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "BOLD.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#AD00FF",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "BOLD.",
+              "x": 0.5,
+              "y": 0.5,
+              "size": 0.42,
+              "rotation": -8,
+              "color": "#AD00FF",
+              "dir": "zoom",
+              "start": 0,
+              "dur": 0.5,
+              "order": 1
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtsml-2",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "DIFFERENT.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#FF0063",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "DIFFERENT.",
+              "x": 0.55,
+              "y": 0.45,
+              "size": 0.36,
+              "rotation": 6,
+              "color": "#FF0063",
+              "dir": "left",
+              "start": 0,
+              "dur": 0.5,
+              "order": 1
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtsml-3",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "SHARP. FEARLESS.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#AD00FF",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "SHARP.",
+              "x": 0.35,
+              "y": 0.35,
+              "size": 0.34,
+              "rotation": -12,
+              "color": "#AD00FF",
+              "dir": "up",
+              "start": 0,
+              "dur": 0.4,
+              "order": 2
+            },
+            {
+              "text": "FEARLESS.",
+              "x": 0.65,
+              "y": 0.65,
+              "size": 0.34,
+              "rotation": 10,
+              "color": "#FF0063",
+              "dir": "down",
+              "start": 0.4,
+              "dur": 0.5,
+              "order": 1
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtsml-4",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "UNMISSABLE. RELIABLE.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#FF0063",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "UNMISSABLE.",
+              "x": 0.3,
+              "y": 0.5,
+              "size": 0.4,
+              "rotation": -4,
+              "color": "#FF0063",
+              "dir": "left",
+              "start": 0,
+              "dur": 0.5,
+              "order": 2
+            },
+            {
+              "text": "RELIABLE.",
+              "x": 0.75,
+              "y": 0.7,
+              "size": 0.28,
+              "rotation": 8,
+              "color": "#AD00FF",
+              "dir": "right",
+              "start": 0.5,
+              "dur": 0.4,
+              "order": 1
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtsml-5",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "D2 MEDIA",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#AD00FF",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "D2",
+              "x": 0.5,
+              "y": 0.38,
+              "size": 0.4,
+              "rotation": 0,
+              "color": "#AD00FF",
+              "dir": "zoom",
+              "start": 0,
+              "dur": 0.6,
+              "order": 2
+            },
+            {
+              "text": "MEDIA",
+              "x": 0.5,
+              "y": 0.55,
+              "size": 0.34,
+              "rotation": 0,
+              "color": "#FF0063",
+              "dir": "zoom",
+              "start": 0.5,
+              "dur": 0.6,
+              "order": 1
+            }
+          ],
+          "tagline": "MAKE YOUR MESSAGE MATTER."
+        }
+      ]
+    }
+  },
+  {
+    "id": "job-mtsnd0ju-3",
+    "format": "animated",
+    "title": "Create a 15-second vertical 9:16 text-only brand reel for D2 Media Communication.\n\nSTYLE:\nBold, playful, confident kinetic typography inspired by the attached reference image. Use oversized words that fill the screen, with some words intentionally cropped off the edges. Arrange typography at different angles, sizes and positions to create a dynamic editorial composition. Allow words to overlap, slide, rotate, scale and quickly rearrange between scenes. The overall feeling should be confident, unconventional, clever, energetic and premium — never corporate or generic.\n\nDo NOT use photography, illustrations, icons, people, objects or imagery. Typography is the only visual element.\n\nBRAND COLOURS:\nBackground: Indigo #0E0B20\nPurple text: #AD00FF\nCoral text: #FF0063\n\nFONT:\nJost only. Use bold/heavy weights for maximum visual impact. Clean, modern, geometric and highly legible.\n\nTEXT SEQUENCE:\n0–2 sec:\n“BOLD.”\n\n2–4 sec:\n“DIFFERENT.”\n\n4–6 sec:\n“SHARP.”\n\n6–8 sec:\n“FEARLESS.”\n\n8–10 sec:\n“UNMISSABLE.”\n\n10–12 sec:\n“RELIABLE.”\n\n12–15 sec:\n“D2 MEDIA”\nfollowed by:\n“MAKE YOUR MESSAGE MATTER.”\n\nANIMATION:\nStart immediately with oversized typography entering rapidly from different directions. Words should move with purpose rather than simply fade in. Use quick slides, rotations, scaling and position changes. Introduce words one at a time, then briefly create moments where multiple words appear together in a playful typographic collage.\n\nAlternate purple #AD00FF and coral #FF0063 for emphasis. Keep the indigo background consistently dominant.\n\nFor the final 3 seconds, slow the movement slightly and create a strong visual payoff: “D2 MEDIA” should appear large and confident, followed by “MAKE YOUR MESSAGE MATTER.” Keep the final frame clean enough to read instantly.\n\nOverall pacing: energetic, punchy and contemporary, with approximately 1–2 seconds per key word. Make the typography feel like it is taking over the screen.\n\nNo voiceover. No stock footage. No music-dependent storytelling. The reel must communicate entirely through typography and motion.\n\nThe finished reel should feel like a creative agency saying:\n“We know who we are. We know what we do. And we’re not here to blend in.”",
+    "createdAt": 1788870619518,
+    "project": {
+      "title": "Create a 15-second vertical 9:16 text-only brand reel for D2 Media Communication.\n\nSTYLE:\nBold, playful, confident kinetic typography inspired by the attached reference image. Use oversized words that fill the screen, with some words intentionally cropped off the edges. Arrange typography at different angles, sizes and positions to create a dynamic editorial composition. Allow words to overlap, slide, rotate, scale and quickly rearrange between scenes. The overall feeling should be confident, unconventional, clever, energetic and premium — never corporate or generic.\n\nDo NOT use photography, illustrations, icons, people, objects or imagery. Typography is the only visual element.\n\nBRAND COLOURS:\nBackground: Indigo #0E0B20\nPurple text: #AD00FF\nCoral text: #FF0063\n\nFONT:\nJost only. Use bold/heavy weights for maximum visual impact. Clean, modern, geometric and highly legible.\n\nTEXT SEQUENCE:\n0–2 sec:\n“BOLD.”\n\n2–4 sec:\n“DIFFERENT.”\n\n4–6 sec:\n“SHARP.”\n\n6–8 sec:\n“FEARLESS.”\n\n8–10 sec:\n“UNMISSABLE.”\n\n10–12 sec:\n“RELIABLE.”\n\n12–15 sec:\n“D2 MEDIA”\nfollowed by:\n“MAKE YOUR MESSAGE MATTER.”\n\nANIMATION:\nStart immediately with oversized typography entering rapidly from different directions. Words should move with purpose rather than simply fade in. Use quick slides, rotations, scaling and position changes. Introduce words one at a time, then briefly create moments where multiple words appear together in a playful typographic collage.\n\nAlternate purple #AD00FF and coral #FF0063 for emphasis. Keep the indigo background consistently dominant.\n\nFor the final 3 seconds, slow the movement slightly and create a strong visual payoff: “D2 MEDIA” should appear large and confident, followed by “MAKE YOUR MESSAGE MATTER.” Keep the final frame clean enough to read instantly.\n\nOverall pacing: energetic, punchy and contemporary, with approximately 1–2 seconds per key word. Make the typography feel like it is taking over the screen.\n\nNo voiceover. No stock footage. No music-dependent storytelling. The reel must communicate entirely through typography and motion.\n\nThe finished reel should feel like a creative agency saying:\n“We know who we are. We know what we do. And we’re not here to blend in.”",
+      "fps": 30,
+      "width": 1080,
+      "height": 1920,
+      "transition": "fade",
+      "transitionDurationInSeconds": 0.5,
+      "assets": [],
+      "audio": null,
+      "scenes": [
+        {
+          "id": "create-jobmtsnd-1",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "BOLD. DIFFERENT.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#AD00FF",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "BOLD.",
+              "x": 0.5,
+              "y": 0.35,
+              "size": 0.4,
+              "rotation": -8,
+              "color": "#AD00FF",
+              "dir": "left",
+              "start": 0,
+              "dur": 0.6,
+              "order": 2
+            },
+            {
+              "text": "DIFFERENT.",
+              "x": 0.55,
+              "y": 0.68,
+              "size": 0.34,
+              "rotation": 5,
+              "color": "#FF0063",
+              "dir": "right",
+              "start": 1.2,
+              "dur": 0.6,
+              "order": 1
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtsnd-2",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "SHARP. FEARLESS.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#FF0063",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "SHARP.",
+              "x": 0.4,
+              "y": 0.3,
+              "size": 0.42,
+              "rotation": 10,
+              "color": "#FF0063",
+              "dir": "up",
+              "start": 0,
+              "dur": 0.5,
+              "order": 2
+            },
+            {
+              "text": "FEARLESS.",
+              "x": 0.6,
+              "y": 0.68,
+              "size": 0.34,
+              "rotation": -6,
+              "color": "#AD00FF",
+              "dir": "down",
+              "start": 1,
+              "dur": 0.6,
+              "order": 1
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtsnd-3",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "UNMISSABLE.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#AD00FF",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "UNMISSABLE.",
+              "x": 0.5,
+              "y": 0.5,
+              "size": 0.45,
+              "rotation": -4,
+              "color": "#AD00FF",
+              "dir": "zoom",
+              "start": 0,
+              "dur": 0.7,
+              "order": 1
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtsnd-4",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "RELIABLE.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#FF0063",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "RELIABLE.",
+              "x": 0.5,
+              "y": 0.5,
+              "size": 0.4,
+              "rotation": 6,
+              "color": "#FF0063",
+              "dir": "right",
+              "start": 0,
+              "dur": 0.6,
+              "order": 1
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtsnd-5",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "D2 MEDIA",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#AD00FF",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "D2",
+              "x": 0.35,
+              "y": 0.42,
+              "size": 0.4,
+              "rotation": 0,
+              "color": "#AD00FF",
+              "dir": "zoom",
+              "start": 0,
+              "dur": 0.7,
+              "order": 2
+            },
+            {
+              "text": "MEDIA",
+              "x": 0.65,
+              "y": 0.55,
+              "size": 0.4,
+              "rotation": 0,
+              "color": "#FF0063",
+              "dir": "zoom",
+              "start": 0.3,
+              "dur": 0.7,
+              "order": 1
+            }
+          ],
+          "tagline": "MAKE YOUR MESSAGE MATTER."
+        }
+      ]
+    }
+  },
+  {
+    "id": "job-mtsokvvs-0",
+    "format": "animated",
+    "title": "Create a 15-second vertical 9:16 text-only brand reel for D2 Media Communication.\n\nSTYLE:\nBold, playful, confident kinetic typography inspired by the attached reference image. Use oversized words that fill the screen, with some words intentionally cropped off the edges. Arrange typography at different angles, sizes and positions to create a dynamic editorial composition. Allow words to overlap, slide, rotate, scale and quickly rearrange between scenes. The overall feeling should be confident, unconventional, clever, energetic and premium — never corporate or generic.\n\nDo NOT use photography, illustrations, icons, people, objects or imagery. Typography is the only visual element.\n\nBRAND COLOURS:\nBackground: Indigo #0E0B20\nPurple text: #AD00FF\nCoral text: #FF0063\n\nFONT:\nJost only. Use bold/heavy weights for maximum visual impact. Clean, modern, geometric and highly legible.\n\nTEXT SEQUENCE:\n0–2 sec:\n“BOLD.”\n\n2–4 sec:\n“DIFFERENT.”\n\n4–6 sec:\n“SHARP.”\n\n6–8 sec:\n“FEARLESS.”\n\n8–10 sec:\n“UNMISSABLE.”\n\n10–12 sec:\n“RELIABLE.”\n\n12–15 sec:\n“D2 MEDIA”\nfollowed by:\n“MAKE YOUR MESSAGE MATTER.”\n\nANIMATION:\nStart immediately with oversized typography entering rapidly from different directions. Words should move with purpose rather than simply fade in. Use quick slides, rotations, scaling and position changes. Introduce words one at a time, then briefly create moments where multiple words appear together in a playful typographic collage.\n\nAlternate purple #AD00FF and coral #FF0063 for emphasis. Keep the indigo background consistently dominant.\n\nFor the final 3 seconds, slow the movement slightly and create a strong visual payoff: “D2 MEDIA” should appear large and confident, followed by “MAKE YOUR MESSAGE MATTER.” Keep the final frame clean enough to read instantly.\n\nOverall pacing: energetic, punchy and contemporary, with approximately 1–2 seconds per key word. Make the typography feel like it is taking over the screen.\n\nNo voiceover. No stock footage. No music-dependent storytelling. The reel must communicate entirely through typography and motion.\n\nThe finished reel should feel like a creative agency saying:\n“We know who we are. We know what we do. And we’re not here to blend in.”",
+    "createdAt": 1788872668006,
+    "project": {
+      "title": "Create a 15-second vertical 9:16 text-only brand reel for D2 Media Communication.\n\nSTYLE:\nBold, playful, confident kinetic typography inspired by the attached reference image. Use oversized words that fill the screen, with some words intentionally cropped off the edges. Arrange typography at different angles, sizes and positions to create a dynamic editorial composition. Allow words to overlap, slide, rotate, scale and quickly rearrange between scenes. The overall feeling should be confident, unconventional, clever, energetic and premium — never corporate or generic.\n\nDo NOT use photography, illustrations, icons, people, objects or imagery. Typography is the only visual element.\n\nBRAND COLOURS:\nBackground: Indigo #0E0B20\nPurple text: #AD00FF\nCoral text: #FF0063\n\nFONT:\nJost only. Use bold/heavy weights for maximum visual impact. Clean, modern, geometric and highly legible.\n\nTEXT SEQUENCE:\n0–2 sec:\n“BOLD.”\n\n2–4 sec:\n“DIFFERENT.”\n\n4–6 sec:\n“SHARP.”\n\n6–8 sec:\n“FEARLESS.”\n\n8–10 sec:\n“UNMISSABLE.”\n\n10–12 sec:\n“RELIABLE.”\n\n12–15 sec:\n“D2 MEDIA”\nfollowed by:\n“MAKE YOUR MESSAGE MATTER.”\n\nANIMATION:\nStart immediately with oversized typography entering rapidly from different directions. Words should move with purpose rather than simply fade in. Use quick slides, rotations, scaling and position changes. Introduce words one at a time, then briefly create moments where multiple words appear together in a playful typographic collage.\n\nAlternate purple #AD00FF and coral #FF0063 for emphasis. Keep the indigo background consistently dominant.\n\nFor the final 3 seconds, slow the movement slightly and create a strong visual payoff: “D2 MEDIA” should appear large and confident, followed by “MAKE YOUR MESSAGE MATTER.” Keep the final frame clean enough to read instantly.\n\nOverall pacing: energetic, punchy and contemporary, with approximately 1–2 seconds per key word. Make the typography feel like it is taking over the screen.\n\nNo voiceover. No stock footage. No music-dependent storytelling. The reel must communicate entirely through typography and motion.\n\nThe finished reel should feel like a creative agency saying:\n“We know who we are. We know what we do. And we’re not here to blend in.”",
+      "fps": 30,
+      "width": 1080,
+      "height": 1920,
+      "transition": "fade",
+      "transitionDurationInSeconds": 0.5,
+      "assets": [
+        {
+          "name": "create-a-15-second-vertical-9-16-text-only-brand-r.mp4",
+          "src": "uploads/1788871555712-create-a-15-second-vertical-9-16-text-on.mp4",
+          "kind": "video",
+          "durationInSeconds": 5.546667
+        }
+      ],
+      "audio": null,
+      "scenes": [
+        {
+          "id": "create-jobmtsok-1",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "BOLD. DIFFERENT.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#FF0063",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "BOLD.",
+              "x": 0.55,
+              "y": 0.35,
+              "size": 0.4,
+              "rotation": -6,
+              "color": "#FF0063",
+              "dir": "zoom",
+              "start": 0,
+              "dur": 0.6,
+              "order": 2,
+              "effect": "zoomcut"
+            },
+            {
+              "text": "DIFFERENT.",
+              "x": 0.4,
+              "y": 0.65,
+              "size": 0.32,
+              "rotation": 4,
+              "color": "#AD00FF",
+              "dir": "right",
+              "start": 2,
+              "dur": 0.7,
+              "order": 1,
+              "effect": "slide"
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtsok-2",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "SHARP. FEARLESS.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#AD00FF",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "SHARP.",
+              "x": 0.45,
+              "y": 0.3,
+              "size": 0.38,
+              "rotation": -5,
+              "color": "#AD00FF",
+              "dir": "left",
+              "start": 4,
+              "dur": 0.8,
+              "order": 2,
+              "effect": "char"
+            },
+            {
+              "text": "FEARLESS.",
+              "x": 0.6,
+              "y": 0.7,
+              "size": 0.36,
+              "rotation": 7,
+              "color": "#FF0063",
+              "dir": "up",
+              "start": 6,
+              "dur": 0.9,
+              "order": 1,
+              "effect": "rotate3d"
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtsok-3",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "UNMISSABLE.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#FF0063",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "UNMISSABLE.",
+              "x": 0.5,
+              "y": 0.5,
+              "size": 0.42,
+              "rotation": 3,
+              "color": "#FF0063",
+              "dir": "zoom",
+              "start": 8,
+              "dur": 1,
+              "order": 1,
+              "effect": "spin"
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtsok-4",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "RELIABLE.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#AD00FF",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "RELIABLE.",
+              "x": 0.5,
+              "y": 0.5,
+              "size": 0.4,
+              "rotation": 0,
+              "color": "#AD00FF",
+              "dir": "down",
+              "start": 10,
+              "dur": 1,
+              "order": 1,
+              "effect": "colorcycle"
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtsok-5",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "D2 MEDIA MAKE YOUR MESSAGE MATTER.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#AD00FF",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "D2",
+              "x": 0.4,
+              "y": 0.4,
+              "size": 0.4,
+              "rotation": 0,
+              "color": "#AD00FF",
+              "dir": "zoom",
+              "start": 12,
+              "dur": 0.6,
+              "order": 2,
+              "effect": "wordpop"
+            },
+            {
+              "text": "MEDIA",
+              "x": 0.6,
+              "y": 0.5,
+              "size": 0.4,
+              "rotation": 0,
+              "color": "#AD00FF",
+              "dir": "zoom",
+              "start": 12.3,
+              "dur": 0.6,
+              "order": 2,
+              "effect": "wordpop"
+            },
+            {
+              "text": "MAKE YOUR MESSAGE MATTER.",
+              "x": 0.5,
+              "y": 0.75,
+              "size": 0.18,
+              "rotation": 0,
+              "color": "#FF0063",
+              "dir": "up",
+              "start": 13,
+              "dur": 0.8,
+              "order": 1,
+              "effect": "slide"
+            }
+          ],
+          "tagline": "MAKE YOUR MESSAGE MATTER."
+        }
+      ]
+    }
+  },
+  {
+    "id": "job-mtsov1d3-0",
+    "format": "animated",
+    "title": "Create a 15-second vertical 9:16 text-only brand reel for D2 Media Communication.\n\nSTYLE:\nBold, playful, confident kinetic typography inspired by the attached reference image. Use oversized words that fill the screen, with some words intentionally cropped off the edges. Arrange typography at different angles, sizes and positions to create a dynamic editorial composition. Allow words to overlap, slide, rotate, scale and quickly rearrange between scenes. The overall feeling should be confident, unconventional, clever, energetic and premium — never corporate or generic.\n\nDo NOT use photography, illustrations, icons, people, objects or imagery. Typography is the only visual element.\n\nBRAND COLOURS:\nBackground: Indigo #0E0B20\nPurple text: #AD00FF\nCoral text: #FF0063\n\nFONT:\nJost only. Use bold/heavy weights for maximum visual impact. Clean, modern, geometric and highly legible.\n\nTEXT SEQUENCE:\n0–2 sec:\n“BOLD.”\n\n2–4 sec:\n“DIFFERENT.”\n\n4–6 sec:\n“SHARP.”\n\n6–8 sec:\n“FEARLESS.”\n\n8–10 sec:\n“UNMISSABLE.”\n\n10–12 sec:\n“RELIABLE.”\n\n12–15 sec:\n“D2 MEDIA”\nfollowed by:\n“MAKE YOUR MESSAGE MATTER.”\n\nANIMATION:\nStart immediately with oversized typography entering rapidly from different directions. Words should move with purpose rather than simply fade in. Use quick slides, rotations, scaling and position changes. Introduce words one at a time, then briefly create moments where multiple words appear together in a playful typographic collage.\n\nAlternate purple #AD00FF and coral #FF0063 for emphasis. Keep the indigo background consistently dominant.\n\nFor the final 3 seconds, slow the movement slightly and create a strong visual payoff: “D2 MEDIA” should appear large and confident, followed by “MAKE YOUR MESSAGE MATTER.” Keep the final frame clean enough to read instantly.\n\nOverall pacing: energetic, punchy and contemporary, with approximately 1–2 seconds per key word. Make the typography feel like it is taking over the screen.\n\nNo voiceover. No stock footage. No music-dependent storytelling. The reel must communicate entirely through typography and motion.\n\nThe finished reel should feel like a creative agency saying:\n“We know who we are. We know what we do. And we’re not here to blend in.”",
+    "createdAt": 1788873235341,
+    "project": {
+      "title": "Create a 15-second vertical 9:16 text-only brand reel for D2 Media Communication.\n\nSTYLE:\nBold, playful, confident kinetic typography inspired by the attached reference image. Use oversized words that fill the screen, with some words intentionally cropped off the edges. Arrange typography at different angles, sizes and positions to create a dynamic editorial composition. Allow words to overlap, slide, rotate, scale and quickly rearrange between scenes. The overall feeling should be confident, unconventional, clever, energetic and premium — never corporate or generic.\n\nDo NOT use photography, illustrations, icons, people, objects or imagery. Typography is the only visual element.\n\nBRAND COLOURS:\nBackground: Indigo #0E0B20\nPurple text: #AD00FF\nCoral text: #FF0063\n\nFONT:\nJost only. Use bold/heavy weights for maximum visual impact. Clean, modern, geometric and highly legible.\n\nTEXT SEQUENCE:\n0–2 sec:\n“BOLD.”\n\n2–4 sec:\n“DIFFERENT.”\n\n4–6 sec:\n“SHARP.”\n\n6–8 sec:\n“FEARLESS.”\n\n8–10 sec:\n“UNMISSABLE.”\n\n10–12 sec:\n“RELIABLE.”\n\n12–15 sec:\n“D2 MEDIA”\nfollowed by:\n“MAKE YOUR MESSAGE MATTER.”\n\nANIMATION:\nStart immediately with oversized typography entering rapidly from different directions. Words should move with purpose rather than simply fade in. Use quick slides, rotations, scaling and position changes. Introduce words one at a time, then briefly create moments where multiple words appear together in a playful typographic collage.\n\nAlternate purple #AD00FF and coral #FF0063 for emphasis. Keep the indigo background consistently dominant.\n\nFor the final 3 seconds, slow the movement slightly and create a strong visual payoff: “D2 MEDIA” should appear large and confident, followed by “MAKE YOUR MESSAGE MATTER.” Keep the final frame clean enough to read instantly.\n\nOverall pacing: energetic, punchy and contemporary, with approximately 1–2 seconds per key word. Make the typography feel like it is taking over the screen.\n\nNo voiceover. No stock footage. No music-dependent storytelling. The reel must communicate entirely through typography and motion.\n\nThe finished reel should feel like a creative agency saying:\n“We know who we are. We know what we do. And we’re not here to blend in.”",
+      "fps": 30,
+      "width": 1280,
+      "height": 720,
+      "transition": "fade",
+      "transitionDurationInSeconds": 0.5,
+      "assets": [
+        {
+          "name": "create-a-15-second-vertical-9-16-text-only-brand-r.mp4",
+          "src": "uploads/1788871555712-create-a-15-second-vertical-9-16-text-on.mp4",
+          "kind": "video",
+          "durationInSeconds": 5.546667
+        }
+      ],
+      "audio": null,
+      "scenes": [
+        {
+          "id": "create-jobmtsov-1",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "BOLD. DIFFERENT.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#AD00FF",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "BOLD.",
+              "x": 0.5,
+              "y": 0.35,
+              "size": 0.4,
+              "rotation": -6,
+              "color": "#AD00FF",
+              "dir": "zoom",
+              "start": 0,
+              "dur": 0.5,
+              "order": 2,
+              "effect": "zoomcut"
+            },
+            {
+              "text": "DIFFERENT.",
+              "x": 0.55,
+              "y": 0.68,
+              "size": 0.28,
+              "rotation": 8,
+              "color": "#FF0063",
+              "dir": "right",
+              "start": 1.6,
+              "dur": 0.6,
+              "order": 1,
+              "effect": "rotate3d"
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtsov-2",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "SHARP. FEARLESS.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#FF0063",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "SHARP.",
+              "x": 0.42,
+              "y": 0.3,
+              "size": 0.38,
+              "rotation": -3,
+              "color": "#FF0063",
+              "dir": "left",
+              "start": 0,
+              "dur": 0.45,
+              "order": 2,
+              "effect": "slide"
+            },
+            {
+              "text": "FEARLESS.",
+              "x": 0.55,
+              "y": 0.65,
+              "size": 0.3,
+              "rotation": 12,
+              "color": "#AD00FF",
+              "dir": "up",
+              "start": 1.5,
+              "dur": 0.6,
+              "order": 1,
+              "effect": "spin"
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtsov-3",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "UNMISSABLE. RELIABLE.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#AD00FF",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "UNMISSABLE.",
+              "x": 0.5,
+              "y": 0.32,
+              "size": 0.32,
+              "rotation": 0,
+              "color": "#AD00FF",
+              "dir": "zoom",
+              "start": 0,
+              "dur": 0.8,
+              "order": 2,
+              "effect": "char"
+            },
+            {
+              "text": "RELIABLE.",
+              "x": 0.5,
+              "y": 0.7,
+              "size": 0.3,
+              "rotation": -5,
+              "color": "#FF0063",
+              "dir": "zoom",
+              "start": 1.7,
+              "dur": 0.7,
+              "order": 1,
+              "effect": "colorcycle"
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtsov-4",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "D2 MEDIA",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#AD00FF",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "D2",
+              "x": 0.38,
+              "y": 0.42,
+              "size": 0.4,
+              "rotation": -4,
+              "color": "#AD00FF",
+              "dir": "pop",
+              "start": 0,
+              "dur": 0.5,
+              "order": 2,
+              "effect": "wordpop"
+            },
+            {
+              "text": "MEDIA",
+              "x": 0.62,
+              "y": 0.55,
+              "size": 0.32,
+              "rotation": 3,
+              "color": "#FF0063",
+              "dir": "zoom",
+              "start": 0.5,
+              "dur": 0.5,
+              "order": 1,
+              "effect": "zoomcut"
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtsov-5",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "MAKE YOUR MESSAGE MATTER.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#FFFFFF",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "MAKE YOUR MESSAGE MATTER.",
+              "x": 0.5,
+              "y": 0.5,
+              "size": 0.22,
+              "rotation": 0,
+              "color": "#FFFFFF",
+              "dir": "zoom",
+              "start": 0,
+              "dur": 1,
+              "order": 1,
+              "effect": "char"
+            }
+          ],
+          "tagline": "MAKE YOUR MESSAGE MATTER."
+        }
+      ]
+    }
+  },
+  {
+    "id": "job-mtsp7r7v-0",
+    "format": "images",
+    "title": "Create a 15-second vertical 9:16 text-only brand reel for D2 Media Communication.\n\nSTYLE:\nBold, playful, confident kinetic typography inspired by the attached reference image. Use oversized words that fill the screen, with some words intentionally cropped off the edges. Arrange typography at different angles, sizes and positions to create a dynamic editorial composition. Allow words to overlap, slide, rotate, scale and quickly rearrange between scenes. The overall feeling should be confident, unconventional, clever, energetic and premium — never corporate or generic.\n\nDo NOT use photography, illustrations, icons, people, objects or imagery. Typography is the only visual element.\n\nBRAND COLOURS:\nBackground: Indigo #0E0B20\nPurple text: #AD00FF\nCoral text: #FF0063\n\nFONT:\nJost only. Use bold/heavy weights for maximum visual impact. Clean, modern, geometric and highly legible.\n\nTEXT SEQUENCE:\n0–2 sec:\n“BOLD.”\n\n2–4 sec:\n“DIFFERENT.”\n\n4–6 sec:\n“SHARP.”\n\n6–8 sec:\n“FEARLESS.”\n\n8–10 sec:\n“UNMISSABLE.”\n\n10–12 sec:\n“RELIABLE.”\n\n12–15 sec:\n“D2 MEDIA”\nfollowed by:\n“MAKE YOUR MESSAGE MATTER.”\n\nANIMATION:\nStart immediately with oversized typography entering rapidly from different directions. Words should move with purpose rather than simply fade in. Use quick slides, rotations, scaling and position changes. Introduce words one at a time, then briefly create moments where multiple words appear together in a playful typographic collage.\n\nAlternate purple #AD00FF and coral #FF0063 for emphasis. Keep the indigo background consistently dominant.\n\nFor the final 3 seconds, slow the movement slightly and create a strong visual payoff: “D2 MEDIA” should appear large and confident, followed by “MAKE YOUR MESSAGE MATTER.” Keep the final frame clean enough to read instantly.\n\nOverall pacing: energetic, punchy and contemporary, with approximately 1–2 seconds per key word. Make the typography feel like it is taking over the screen.\n\nNo voiceover. No stock footage. No music-dependent storytelling. The reel must communicate entirely through typography and motion.\n\nThe finished reel should feel like a creative agency saying:\n“We know who we are. We know what we do. And we’re not here to blend in.”",
+    "createdAt": 1788873751218,
+    "project": {
+      "title": "Create a 15-second vertical 9:16 text-only brand reel for D2 Media Communication.\n\nSTYLE:\nBold, playful, confident kinetic typography inspired by the attached reference image. Use oversized words that fill the screen, with some words intentionally cropped off the edges. Arrange typography at different angles, sizes and positions to create a dynamic editorial composition. Allow words to overlap, slide, rotate, scale and quickly rearrange between scenes. The overall feeling should be confident, unconventional, clever, energetic and premium — never corporate or generic.\n\nDo NOT use photography, illustrations, icons, people, objects or imagery. Typography is the only visual element.\n\nBRAND COLOURS:\nBackground: Indigo #0E0B20\nPurple text: #AD00FF\nCoral text: #FF0063\n\nFONT:\nJost only. Use bold/heavy weights for maximum visual impact. Clean, modern, geometric and highly legible.\n\nTEXT SEQUENCE:\n0–2 sec:\n“BOLD.”\n\n2–4 sec:\n“DIFFERENT.”\n\n4–6 sec:\n“SHARP.”\n\n6–8 sec:\n“FEARLESS.”\n\n8–10 sec:\n“UNMISSABLE.”\n\n10–12 sec:\n“RELIABLE.”\n\n12–15 sec:\n“D2 MEDIA”\nfollowed by:\n“MAKE YOUR MESSAGE MATTER.”\n\nANIMATION:\nStart immediately with oversized typography entering rapidly from different directions. Words should move with purpose rather than simply fade in. Use quick slides, rotations, scaling and position changes. Introduce words one at a time, then briefly create moments where multiple words appear together in a playful typographic collage.\n\nAlternate purple #AD00FF and coral #FF0063 for emphasis. Keep the indigo background consistently dominant.\n\nFor the final 3 seconds, slow the movement slightly and create a strong visual payoff: “D2 MEDIA” should appear large and confident, followed by “MAKE YOUR MESSAGE MATTER.” Keep the final frame clean enough to read instantly.\n\nOverall pacing: energetic, punchy and contemporary, with approximately 1–2 seconds per key word. Make the typography feel like it is taking over the screen.\n\nNo voiceover. No stock footage. No music-dependent storytelling. The reel must communicate entirely through typography and motion.\n\nThe finished reel should feel like a creative agency saying:\n“We know who we are. We know what we do. And we’re not here to blend in.”",
+      "fps": 30,
+      "width": 1080,
+      "height": 1920,
+      "transition": "fade",
+      "transitionDurationInSeconds": 0.5,
+      "assets": [
+        {
+          "name": "create-a-15-second-vertical-9-16-text-only-brand-r.mp4",
+          "src": "uploads/1788871555712-create-a-15-second-vertical-9-16-text-on.mp4",
+          "kind": "video",
+          "durationInSeconds": 5.546667
+        }
+      ],
+      "audio": null,
+      "scenes": [
+        {
+          "id": "create-jobmtsp7-1",
+          "durationInSeconds": 2.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "BOLD.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#FF0063",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "BOLD.",
+              "x": 0.55,
+              "y": 0.5,
+              "size": 0.42,
+              "rotation": -6,
+              "color": "#FF0063",
+              "dir": "right",
+              "start": 0,
+              "dur": 0.6,
+              "order": 1,
+              "effect": "zoomcut"
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtsp7-2",
+          "durationInSeconds": 2.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "DIFFERENT.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#AD00FF",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "DIFFERENT.",
+              "x": 0.45,
+              "y": 0.5,
+              "size": 0.4,
+              "rotation": 4,
+              "color": "#AD00FF",
+              "dir": "left",
+              "start": 0,
+              "dur": 0.6,
+              "order": 1,
+              "effect": "slide"
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtsp7-3",
+          "durationInSeconds": 2.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "SHARP. FEARLESS.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#FF0063",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "SHARP.",
+              "x": 0.35,
+              "y": 0.4,
+              "size": 0.35,
+              "rotation": -10,
+              "color": "#FF0063",
+              "dir": "up",
+              "start": 0,
+              "dur": 0.5,
+              "order": 2,
+              "effect": "spin"
+            },
+            {
+              "text": "FEARLESS.",
+              "x": 0.65,
+              "y": 0.65,
+              "size": 0.32,
+              "rotation": 8,
+              "color": "#AD00FF",
+              "dir": "zoom",
+              "start": 0.7,
+              "dur": 0.6,
+              "order": 1,
+              "effect": "rotate3d"
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtsp7-4",
+          "durationInSeconds": 2.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "UNMISSABLE. RELIABLE.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#AD00FF",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "UNMISSABLE.",
+              "x": 0.5,
+              "y": 0.35,
+              "size": 0.34,
+              "rotation": -3,
+              "color": "#AD00FF",
+              "dir": "left",
+              "start": 0,
+              "dur": 0.8,
+              "order": 2,
+              "effect": "char"
+            },
+            {
+              "text": "RELIABLE.",
+              "x": 0.5,
+              "y": 0.7,
+              "size": 0.3,
+              "rotation": 5,
+              "color": "#FF0063",
+              "dir": "zoom",
+              "start": 1.2,
+              "dur": 0.6,
+              "order": 1,
+              "effect": "colorcycle"
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtsp7-5",
+          "durationInSeconds": 2.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "D2 MEDIA MAKE YOUR MESSAGE MATTER.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#FF0063",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "D2",
+              "x": 0.4,
+              "y": 0.4,
+              "size": 0.4,
+              "rotation": 0,
+              "color": "#FF0063",
+              "dir": "zoom",
+              "start": 0,
+              "dur": 0.5,
+              "order": 3,
+              "effect": "wordpop"
+            },
+            {
+              "text": "MEDIA",
+              "x": 0.6,
+              "y": 0.5,
+              "size": 0.36,
+              "rotation": 0,
+              "color": "#FF0063",
+              "dir": "zoom",
+              "start": 0.4,
+              "dur": 0.5,
+              "order": 2,
+              "effect": "wordpop"
+            },
+            {
+              "text": "MAKE YOUR MESSAGE MATTER.",
+              "x": 0.5,
+              "y": 0.78,
+              "size": 0.14,
+              "rotation": 0,
+              "color": "#AD00FF",
+              "dir": "up",
+              "start": 1.2,
+              "dur": 0.8,
+              "order": 1,
+              "effect": "slide"
+            }
+          ],
+          "tagline": "MAKE YOUR MESSAGE MATTER."
+        }
+      ]
+    }
+  },
+  {
+    "id": "job-mtspj06k-0",
+    "format": "images",
+    "title": "Create a 15-second vertical 9:16 text-only brand reel for D2 Media Communication.\n\nSTYLE:\nBold, playful, confident kinetic typography inspired by the attached reference image. Use oversized words that fill the screen, with some words intentionally cropped off the edges. Arrange typography at different angles, sizes and positions to create a dynamic editorial composition. Allow words to overlap, slide, rotate, scale and quickly rearrange between scenes. The overall feeling should be confident, unconventional, clever, energetic and premium — never corporate or generic.\n\nDo NOT use photography, illustrations, icons, people, objects or imagery. Typography is the only visual element.\n\nBRAND COLOURS:\nBackground: Indigo #0E0B20\nPurple text: #AD00FF\nCoral text: #FF0063\n\nFONT:\nJost only. Use bold/heavy weights for maximum visual impact. Clean, modern, geometric and highly legible.\n\nTEXT SEQUENCE:\n0–2 sec:\n“BOLD.”\n\n2–4 sec:\n“DIFFERENT.”\n\n4–6 sec:\n“SHARP.”\n\n6–8 sec:\n“FEARLESS.”\n\n8–10 sec:\n“UNMISSABLE.”\n\n10–12 sec:\n“RELIABLE.”\n\n12–15 sec:\n“D2 MEDIA”\nfollowed by:\n“MAKE YOUR MESSAGE MATTER.”\n\nANIMATION:\nStart immediately with oversized typography entering rapidly from different directions. Words should move with purpose rather than simply fade in. Use quick slides, rotations, scaling and position changes. Introduce words one at a time, then briefly create moments where multiple words appear together in a playful typographic collage.\n\nAlternate purple #AD00FF and coral #FF0063 for emphasis. Keep the indigo background consistently dominant.\n\nFor the final 3 seconds, slow the movement slightly and create a strong visual payoff: “D2 MEDIA” should appear large and confident, followed by “MAKE YOUR MESSAGE MATTER.” Keep the final frame clean enough to read instantly.\n\nOverall pacing: energetic, punchy and contemporary, with approximately 1–2 seconds per key word. Make the typography feel like it is taking over the screen.\n\nNo voiceover. No stock footage. No music-dependent storytelling. The reel must communicate entirely through typography and motion.\n\nThe finished reel should feel like a creative agency saying:\n“We know who we are. We know what we do. And we’re not here to blend in.”",
+    "createdAt": 1788874264928,
+    "project": {
+      "title": "Create a 15-second vertical 9:16 text-only brand reel for D2 Media Communication.\n\nSTYLE:\nBold, playful, confident kinetic typography inspired by the attached reference image. Use oversized words that fill the screen, with some words intentionally cropped off the edges. Arrange typography at different angles, sizes and positions to create a dynamic editorial composition. Allow words to overlap, slide, rotate, scale and quickly rearrange between scenes. The overall feeling should be confident, unconventional, clever, energetic and premium — never corporate or generic.\n\nDo NOT use photography, illustrations, icons, people, objects or imagery. Typography is the only visual element.\n\nBRAND COLOURS:\nBackground: Indigo #0E0B20\nPurple text: #AD00FF\nCoral text: #FF0063\n\nFONT:\nJost only. Use bold/heavy weights for maximum visual impact. Clean, modern, geometric and highly legible.\n\nTEXT SEQUENCE:\n0–2 sec:\n“BOLD.”\n\n2–4 sec:\n“DIFFERENT.”\n\n4–6 sec:\n“SHARP.”\n\n6–8 sec:\n“FEARLESS.”\n\n8–10 sec:\n“UNMISSABLE.”\n\n10–12 sec:\n“RELIABLE.”\n\n12–15 sec:\n“D2 MEDIA”\nfollowed by:\n“MAKE YOUR MESSAGE MATTER.”\n\nANIMATION:\nStart immediately with oversized typography entering rapidly from different directions. Words should move with purpose rather than simply fade in. Use quick slides, rotations, scaling and position changes. Introduce words one at a time, then briefly create moments where multiple words appear together in a playful typographic collage.\n\nAlternate purple #AD00FF and coral #FF0063 for emphasis. Keep the indigo background consistently dominant.\n\nFor the final 3 seconds, slow the movement slightly and create a strong visual payoff: “D2 MEDIA” should appear large and confident, followed by “MAKE YOUR MESSAGE MATTER.” Keep the final frame clean enough to read instantly.\n\nOverall pacing: energetic, punchy and contemporary, with approximately 1–2 seconds per key word. Make the typography feel like it is taking over the screen.\n\nNo voiceover. No stock footage. No music-dependent storytelling. The reel must communicate entirely through typography and motion.\n\nThe finished reel should feel like a creative agency saying:\n“We know who we are. We know what we do. And we’re not here to blend in.”",
+      "fps": 30,
+      "width": 1280,
+      "height": 720,
+      "transition": "fade",
+      "transitionDurationInSeconds": 0.5,
+      "assets": [
+        {
+          "name": "create-a-15-second-vertical-9-16-text-only-brand-r.mp4",
+          "src": "uploads/1788871555712-create-a-15-second-vertical-9-16-text-on.mp4",
+          "kind": "video",
+          "durationInSeconds": 5.546667
+        }
+      ],
+      "audio": null,
+      "scenes": [
+        {
+          "id": "create-jobmtspj-1",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "BOLD. DIFFERENT.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#AD00FF",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "BOLD.",
+              "x": 0.5,
+              "y": 0.35,
+              "size": 0.4,
+              "rotation": -8,
+              "color": "#AD00FF",
+              "dir": "left",
+              "start": 0,
+              "dur": 0.4,
+              "order": 2,
+              "effect": "zoomcut"
+            },
+            {
+              "text": "DIFFERENT.",
+              "x": 0.55,
+              "y": 0.68,
+              "size": 0.28,
+              "rotation": 6,
+              "color": "#FF0063",
+              "dir": "right",
+              "start": 1.6,
+              "dur": 0.5,
+              "order": 1,
+              "effect": "slide"
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtspj-2",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "SHARP. FEARLESS.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#FF0063",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "SHARP.",
+              "x": 0.4,
+              "y": 0.3,
+              "size": 0.42,
+              "rotation": 12,
+              "color": "#FF0063",
+              "dir": "right",
+              "start": 0,
+              "dur": 0.35,
+              "order": 2,
+              "effect": "slide"
+            },
+            {
+              "text": "FEARLESS.",
+              "x": 0.55,
+              "y": 0.7,
+              "size": 0.3,
+              "rotation": -10,
+              "color": "#AD00FF",
+              "dir": "up",
+              "start": 1.6,
+              "dur": 0.6,
+              "order": 1,
+              "effect": "rotate3d"
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtspj-3",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "UNMISSABLE. RELIABLE.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#AD00FF",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "UNMISSABLE.",
+              "x": 0.5,
+              "y": 0.32,
+              "size": 0.26,
+              "rotation": 0,
+              "color": "#AD00FF",
+              "dir": "zoom",
+              "start": 0,
+              "dur": 0.5,
+              "order": 2,
+              "effect": "wordpop"
+            },
+            {
+              "text": "RELIABLE.",
+              "x": 0.5,
+              "y": 0.68,
+              "size": 0.32,
+              "rotation": 4,
+              "color": "#FF0063",
+              "dir": "down",
+              "start": 1.7,
+              "dur": 0.5,
+              "order": 1,
+              "effect": "colorcycle"
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtspj-4",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "D2 MEDIA",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#AD00FF",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "D2",
+              "x": 0.38,
+              "y": 0.45,
+              "size": 0.4,
+              "rotation": 0,
+              "color": "#AD00FF",
+              "dir": "zoom",
+              "start": 0,
+              "dur": 0.5,
+              "order": 2,
+              "effect": "zoomcut"
+            },
+            {
+              "text": "MEDIA",
+              "x": 0.62,
+              "y": 0.6,
+              "size": 0.28,
+              "rotation": 0,
+              "color": "#FF0063",
+              "dir": "right",
+              "start": 0.4,
+              "dur": 0.5,
+              "order": 1,
+              "effect": "slide"
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtspj-5",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "MAKE YOUR MESSAGE MATTER.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#AD00FF",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "MAKE",
+              "x": 0.3,
+              "y": 0.45,
+              "size": 0.14,
+              "rotation": 0,
+              "color": "#AD00FF",
+              "dir": "left",
+              "start": 0,
+              "dur": 0.3,
+              "order": 1,
+              "effect": "char"
+            },
+            {
+              "text": "YOUR",
+              "x": 0.55,
+              "y": 0.45,
+              "size": 0.14,
+              "rotation": 0,
+              "color": "#FF0063",
+              "dir": "right",
+              "start": 0.25,
+              "dur": 0.3,
+              "order": 1,
+              "effect": "char"
+            },
+            {
+              "text": "MESSAGE",
+              "x": 0.4,
+              "y": 0.55,
+              "size": 0.14,
+              "rotation": 0,
+              "color": "#AD00FF",
+              "dir": "left",
+              "start": 0.5,
+              "dur": 0.3,
+              "order": 1,
+              "effect": "char"
+            },
+            {
+              "text": "MATTER.",
+              "x": 0.65,
+              "y": 0.55,
+              "size": 0.14,
+              "rotation": 0,
+              "color": "#FF0063",
+              "dir": "right",
+              "start": 0.75,
+              "dur": 0.3,
+              "order": 1,
+              "effect": "char"
+            }
+          ],
+          "tagline": "MAKE YOUR MESSAGE MATTER."
+        }
+      ]
+    }
+  },
+  {
+    "id": "job-mtspknzb-1",
+    "format": "animated",
+    "title": "Create a 15-second vertical 9:16 text-only brand reel for D2 Media Communication.\n\nSTYLE:\nBold, playful, confident kinetic typography inspired by the attached reference image. Use oversized words that fill the screen, with some words intentionally cropped off the edges. Arrange typography at different angles, sizes and positions to create a dynamic editorial composition. Allow words to overlap, slide, rotate, scale and quickly rearrange between scenes. The overall feeling should be confident, unconventional, clever, energetic and premium — never corporate or generic.\n\nDo NOT use photography, illustrations, icons, people, objects or imagery. Typography is the only visual element.\n\nBRAND COLOURS:\nBackground: Indigo #0E0B20\nPurple text: #AD00FF\nCoral text: #FF0063\n\nFONT:\nJost only. Use bold/heavy weights for maximum visual impact. Clean, modern, geometric and highly legible.\n\nTEXT SEQUENCE:\n0–2 sec:\n“BOLD.”\n\n2–4 sec:\n“DIFFERENT.”\n\n4–6 sec:\n“SHARP.”\n\n6–8 sec:\n“FEARLESS.”\n\n8–10 sec:\n“UNMISSABLE.”\n\n10–12 sec:\n“RELIABLE.”\n\n12–15 sec:\n“D2 MEDIA”\nfollowed by:\n“MAKE YOUR MESSAGE MATTER.”\n\nANIMATION:\nStart immediately with oversized typography entering rapidly from different directions. Words should move with purpose rather than simply fade in. Use quick slides, rotations, scaling and position changes. Introduce words one at a time, then briefly create moments where multiple words appear together in a playful typographic collage.\n\nAlternate purple #AD00FF and coral #FF0063 for emphasis. Keep the indigo background consistently dominant.\n\nFor the final 3 seconds, slow the movement slightly and create a strong visual payoff: “D2 MEDIA” should appear large and confident, followed by “MAKE YOUR MESSAGE MATTER.” Keep the final frame clean enough to read instantly.\n\nOverall pacing: energetic, punchy and contemporary, with approximately 1–2 seconds per key word. Make the typography feel like it is taking over the screen.\n\nNo voiceover. No stock footage. No music-dependent storytelling. The reel must communicate entirely through typography and motion.\n\nThe finished reel should feel like a creative agency saying:\n“We know who we are. We know what we do. And we’re not here to blend in.”",
+    "createdAt": 1788874408261,
+    "project": {
+      "title": "Create a 15-second vertical 9:16 text-only brand reel for D2 Media Communication.\n\nSTYLE:\nBold, playful, confident kinetic typography inspired by the attached reference image. Use oversized words that fill the screen, with some words intentionally cropped off the edges. Arrange typography at different angles, sizes and positions to create a dynamic editorial composition. Allow words to overlap, slide, rotate, scale and quickly rearrange between scenes. The overall feeling should be confident, unconventional, clever, energetic and premium — never corporate or generic.\n\nDo NOT use photography, illustrations, icons, people, objects or imagery. Typography is the only visual element.\n\nBRAND COLOURS:\nBackground: Indigo #0E0B20\nPurple text: #AD00FF\nCoral text: #FF0063\n\nFONT:\nJost only. Use bold/heavy weights for maximum visual impact. Clean, modern, geometric and highly legible.\n\nTEXT SEQUENCE:\n0–2 sec:\n“BOLD.”\n\n2–4 sec:\n“DIFFERENT.”\n\n4–6 sec:\n“SHARP.”\n\n6–8 sec:\n“FEARLESS.”\n\n8–10 sec:\n“UNMISSABLE.”\n\n10–12 sec:\n“RELIABLE.”\n\n12–15 sec:\n“D2 MEDIA”\nfollowed by:\n“MAKE YOUR MESSAGE MATTER.”\n\nANIMATION:\nStart immediately with oversized typography entering rapidly from different directions. Words should move with purpose rather than simply fade in. Use quick slides, rotations, scaling and position changes. Introduce words one at a time, then briefly create moments where multiple words appear together in a playful typographic collage.\n\nAlternate purple #AD00FF and coral #FF0063 for emphasis. Keep the indigo background consistently dominant.\n\nFor the final 3 seconds, slow the movement slightly and create a strong visual payoff: “D2 MEDIA” should appear large and confident, followed by “MAKE YOUR MESSAGE MATTER.” Keep the final frame clean enough to read instantly.\n\nOverall pacing: energetic, punchy and contemporary, with approximately 1–2 seconds per key word. Make the typography feel like it is taking over the screen.\n\nNo voiceover. No stock footage. No music-dependent storytelling. The reel must communicate entirely through typography and motion.\n\nThe finished reel should feel like a creative agency saying:\n“We know who we are. We know what we do. And we’re not here to blend in.”",
+      "fps": 30,
+      "width": 1080,
+      "height": 1920,
+      "transition": "fade",
+      "transitionDurationInSeconds": 0.5,
+      "assets": [
+        {
+          "name": "create-a-15-second-vertical-9-16-text-only-brand-r.mp4",
+          "src": "uploads/1788871555712-create-a-15-second-vertical-9-16-text-on.mp4",
+          "kind": "video",
+          "durationInSeconds": 5.546667
+        }
+      ],
+      "audio": null,
+      "scenes": [
+        {
+          "id": "create-jobmtspk-1",
+          "durationInSeconds": 2.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "BOLD.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#AD00FF",
+          "variant": "custom",
+          "customIndex": 0,
+          "design": "The word BOLD. zoom-cuts explosively into center screen at a slight tilt, oversized purple on indigo, then gets sliced off the frame right before the next scene.",
+          "kineticWords": [
+            {
+              "text": "BOLD.",
+              "x": 0.5,
+              "y": 0.5,
+              "size": 0.42,
+              "rotation": -8,
+              "color": "#AD00FF",
+              "dir": "zoom",
+              "start": 0,
+              "dur": 0.6,
+              "order": 1,
+              "effect": "zoomcut"
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtspk-2",
+          "durationInSeconds": 2.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "DIFFERENT.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#FF0063",
+          "variant": "custom",
+          "customIndex": 1,
+          "design": "DIFFERENT. builds letter-by-letter across the screen in coral, oversized and slightly rotated, cropped at the frame edges over the indigo backdrop.",
+          "kineticWords": [
+            {
+              "text": "DIFFERENT.",
+              "x": 0.5,
+              "y": 0.45,
+              "size": 0.38,
+              "rotation": 5,
+              "color": "#FF0063",
+              "dir": "left",
+              "start": 0,
+              "dur": 1,
+              "order": 1,
+              "effect": "char"
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtspk-3",
+          "durationInSeconds": 2.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "SHARP. FEARLESS.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#AD00FF",
+          "variant": "custom",
+          "customIndex": 2,
+          "design": "SHARP. slides in fast from the right at a sharp diagonal in purple while FEARLESS. spins in on a 3D vertical axis in coral below it, both oversized and overlapping in a bold collage on indigo.",
+          "kineticWords": [
+            {
+              "text": "SHARP.",
+              "x": 0.35,
+              "y": 0.35,
+              "size": 0.4,
+              "rotation": -12,
+              "color": "#AD00FF",
+              "dir": "right",
+              "start": 0,
+              "dur": 0.7,
+              "order": 1,
+              "effect": "slide"
+            },
+            {
+              "text": "FEARLESS.",
+              "x": 0.6,
+              "y": 0.65,
+              "size": 0.35,
+              "rotation": 10,
+              "color": "#FF0063",
+              "dir": "up",
+              "start": 0.8,
+              "dur": 1,
+              "order": 2,
+              "effect": "rotate3d"
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtspk-4",
+          "durationInSeconds": 2.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "UNMISSABLE. RELIABLE.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#AD00FF",
+          "variant": "custom",
+          "customIndex": 3,
+          "design": "UNMISSABLE. springs into the top of frame with a bouncy wordpop in purple, then RELIABLE. materializes below as ghost color-cycling copies in coral, creating a confident stacked composition on indigo.",
+          "kineticWords": [
+            {
+              "text": "UNMISSABLE.",
+              "x": 0.5,
+              "y": 0.3,
+              "size": 0.36,
+              "rotation": 6,
+              "color": "#AD00FF",
+              "dir": "up",
+              "start": 0,
+              "dur": 0.8,
+              "order": 1,
+              "effect": "wordpop"
+            },
+            {
+              "text": "RELIABLE.",
+              "x": 0.5,
+              "y": 0.68,
+              "size": 0.34,
+              "rotation": -6,
+              "color": "#FF0063",
+              "dir": "zoom",
+              "start": 1,
+              "dur": 1.2,
+              "order": 2,
+              "effect": "colorcycle"
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtspk-5",
+          "durationInSeconds": 2.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "D2 MEDIA",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#AD00FF",
+          "variant": "custom",
+          "customIndex": 4,
+          "design": "D2 spins confidently into place in purple beside MEDIA which pops in coral, both centered and slightly slowed for a clean premium payoff, with the tagline sliding up beneath in smaller coral type on the steady indigo background.",
+          "kineticWords": [
+            {
+              "text": "D2",
+              "x": 0.35,
+              "y": 0.42,
+              "size": 0.4,
+              "rotation": 0,
+              "color": "#AD00FF",
+              "dir": "zoom",
+              "start": 0,
+              "dur": 0.8,
+              "order": 1,
+              "effect": "spin"
+            },
+            {
+              "text": "MEDIA",
+              "x": 0.65,
+              "y": 0.42,
+              "size": 0.3,
+              "rotation": 0,
+              "color": "#FF0063",
+              "dir": "right",
+              "start": 0.6,
+              "dur": 0.8,
+              "order": 2,
+              "effect": "wordpop"
+            }
+          ],
+          "tagline": "MAKE YOUR MESSAGE MATTER."
+        }
+      ]
+    }
+  },
+  {
+    "id": "job-mtsriyiz-2",
+    "format": "animated",
+    "title": "OPTIMIZED PROMPT: 15-Second Kinetic Typography Reel\nProject: D2 Media Communication Brand Reel\nFormat: 9:16 Vertical | 15 Seconds | Text-Only Kinetic Typography\nMaster Vibe: \"We know who we are. We know what we do. And we’re not here to blend in.\" The tone is confident, unconventional, punchy, and premium.\n\n1. GLOBAL RULES & CONSTRAINTS\nVisuals: 100% typography. NO photography, illustrations, icons, people, objects, or imagery.\nAudio: No voiceover. No music-dependent storytelling. Pure visual motion.\nBackground: Solid Indigo #0E0B20 (consistently dominant).\nFont: Jost (Heavy/Black/Bold weights only). Clean, modern, geometric, highly legible.\nLayout: Oversized words that fill the screen. Intentionally crop letters off the edges. Arrange type at different angles, sizes, and positions to create a dynamic editorial collage. Allow words to overlap and interact.\nMotion: Fast, kinetic, purposeful. No simple fading. Use quick slides, snaps, rotations, scale-ups, and overshoots.\n2. COLOR STRATEGY\nAlternate text colors for emphasis and visual rhythm:\n\nColor A (Electric Purple): #AD00FF\nColor B (Hot Coral): #FF0063\n3. SCENE-BY-SCENE STORYBOARD\nScene 1 (0–2 sec): \"BOLD.\"\n\nText: BOLD. (Color A - #AD00FF)\nMotion: The word \"BOLD.\" scales up rapidly from 0% to 120% in the center, snapping with a slight overshoot. The word is so large it bleeds off the left and right edges.\nScene 2 (2–4 sec): \"DIFFERENT.\"\n\nText: DIFFERENT. (Color B - #FF0063)\nMotion: \"BOLD.\" quickly slides off-screen to the left. \"DIFFERENT.\" flies in from the right, rotating 15 degrees as it locks into the lower third of the screen, filling the width.\nScene 3 (4–6 sec): \"SHARP.\"\n\nText: SHARP. (Color A - #AD00FF)\nMotion: \"DIFFERENT.\" slides down off-screen. \"SHARP.\" enters from the top-left corner, diagonally angled. It scales up rapidly, slicing across the screen like a knife.\nScene 4 (6–8 sec): \"FEARLESS.\"\n\nText: FEARLESS. (Color B - #FF0063)\nMotion: A kinetic collage moment. \"SHARP.\" remains, slightly shrinking and moving to the background. \"FEARLESS.\" slides in horizontally from the right, overlapping \"SHARP.\" in a contrasting color and angle.\nScene 5 (8–10 sec): \"UNMISSABLE.\"\n\nText: UNMISSABLE. (Color A - #AD00FF)\nMotion: The \"FEARLESS/SHARP\" collage splits apart and exits the top and bottom. \"UNMISSABLE.\" stomps into the dead center, perfectly straight, taking up 80% of the screen height.\nScene 6 (10–12 sec): \"RELIABLE.\"\n\nText: RELIABLE. (Color B - #FF0063)\nMotion: \"UNMISSABLE.\" slides horizontally to the right, revealing \"RELIABLE.\" underneath it, which was hidden off-screen. They briefly overlap before \"UNMISSABLE\" exits completely on the right.\nScene 7 (12–15 sec): THE PAYOFF (SLOWDOWN)\n\nText 1: D2 MEDIA (Color A - #AD00FF)\nText 2: MAKE YOUR MESSAGE MATTER. (Color B - #FF0063)\nMotion: Pacing slows down significantly for a premium, confident finish. The previous words clear the screen. \"D2 MEDIA\" drops in from the top, locking dead center, perfectly straight, filling 60% of the screen.\nFinal Frame (14–15 sec): \"D2 MEDIA\" remains locked. Beneath it, \"MAKE YOUR MESSAGE MATTER.\" smoothly slides up from the bottom, settling just below \"D2 MEDIA\" in a smaller, but still bold, tracking-wide format. The composition is clean, instantly readable, and powerful.\n4. NEGATIVE PROMPT (FOR AI GENERATORS)\nNo photos, no videos, no stock footage, no people, no faces, no 3d renders, no illustrations, no graphics, no logos, no shapes, no gradients, no corporate templates, no fading transitions, no generic motion.",
+    "createdAt": 1788877683675,
+    "project": {
+      "title": "OPTIMIZED PROMPT: 15-Second Kinetic Typography Reel\nProject: D2 Media Communication Brand Reel\nFormat: 9:16 Vertical | 15 Seconds | Text-Only Kinetic Typography\nMaster Vibe: \"We know who we are. We know what we do. And we’re not here to blend in.\" The tone is confident, unconventional, punchy, and premium.\n\n1. GLOBAL RULES & CONSTRAINTS\nVisuals: 100% typography. NO photography, illustrations, icons, people, objects, or imagery.\nAudio: No voiceover. No music-dependent storytelling. Pure visual motion.\nBackground: Solid Indigo #0E0B20 (consistently dominant).\nFont: Jost (Heavy/Black/Bold weights only). Clean, modern, geometric, highly legible.\nLayout: Oversized words that fill the screen. Intentionally crop letters off the edges. Arrange type at different angles, sizes, and positions to create a dynamic editorial collage. Allow words to overlap and interact.\nMotion: Fast, kinetic, purposeful. No simple fading. Use quick slides, snaps, rotations, scale-ups, and overshoots.\n2. COLOR STRATEGY\nAlternate text colors for emphasis and visual rhythm:\n\nColor A (Electric Purple): #AD00FF\nColor B (Hot Coral): #FF0063\n3. SCENE-BY-SCENE STORYBOARD\nScene 1 (0–2 sec): \"BOLD.\"\n\nText: BOLD. (Color A - #AD00FF)\nMotion: The word \"BOLD.\" scales up rapidly from 0% to 120% in the center, snapping with a slight overshoot. The word is so large it bleeds off the left and right edges.\nScene 2 (2–4 sec): \"DIFFERENT.\"\n\nText: DIFFERENT. (Color B - #FF0063)\nMotion: \"BOLD.\" quickly slides off-screen to the left. \"DIFFERENT.\" flies in from the right, rotating 15 degrees as it locks into the lower third of the screen, filling the width.\nScene 3 (4–6 sec): \"SHARP.\"\n\nText: SHARP. (Color A - #AD00FF)\nMotion: \"DIFFERENT.\" slides down off-screen. \"SHARP.\" enters from the top-left corner, diagonally angled. It scales up rapidly, slicing across the screen like a knife.\nScene 4 (6–8 sec): \"FEARLESS.\"\n\nText: FEARLESS. (Color B - #FF0063)\nMotion: A kinetic collage moment. \"SHARP.\" remains, slightly shrinking and moving to the background. \"FEARLESS.\" slides in horizontally from the right, overlapping \"SHARP.\" in a contrasting color and angle.\nScene 5 (8–10 sec): \"UNMISSABLE.\"\n\nText: UNMISSABLE. (Color A - #AD00FF)\nMotion: The \"FEARLESS/SHARP\" collage splits apart and exits the top and bottom. \"UNMISSABLE.\" stomps into the dead center, perfectly straight, taking up 80% of the screen height.\nScene 6 (10–12 sec): \"RELIABLE.\"\n\nText: RELIABLE. (Color B - #FF0063)\nMotion: \"UNMISSABLE.\" slides horizontally to the right, revealing \"RELIABLE.\" underneath it, which was hidden off-screen. They briefly overlap before \"UNMISSABLE\" exits completely on the right.\nScene 7 (12–15 sec): THE PAYOFF (SLOWDOWN)\n\nText 1: D2 MEDIA (Color A - #AD00FF)\nText 2: MAKE YOUR MESSAGE MATTER. (Color B - #FF0063)\nMotion: Pacing slows down significantly for a premium, confident finish. The previous words clear the screen. \"D2 MEDIA\" drops in from the top, locking dead center, perfectly straight, filling 60% of the screen.\nFinal Frame (14–15 sec): \"D2 MEDIA\" remains locked. Beneath it, \"MAKE YOUR MESSAGE MATTER.\" smoothly slides up from the bottom, settling just below \"D2 MEDIA\" in a smaller, but still bold, tracking-wide format. The composition is clean, instantly readable, and powerful.\n4. NEGATIVE PROMPT (FOR AI GENERATORS)\nNo photos, no videos, no stock footage, no people, no faces, no 3d renders, no illustrations, no graphics, no logos, no shapes, no gradients, no corporate templates, no fading transitions, no generic motion.",
+      "fps": 30,
+      "width": 1280,
+      "height": 720,
+      "transition": "fade",
+      "transitionDurationInSeconds": 0.5,
+      "assets": [
+        {
+          "name": "create-a-15-second-vertical-9-16-text-only-brand-r.mp4",
+          "src": "uploads/1788871555712-create-a-15-second-vertical-9-16-text-on.mp4",
+          "kind": "video",
+          "durationInSeconds": 5.546667
+        }
+      ],
+      "audio": null,
+      "scenes": [
+        {
+          "id": "create-jobmtsri-1",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "BOLD.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#AD00FF",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "BOLD.",
+              "x": 0.5,
+              "y": 0.5,
+              "size": 0.42,
+              "rotation": 0,
+              "color": "#AD00FF",
+              "dir": "zoom",
+              "start": 0,
+              "dur": 0.5,
+              "order": 1,
+              "effect": "zoomcut"
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtsri-2",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "DIFFERENT.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#FF0063",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "DIFFERENT.",
+              "x": 0.5,
+              "y": 0.72,
+              "size": 0.3,
+              "rotation": 15,
+              "color": "#FF0063",
+              "dir": "right",
+              "start": 0,
+              "dur": 0.4,
+              "order": 2,
+              "effect": "slide"
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtsri-3",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "SHARP.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#AD00FF",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "SHARP.",
+              "x": 0.45,
+              "y": 0.4,
+              "size": 0.38,
+              "rotation": -20,
+              "color": "#AD00FF",
+              "dir": "left",
+              "start": 0,
+              "dur": 0.4,
+              "order": 3,
+              "effect": "zoomcut"
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtsri-4",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "FEARLESS.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#AD00FF",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "SHARP.",
+              "x": 0.3,
+              "y": 0.3,
+              "size": 0.22,
+              "rotation": -20,
+              "color": "#AD00FF",
+              "dir": "left",
+              "start": 0,
+              "dur": 0.3,
+              "order": 1,
+              "effect": "zoomcut"
+            },
+            {
+              "text": "FEARLESS.",
+              "x": 0.55,
+              "y": 0.55,
+              "size": 0.34,
+              "rotation": 8,
+              "color": "#FF0063",
+              "dir": "right",
+              "start": 0.2,
+              "dur": 0.4,
+              "order": 4,
+              "effect": "slide"
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtsri-5",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "UNMISSABLE.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#AD00FF",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "UNMISSABLE.",
+              "x": 0.5,
+              "y": 0.5,
+              "size": 0.44,
+              "rotation": 0,
+              "color": "#AD00FF",
+              "dir": "down",
+              "start": 0,
+              "dur": 0.35,
+              "order": 5,
+              "effect": "zoomcut"
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtsri-6",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "RELIABLE.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#AD00FF",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "UNMISSABLE.",
+              "x": 0.7,
+              "y": 0.5,
+              "size": 0.4,
+              "rotation": 0,
+              "color": "#AD00FF",
+              "dir": "right",
+              "start": 0,
+              "dur": 0.4,
+              "order": 5,
+              "effect": "slide"
+            },
+            {
+              "text": "RELIABLE.",
+              "x": 0.5,
+              "y": 0.5,
+              "size": 0.38,
+              "rotation": 0,
+              "color": "#FF0063",
+              "dir": "left",
+              "start": 0.15,
+              "dur": 0.4,
+              "order": 3,
+              "effect": "slide"
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtsri-7",
+          "durationInSeconds": 3.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "D2 MEDIA MAKE YOUR MESSAGE MATTER.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#AD00FF",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "D2",
+              "x": 0.4,
+              "y": 0.42,
+              "size": 0.4,
+              "rotation": 0,
+              "color": "#AD00FF",
+              "dir": "down",
+              "start": 0,
+              "dur": 0.5,
+              "order": 6,
+              "effect": "colorcycle"
+            },
+            {
+              "text": "MEDIA",
+              "x": 0.6,
+              "y": 0.42,
+              "size": 0.4,
+              "rotation": 0,
+              "color": "#AD00FF",
+              "dir": "down",
+              "start": 0.1,
+              "dur": 0.5,
+              "order": 6,
+              "effect": "colorcycle"
+            },
+            {
+              "text": "MAKE",
+              "x": 0.25,
+              "y": 0.68,
+              "size": 0.13,
+              "rotation": 0,
+              "color": "#FF0063",
+              "dir": "up",
+              "start": 0.6,
+              "dur": 0.4,
+              "order": 4,
+              "effect": "slide"
+            },
+            {
+              "text": "YOUR",
+              "x": 0.42,
+              "y": 0.68,
+              "size": 0.13,
+              "rotation": 0,
+              "color": "#FF0063",
+              "dir": "up",
+              "start": 0.65,
+              "dur": 0.4,
+              "order": 4,
+              "effect": "slide"
+            },
+            {
+              "text": "MESSAGE",
+              "x": 0.62,
+              "y": 0.68,
+              "size": 0.13,
+              "rotation": 0,
+              "color": "#FF0063",
+              "dir": "up",
+              "start": 0.7,
+              "dur": 0.4,
+              "order": 4,
+              "effect": "slide"
+            },
+            {
+              "text": "MATTER.",
+              "x": 0.82,
+              "y": 0.68,
+              "size": 0.13,
+              "rotation": 0,
+              "color": "#FF0063",
+              "dir": "up",
+              "start": 0.75,
+              "dur": 0.4,
+              "order": 4,
+              "effect": "slide"
+            }
+          ],
+          "tagline": "MAKE YOUR MESSAGE MATTER."
+        }
+      ]
+    }
+  },
+  {
+    "id": "job-mtssblej-0",
+    "format": "animated",
+    "title": "OPTIMIZED PROMPT: 15-Second Kinetic Typography Reel\nProject: D2 Media Communication Brand Reel\nFormat: 9:16 Vertical | 15 Seconds | Text-Only Kinetic Typography\nMaster Vibe: \"We know who we are. We know what we do. And we’re not here to blend in.\" The tone is confident, unconventional, punchy, and premium.\n\n1. GLOBAL RULES & CONSTRAINTS\nVisuals: 100% typography. NO photography, illustrations, icons, people, objects, or imagery.\nAudio: No voiceover. No music-dependent storytelling. Pure visual motion.\nBackground: Solid Indigo #0E0B20 (consistently dominant).\nFont: Jost (Heavy/Black/Bold weights only). Clean, modern, geometric, highly legible.\nLayout: Oversized words that fill the screen. Intentionally crop letters off the edges. Arrange type at different angles, sizes, and positions to create a dynamic editorial collage. Allow words to overlap and interact.\nMotion: Fast, kinetic, purposeful. No simple fading. Use quick slides, snaps, rotations, scale-ups, and overshoots.\n2. COLOR STRATEGY\nAlternate text colors for emphasis and visual rhythm:\n\nColor A (Electric Purple): #AD00FF\nColor B (Hot Coral): #FF0063\n3. SCENE-BY-SCENE STORYBOARD\nScene 1 (0–2 sec): \"BOLD.\"\n\nText: BOLD. (Color A - #AD00FF)\nMotion: The word \"BOLD.\" scales up rapidly from 0% to 120% in the center, snapping with a slight overshoot. The word is so large it bleeds off the left and right edges.\nScene 2 (2–4 sec): \"DIFFERENT.\"\n\nText: DIFFERENT. (Color B - #FF0063)\nMotion: \"BOLD.\" quickly slides off-screen to the left. \"DIFFERENT.\" flies in from the right, rotating 15 degrees as it locks into the lower third of the screen, filling the width.\nScene 3 (4–6 sec): \"SHARP.\"\n\nText: SHARP. (Color A - #AD00FF)\nMotion: \"DIFFERENT.\" slides down off-screen. \"SHARP.\" enters from the top-left corner, diagonally angled. It scales up rapidly, slicing across the screen like a knife.\nScene 4 (6–8 sec): \"FEARLESS.\"\n\nText: FEARLESS. (Color B - #FF0063)\nMotion: A kinetic collage moment. \"SHARP.\" remains, slightly shrinking and moving to the background. \"FEARLESS.\" slides in horizontally from the right, overlapping \"SHARP.\" in a contrasting color and angle.\nScene 5 (8–10 sec): \"UNMISSABLE.\"\n\nText: UNMISSABLE. (Color A - #AD00FF)\nMotion: The \"FEARLESS/SHARP\" collage splits apart and exits the top and bottom. \"UNMISSABLE.\" stomps into the dead center, perfectly straight, taking up 80% of the screen height.\nScene 6 (10–12 sec): \"RELIABLE.\"\n\nText: RELIABLE. (Color B - #FF0063)\nMotion: \"UNMISSABLE.\" slides horizontally to the right, revealing \"RELIABLE.\" underneath it, which was hidden off-screen. They briefly overlap before \"UNMISSABLE\" exits completely on the right.\nScene 7 (12–15 sec): THE PAYOFF (SLOWDOWN)\n\nText 1: D2 MEDIA (Color A - #AD00FF)\nText 2: MAKE YOUR MESSAGE MATTER. (Color B - #FF0063)\nMotion: Pacing slows down significantly for a premium, confident finish. The previous words clear the screen. \"D2 MEDIA\" drops in from the top, locking dead center, perfectly straight, filling 60% of the screen.\nFinal Frame (14–15 sec): \"D2 MEDIA\" remains locked. Beneath it, \"MAKE YOUR MESSAGE MATTER.\" smoothly slides up from the bottom, settling just below \"D2 MEDIA\" in a smaller, but still bold, tracking-wide format. The composition is clean, instantly readable, and powerful.\n4. NEGATIVE PROMPT (FOR AI GENERATORS)\nNo photos, no videos, no stock footage, no people, no faces, no 3d renders, no illustrations, no graphics, no logos, no shapes, no gradients, no corporate templates, no fading transitions, no generic motion.",
+    "createdAt": 1788879022254,
+    "project": {
+      "title": "OPTIMIZED PROMPT: 15-Second Kinetic Typography Reel\nProject: D2 Media Communication Brand Reel\nFormat: 9:16 Vertical | 15 Seconds | Text-Only Kinetic Typography\nMaster Vibe: \"We know who we are. We know what we do. And we’re not here to blend in.\" The tone is confident, unconventional, punchy, and premium.\n\n1. GLOBAL RULES & CONSTRAINTS\nVisuals: 100% typography. NO photography, illustrations, icons, people, objects, or imagery.\nAudio: No voiceover. No music-dependent storytelling. Pure visual motion.\nBackground: Solid Indigo #0E0B20 (consistently dominant).\nFont: Jost (Heavy/Black/Bold weights only). Clean, modern, geometric, highly legible.\nLayout: Oversized words that fill the screen. Intentionally crop letters off the edges. Arrange type at different angles, sizes, and positions to create a dynamic editorial collage. Allow words to overlap and interact.\nMotion: Fast, kinetic, purposeful. No simple fading. Use quick slides, snaps, rotations, scale-ups, and overshoots.\n2. COLOR STRATEGY\nAlternate text colors for emphasis and visual rhythm:\n\nColor A (Electric Purple): #AD00FF\nColor B (Hot Coral): #FF0063\n3. SCENE-BY-SCENE STORYBOARD\nScene 1 (0–2 sec): \"BOLD.\"\n\nText: BOLD. (Color A - #AD00FF)\nMotion: The word \"BOLD.\" scales up rapidly from 0% to 120% in the center, snapping with a slight overshoot. The word is so large it bleeds off the left and right edges.\nScene 2 (2–4 sec): \"DIFFERENT.\"\n\nText: DIFFERENT. (Color B - #FF0063)\nMotion: \"BOLD.\" quickly slides off-screen to the left. \"DIFFERENT.\" flies in from the right, rotating 15 degrees as it locks into the lower third of the screen, filling the width.\nScene 3 (4–6 sec): \"SHARP.\"\n\nText: SHARP. (Color A - #AD00FF)\nMotion: \"DIFFERENT.\" slides down off-screen. \"SHARP.\" enters from the top-left corner, diagonally angled. It scales up rapidly, slicing across the screen like a knife.\nScene 4 (6–8 sec): \"FEARLESS.\"\n\nText: FEARLESS. (Color B - #FF0063)\nMotion: A kinetic collage moment. \"SHARP.\" remains, slightly shrinking and moving to the background. \"FEARLESS.\" slides in horizontally from the right, overlapping \"SHARP.\" in a contrasting color and angle.\nScene 5 (8–10 sec): \"UNMISSABLE.\"\n\nText: UNMISSABLE. (Color A - #AD00FF)\nMotion: The \"FEARLESS/SHARP\" collage splits apart and exits the top and bottom. \"UNMISSABLE.\" stomps into the dead center, perfectly straight, taking up 80% of the screen height.\nScene 6 (10–12 sec): \"RELIABLE.\"\n\nText: RELIABLE. (Color B - #FF0063)\nMotion: \"UNMISSABLE.\" slides horizontally to the right, revealing \"RELIABLE.\" underneath it, which was hidden off-screen. They briefly overlap before \"UNMISSABLE\" exits completely on the right.\nScene 7 (12–15 sec): THE PAYOFF (SLOWDOWN)\n\nText 1: D2 MEDIA (Color A - #AD00FF)\nText 2: MAKE YOUR MESSAGE MATTER. (Color B - #FF0063)\nMotion: Pacing slows down significantly for a premium, confident finish. The previous words clear the screen. \"D2 MEDIA\" drops in from the top, locking dead center, perfectly straight, filling 60% of the screen.\nFinal Frame (14–15 sec): \"D2 MEDIA\" remains locked. Beneath it, \"MAKE YOUR MESSAGE MATTER.\" smoothly slides up from the bottom, settling just below \"D2 MEDIA\" in a smaller, but still bold, tracking-wide format. The composition is clean, instantly readable, and powerful.\n4. NEGATIVE PROMPT (FOR AI GENERATORS)\nNo photos, no videos, no stock footage, no people, no faces, no 3d renders, no illustrations, no graphics, no logos, no shapes, no gradients, no corporate templates, no fading transitions, no generic motion.",
+      "fps": 30,
+      "width": 1080,
+      "height": 1920,
+      "transition": "fade",
+      "transitionDurationInSeconds": 0.5,
+      "assets": [
+        {
+          "name": "create-a-15-second-vertical-9-16-text-only-brand-r.mp4",
+          "src": "uploads/1788871555712-create-a-15-second-vertical-9-16-text-on.mp4",
+          "kind": "video",
+          "durationInSeconds": 5.546667
+        }
+      ],
+      "audio": null,
+      "scenes": [
+        {
+          "id": "create-jobmtssb-1",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "BOLD.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#AD00FF",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "BOLD.",
+              "x": 0.5,
+              "y": 0.5,
+              "size": 0.42,
+              "rotation": 0,
+              "color": "#AD00FF",
+              "dir": "zoom",
+              "start": 0,
+              "dur": 0.4,
+              "order": 1,
+              "effect": "zoomcut"
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtssb-2",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "DIFFERENT.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#FF0063",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "DIFFERENT.",
+              "x": 0.5,
+              "y": 0.75,
+              "size": 0.34,
+              "rotation": 15,
+              "color": "#FF0063",
+              "dir": "right",
+              "start": 0.1,
+              "dur": 0.5,
+              "order": 1,
+              "effect": "slide"
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtssb-3",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "SHARP.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#AD00FF",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "SHARP.",
+              "x": 0.35,
+              "y": 0.4,
+              "size": 0.38,
+              "rotation": -20,
+              "color": "#AD00FF",
+              "dir": "left",
+              "start": 0.1,
+              "dur": 0.35,
+              "order": 2,
+              "effect": "zoomcut"
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtssb-4",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "FEARLESS.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#AD00FF",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "SHARP.",
+              "x": 0.3,
+              "y": 0.35,
+              "size": 0.24,
+              "rotation": -20,
+              "color": "#AD00FF",
+              "dir": "left",
+              "start": 0,
+              "dur": 0.2,
+              "order": 1,
+              "effect": "spin"
+            },
+            {
+              "text": "FEARLESS.",
+              "x": 0.6,
+              "y": 0.55,
+              "size": 0.34,
+              "rotation": 8,
+              "color": "#FF0063",
+              "dir": "right",
+              "start": 0.15,
+              "dur": 0.4,
+              "order": 2,
+              "effect": "slide"
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtssb-5",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "UNMISSABLE.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#AD00FF",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "UNMISSABLE.",
+              "x": 0.5,
+              "y": 0.5,
+              "size": 0.4,
+              "rotation": 0,
+              "color": "#AD00FF",
+              "dir": "down",
+              "start": 0,
+              "dur": 0.3,
+              "order": 1,
+              "effect": "wordpop"
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtssb-6",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "RELIABLE.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#FF0063",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "RELIABLE.",
+              "x": 0.5,
+              "y": 0.5,
+              "size": 0.36,
+              "rotation": 0,
+              "color": "#FF0063",
+              "dir": "right",
+              "start": 0,
+              "dur": 0.35,
+              "order": 1,
+              "effect": "slide"
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtssb-7",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "D2 MEDIA MAKE YOUR MESSAGE MATTER.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#AD00FF",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "D2 MEDIA",
+              "x": 0.5,
+              "y": 0.4,
+              "size": 0.3,
+              "rotation": 0,
+              "color": "#AD00FF",
+              "dir": "down",
+              "start": 0,
+              "dur": 0.6,
+              "order": 1,
+              "effect": "colorcycle"
+            },
+            {
+              "text": "MAKE YOUR MESSAGE MATTER.",
+              "x": 0.5,
+              "y": 0.62,
+              "size": 0.1,
+              "rotation": 0,
+              "color": "#FF0063",
+              "dir": "up",
+              "start": 0.8,
+              "dur": 0.6,
+              "order": 2,
+              "effect": "slide"
+            }
+          ],
+          "tagline": "MAKE YOUR MESSAGE MATTER."
+        }
+      ]
+    }
+  },
+  {
+    "id": "job-mtsuq3la-0",
+    "format": "animated",
+    "title": "OPTIMIZED PROMPT: 15-Second Kinetic Typography Reel\nProject: D2 Media Communication Brand Reel\nFormat: 9:16 Vertical | 15 Seconds | Text-Only Kinetic Typography\nMaster Vibe: \"We know who we are. We know what we do. And we’re not here to blend in.\" The tone is confident, unconventional, punchy, and premium.\n\n1. GLOBAL RULES & CONSTRAINTS\nVisuals: 100% typography. NO photography, illustrations, icons, people, objects, or imagery.\nAudio: No voiceover. No music-dependent storytelling. Pure visual motion.\nBackground: Solid Indigo #0E0B20 (consistently dominant).\nFont: Jost (Heavy/Black/Bold weights only). Clean, modern, geometric, highly legible.\nLayout: Oversized words that fill the screen. Intentionally crop letters off the edges. Arrange type at different angles, sizes, and positions to create a dynamic editorial collage. Allow words to overlap and interact.\nMotion: Fast, kinetic, purposeful. No simple fading. Use quick slides, snaps, rotations, scale-ups, and overshoots.\n2. COLOR STRATEGY\nAlternate text colors for emphasis and visual rhythm:\n\nColor A (Electric Purple): #AD00FF\nColor B (Hot Coral): #FF0063\n3. SCENE-BY-SCENE STORYBOARD\nScene 1 (0–2 sec): \"BOLD.\"\n\nText: BOLD. (Color A - #AD00FF)\nMotion: The word \"BOLD.\" scales up rapidly from 0% to 120% in the center, snapping with a slight overshoot. The word is so large it bleeds off the left and right edges.\nScene 2 (2–4 sec): \"DIFFERENT.\"\n\nText: DIFFERENT. (Color B - #FF0063)\nMotion: \"BOLD.\" quickly slides off-screen to the left. \"DIFFERENT.\" flies in from the right, rotating 15 degrees as it locks into the lower third of the screen, filling the width.\nScene 3 (4–6 sec): \"SHARP.\"\n\nText: SHARP. (Color A - #AD00FF)\nMotion: \"DIFFERENT.\" slides down off-screen. \"SHARP.\" enters from the top-left corner, diagonally angled. It scales up rapidly, slicing across the screen like a knife.\nScene 4 (6–8 sec): \"FEARLESS.\"\n\nText: FEARLESS. (Color B - #FF0063)\nMotion: A kinetic collage moment. \"SHARP.\" remains, slightly shrinking and moving to the background. \"FEARLESS.\" slides in horizontally from the right, overlapping \"SHARP.\" in a contrasting color and angle.\nScene 5 (8–10 sec): \"UNMISSABLE.\"\n\nText: UNMISSABLE. (Color A - #AD00FF)\nMotion: The \"FEARLESS/SHARP\" collage splits apart and exits the top and bottom. \"UNMISSABLE.\" stomps into the dead center, perfectly straight, taking up 80% of the screen height.\nScene 6 (10–12 sec): \"RELIABLE.\"\n\nText: RELIABLE. (Color B - #FF0063)\nMotion: \"UNMISSABLE.\" slides horizontally to the right, revealing \"RELIABLE.\" underneath it, which was hidden off-screen. They briefly overlap before \"UNMISSABLE\" exits completely on the right.\nScene 7 (12–15 sec): THE PAYOFF (SLOWDOWN)\n\nText 1: D2 MEDIA (Color A - #AD00FF)\nText 2: MAKE YOUR MESSAGE MATTER. (Color B - #FF0063)\nMotion: Pacing slows down significantly for a premium, confident finish. The previous words clear the screen. \"D2 MEDIA\" drops in from the top, locking dead center, perfectly straight, filling 60% of the screen.\nFinal Frame (14–15 sec): \"D2 MEDIA\" remains locked. Beneath it, \"MAKE YOUR MESSAGE MATTER.\" smoothly slides up from the bottom, settling just below \"D2 MEDIA\" in a smaller, but still bold, tracking-wide format. The composition is clean, instantly readable, and powerful.\n4. NEGATIVE PROMPT (FOR AI GENERATORS)\nNo photos, no videos, no stock footage, no people, no faces, no 3d renders, no illustrations, no graphics, no logos, no shapes, no gradients, no corporate templates, no fading transitions, no generic motion.",
+    "createdAt": 1788883073868,
+    "project": {
+      "title": "OPTIMIZED PROMPT: 15-Second Kinetic Typography Reel\nProject: D2 Media Communication Brand Reel\nFormat: 9:16 Vertical | 15 Seconds | Text-Only Kinetic Typography\nMaster Vibe: \"We know who we are. We know what we do. And we’re not here to blend in.\" The tone is confident, unconventional, punchy, and premium.\n\n1. GLOBAL RULES & CONSTRAINTS\nVisuals: 100% typography. NO photography, illustrations, icons, people, objects, or imagery.\nAudio: No voiceover. No music-dependent storytelling. Pure visual motion.\nBackground: Solid Indigo #0E0B20 (consistently dominant).\nFont: Jost (Heavy/Black/Bold weights only). Clean, modern, geometric, highly legible.\nLayout: Oversized words that fill the screen. Intentionally crop letters off the edges. Arrange type at different angles, sizes, and positions to create a dynamic editorial collage. Allow words to overlap and interact.\nMotion: Fast, kinetic, purposeful. No simple fading. Use quick slides, snaps, rotations, scale-ups, and overshoots.\n2. COLOR STRATEGY\nAlternate text colors for emphasis and visual rhythm:\n\nColor A (Electric Purple): #AD00FF\nColor B (Hot Coral): #FF0063\n3. SCENE-BY-SCENE STORYBOARD\nScene 1 (0–2 sec): \"BOLD.\"\n\nText: BOLD. (Color A - #AD00FF)\nMotion: The word \"BOLD.\" scales up rapidly from 0% to 120% in the center, snapping with a slight overshoot. The word is so large it bleeds off the left and right edges.\nScene 2 (2–4 sec): \"DIFFERENT.\"\n\nText: DIFFERENT. (Color B - #FF0063)\nMotion: \"BOLD.\" quickly slides off-screen to the left. \"DIFFERENT.\" flies in from the right, rotating 15 degrees as it locks into the lower third of the screen, filling the width.\nScene 3 (4–6 sec): \"SHARP.\"\n\nText: SHARP. (Color A - #AD00FF)\nMotion: \"DIFFERENT.\" slides down off-screen. \"SHARP.\" enters from the top-left corner, diagonally angled. It scales up rapidly, slicing across the screen like a knife.\nScene 4 (6–8 sec): \"FEARLESS.\"\n\nText: FEARLESS. (Color B - #FF0063)\nMotion: A kinetic collage moment. \"SHARP.\" remains, slightly shrinking and moving to the background. \"FEARLESS.\" slides in horizontally from the right, overlapping \"SHARP.\" in a contrasting color and angle.\nScene 5 (8–10 sec): \"UNMISSABLE.\"\n\nText: UNMISSABLE. (Color A - #AD00FF)\nMotion: The \"FEARLESS/SHARP\" collage splits apart and exits the top and bottom. \"UNMISSABLE.\" stomps into the dead center, perfectly straight, taking up 80% of the screen height.\nScene 6 (10–12 sec): \"RELIABLE.\"\n\nText: RELIABLE. (Color B - #FF0063)\nMotion: \"UNMISSABLE.\" slides horizontally to the right, revealing \"RELIABLE.\" underneath it, which was hidden off-screen. They briefly overlap before \"UNMISSABLE\" exits completely on the right.\nScene 7 (12–15 sec): THE PAYOFF (SLOWDOWN)\n\nText 1: D2 MEDIA (Color A - #AD00FF)\nText 2: MAKE YOUR MESSAGE MATTER. (Color B - #FF0063)\nMotion: Pacing slows down significantly for a premium, confident finish. The previous words clear the screen. \"D2 MEDIA\" drops in from the top, locking dead center, perfectly straight, filling 60% of the screen.\nFinal Frame (14–15 sec): \"D2 MEDIA\" remains locked. Beneath it, \"MAKE YOUR MESSAGE MATTER.\" smoothly slides up from the bottom, settling just below \"D2 MEDIA\" in a smaller, but still bold, tracking-wide format. The composition is clean, instantly readable, and powerful.\n4. NEGATIVE PROMPT (FOR AI GENERATORS)\nNo photos, no videos, no stock footage, no people, no faces, no 3d renders, no illustrations, no graphics, no logos, no shapes, no gradients, no corporate templates, no fading transitions, no generic motion.",
+      "fps": 30,
+      "width": 1080,
+      "height": 1920,
+      "transition": "fade",
+      "transitionDurationInSeconds": 0.5,
+      "assets": [
+        {
+          "name": "create-a-15-second-vertical-9-16-text-only-brand-r.mp4",
+          "src": "uploads/1788871555712-create-a-15-second-vertical-9-16-text-on.mp4",
+          "kind": "video",
+          "durationInSeconds": 5.546667
+        }
+      ],
+      "audio": null,
+      "scenes": [
+        {
+          "id": "create-jobmtsuq-1",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "BOLD.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#AD00FF",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "BOLD.",
+              "x": 0.5,
+              "y": 0.5,
+              "size": 0.42,
+              "rotation": 0,
+              "color": "#AD00FF",
+              "dir": "zoom",
+              "start": 0,
+              "dur": 0.4,
+              "order": 1,
+              "effect": "zoomcut"
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtsuq-2",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "DIFFERENT.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#FF0063",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "DIFFERENT.",
+              "x": 0.5,
+              "y": 0.78,
+              "size": 0.32,
+              "rotation": 15,
+              "color": "#FF0063",
+              "dir": "right",
+              "start": 0.1,
+              "dur": 0.35,
+              "order": 1,
+              "effect": "slide"
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtsuq-3",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "SHARP.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#AD00FF",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "SHARP.",
+              "x": 0.4,
+              "y": 0.35,
+              "size": 0.36,
+              "rotation": -20,
+              "color": "#AD00FF",
+              "dir": "left",
+              "start": 0,
+              "dur": 0.3,
+              "order": 1,
+              "effect": "char"
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtsuq-4",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "FEARLESS.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#AD00FF",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "SHARP.",
+              "x": 0.38,
+              "y": 0.32,
+              "size": 0.24,
+              "rotation": -20,
+              "color": "#AD00FF",
+              "dir": "left",
+              "start": 0,
+              "dur": 0.1,
+              "order": 1,
+              "effect": "spin"
+            },
+            {
+              "text": "FEARLESS.",
+              "x": 0.58,
+              "y": 0.55,
+              "size": 0.34,
+              "rotation": 8,
+              "color": "#FF0063",
+              "dir": "right",
+              "start": 0.15,
+              "dur": 0.35,
+              "order": 2,
+              "effect": "rotate3d"
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtsuq-5",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "UNMISSABLE.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#AD00FF",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "UNMISSABLE.",
+              "x": 0.5,
+              "y": 0.5,
+              "size": 0.4,
+              "rotation": 0,
+              "color": "#AD00FF",
+              "dir": "down",
+              "start": 0,
+              "dur": 0.3,
+              "order": 1,
+              "effect": "wordpop"
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtsuq-6",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "RELIABLE.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#FF0063",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "RELIABLE.",
+              "x": 0.5,
+              "y": 0.5,
+              "size": 0.36,
+              "rotation": 0,
+              "color": "#FF0063",
+              "dir": "left",
+              "start": 0,
+              "dur": 0.25,
+              "order": 1,
+              "effect": "slide"
+            },
+            {
+              "text": "UNMISSABLE.",
+              "x": 0.5,
+              "y": 0.5,
+              "size": 0.4,
+              "rotation": 0,
+              "color": "#AD00FF",
+              "dir": "right",
+              "start": 0.2,
+              "dur": 0.35,
+              "order": 2,
+              "effect": "zoomcut"
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtsuq-7",
+          "durationInSeconds": 3.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "D2 MEDIA MAKE YOUR MESSAGE MATTER.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#AD00FF",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "D2",
+              "x": 0.4,
+              "y": 0.42,
+              "size": 0.34,
+              "rotation": 0,
+              "color": "#AD00FF",
+              "dir": "down",
+              "start": 0,
+              "dur": 0.6,
+              "order": 1,
+              "effect": "colorcycle"
+            },
+            {
+              "text": "MEDIA",
+              "x": 0.6,
+              "y": 0.42,
+              "size": 0.34,
+              "rotation": 0,
+              "color": "#AD00FF",
+              "dir": "down",
+              "start": 0.05,
+              "dur": 0.6,
+              "order": 1,
+              "effect": "colorcycle"
+            },
+            {
+              "text": "MAKE",
+              "x": 0.25,
+              "y": 0.68,
+              "size": 0.09,
+              "rotation": 0,
+              "color": "#FF0063",
+              "dir": "up",
+              "start": 0.8,
+              "dur": 0.4,
+              "order": 2,
+              "effect": "slide"
+            },
+            {
+              "text": "YOUR",
+              "x": 0.4,
+              "y": 0.68,
+              "size": 0.09,
+              "rotation": 0,
+              "color": "#FF0063",
+              "dir": "up",
+              "start": 0.85,
+              "dur": 0.4,
+              "order": 2,
+              "effect": "slide"
+            },
+            {
+              "text": "MESSAGE",
+              "x": 0.6,
+              "y": 0.68,
+              "size": 0.09,
+              "rotation": 0,
+              "color": "#FF0063",
+              "dir": "up",
+              "start": 0.9,
+              "dur": 0.4,
+              "order": 2,
+              "effect": "slide"
+            },
+            {
+              "text": "MATTER.",
+              "x": 0.78,
+              "y": 0.68,
+              "size": 0.09,
+              "rotation": 0,
+              "color": "#FF0063",
+              "dir": "up",
+              "start": 0.95,
+              "dur": 0.4,
+              "order": 2,
+              "effect": "slide"
+            }
+          ],
+          "tagline": "MAKE YOUR MESSAGE MATTER."
+        }
+      ]
+    }
+  },
+  {
+    "id": "job-mtsy7iob-0",
+    "format": "animated",
+    "title": "OPTIMIZED PROMPT: 15-Second Kinetic Typography Reel\nProject: D2 Media Communication Brand Reel\nFormat: 9:16 Vertical | 15 Seconds | Text-Only Kinetic Typography\nMaster Vibe: \"We know who we are. We know what we do. And we’re not here to blend in.\" The tone is confident, unconventional, punchy, and premium.\n\n1. GLOBAL RULES & CONSTRAINTS\nVisuals: 100% typography. NO photography, illustrations, icons, people, objects, or imagery.\nAudio: No voiceover. No music-dependent storytelling. Pure visual motion.\nBackground: Solid Indigo #0E0B20 (consistently dominant).\nFont: Jost (Heavy/Black/Bold weights only). Clean, modern, geometric, highly legible.\nLayout: Oversized words that fill the screen. Intentionally crop letters off the edges. Arrange type at different angles, sizes, and positions to create a dynamic editorial collage. Allow words to overlap and interact.\nMotion: Fast, kinetic, purposeful. No simple fading. Use quick slides, snaps, rotations, scale-ups, and overshoots.\n2. COLOR STRATEGY\nAlternate text colors for emphasis and visual rhythm:\n\nColor A (Electric Purple): #AD00FF\nColor B (Hot Coral): #FF0063\n3. SCENE-BY-SCENE STORYBOARD\nScene 1 (0–2 sec): \"BOLD.\"\n\nText: BOLD. (Color A - #AD00FF)\nMotion: The word \"BOLD.\" scales up rapidly from 0% to 120% in the center, snapping with a slight overshoot. The word is so large it bleeds off the left and right edges.\nScene 2 (2–4 sec): \"DIFFERENT.\"\n\nText: DIFFERENT. (Color B - #FF0063)\nMotion: \"BOLD.\" quickly slides off-screen to the left. \"DIFFERENT.\" flies in from the right, rotating 15 degrees as it locks into the lower third of the screen, filling the width.\nScene 3 (4–6 sec): \"SHARP.\"\n\nText: SHARP. (Color A - #AD00FF)\nMotion: \"DIFFERENT.\" slides down off-screen. \"SHARP.\" enters from the top-left corner, diagonally angled. It scales up rapidly, slicing across the screen like a knife.\nScene 4 (6–8 sec): \"FEARLESS.\"\n\nText: FEARLESS. (Color B - #FF0063)\nMotion: A kinetic collage moment. \"SHARP.\" remains, slightly shrinking and moving to the background. \"FEARLESS.\" slides in horizontally from the right, overlapping \"SHARP.\" in a contrasting color and angle.\nScene 5 (8–10 sec): \"UNMISSABLE.\"\n\nText: UNMISSABLE. (Color A - #AD00FF)\nMotion: The \"FEARLESS/SHARP\" collage splits apart and exits the top and bottom. \"UNMISSABLE.\" stomps into the dead center, perfectly straight, taking up 80% of the screen height.\nScene 6 (10–12 sec): \"RELIABLE.\"\n\nText: RELIABLE. (Color B - #FF0063)\nMotion: \"UNMISSABLE.\" slides horizontally to the right, revealing \"RELIABLE.\" underneath it, which was hidden off-screen. They briefly overlap before \"UNMISSABLE\" exits completely on the right.\nScene 7 (12–15 sec): THE PAYOFF (SLOWDOWN)\n\nText 1: D2 MEDIA (Color A - #AD00FF)\nText 2: MAKE YOUR MESSAGE MATTER. (Color B - #FF0063)\nMotion: Pacing slows down significantly for a premium, confident finish. The previous words clear the screen. \"D2 MEDIA\" drops in from the top, locking dead center, perfectly straight, filling 60% of the screen.\nFinal Frame (14–15 sec): \"D2 MEDIA\" remains locked. Beneath it, \"MAKE YOUR MESSAGE MATTER.\" smoothly slides up from the bottom, settling just below \"D2 MEDIA\" in a smaller, but still bold, tracking-wide format. The composition is clean, instantly readable, and powerful.\n4. NEGATIVE PROMPT (FOR AI GENERATORS)\nNo photos, no videos, no stock footage, no people, no faces, no 3d renders, no illustrations, no graphics, no logos, no shapes, no gradients, no corporate templates, no fading transitions, no generic motion.",
+    "createdAt": 1788888934021,
+    "project": {
+      "title": "OPTIMIZED PROMPT: 15-Second Kinetic Typography Reel\nProject: D2 Media Communication Brand Reel\nFormat: 9:16 Vertical | 15 Seconds | Text-Only Kinetic Typography\nMaster Vibe: \"We know who we are. We know what we do. And we’re not here to blend in.\" The tone is confident, unconventional, punchy, and premium.\n\n1. GLOBAL RULES & CONSTRAINTS\nVisuals: 100% typography. NO photography, illustrations, icons, people, objects, or imagery.\nAudio: No voiceover. No music-dependent storytelling. Pure visual motion.\nBackground: Solid Indigo #0E0B20 (consistently dominant).\nFont: Jost (Heavy/Black/Bold weights only). Clean, modern, geometric, highly legible.\nLayout: Oversized words that fill the screen. Intentionally crop letters off the edges. Arrange type at different angles, sizes, and positions to create a dynamic editorial collage. Allow words to overlap and interact.\nMotion: Fast, kinetic, purposeful. No simple fading. Use quick slides, snaps, rotations, scale-ups, and overshoots.\n2. COLOR STRATEGY\nAlternate text colors for emphasis and visual rhythm:\n\nColor A (Electric Purple): #AD00FF\nColor B (Hot Coral): #FF0063\n3. SCENE-BY-SCENE STORYBOARD\nScene 1 (0–2 sec): \"BOLD.\"\n\nText: BOLD. (Color A - #AD00FF)\nMotion: The word \"BOLD.\" scales up rapidly from 0% to 120% in the center, snapping with a slight overshoot. The word is so large it bleeds off the left and right edges.\nScene 2 (2–4 sec): \"DIFFERENT.\"\n\nText: DIFFERENT. (Color B - #FF0063)\nMotion: \"BOLD.\" quickly slides off-screen to the left. \"DIFFERENT.\" flies in from the right, rotating 15 degrees as it locks into the lower third of the screen, filling the width.\nScene 3 (4–6 sec): \"SHARP.\"\n\nText: SHARP. (Color A - #AD00FF)\nMotion: \"DIFFERENT.\" slides down off-screen. \"SHARP.\" enters from the top-left corner, diagonally angled. It scales up rapidly, slicing across the screen like a knife.\nScene 4 (6–8 sec): \"FEARLESS.\"\n\nText: FEARLESS. (Color B - #FF0063)\nMotion: A kinetic collage moment. \"SHARP.\" remains, slightly shrinking and moving to the background. \"FEARLESS.\" slides in horizontally from the right, overlapping \"SHARP.\" in a contrasting color and angle.\nScene 5 (8–10 sec): \"UNMISSABLE.\"\n\nText: UNMISSABLE. (Color A - #AD00FF)\nMotion: The \"FEARLESS/SHARP\" collage splits apart and exits the top and bottom. \"UNMISSABLE.\" stomps into the dead center, perfectly straight, taking up 80% of the screen height.\nScene 6 (10–12 sec): \"RELIABLE.\"\n\nText: RELIABLE. (Color B - #FF0063)\nMotion: \"UNMISSABLE.\" slides horizontally to the right, revealing \"RELIABLE.\" underneath it, which was hidden off-screen. They briefly overlap before \"UNMISSABLE\" exits completely on the right.\nScene 7 (12–15 sec): THE PAYOFF (SLOWDOWN)\n\nText 1: D2 MEDIA (Color A - #AD00FF)\nText 2: MAKE YOUR MESSAGE MATTER. (Color B - #FF0063)\nMotion: Pacing slows down significantly for a premium, confident finish. The previous words clear the screen. \"D2 MEDIA\" drops in from the top, locking dead center, perfectly straight, filling 60% of the screen.\nFinal Frame (14–15 sec): \"D2 MEDIA\" remains locked. Beneath it, \"MAKE YOUR MESSAGE MATTER.\" smoothly slides up from the bottom, settling just below \"D2 MEDIA\" in a smaller, but still bold, tracking-wide format. The composition is clean, instantly readable, and powerful.\n4. NEGATIVE PROMPT (FOR AI GENERATORS)\nNo photos, no videos, no stock footage, no people, no faces, no 3d renders, no illustrations, no graphics, no logos, no shapes, no gradients, no corporate templates, no fading transitions, no generic motion.",
+      "fps": 30,
+      "width": 1080,
+      "height": 1920,
+      "transition": "fade",
+      "transitionDurationInSeconds": 0.5,
+      "assets": [
+        {
+          "name": "create-a-15-second-vertical-9-16-text-only-brand-r.mp4",
+          "src": "uploads/1788871555712-create-a-15-second-vertical-9-16-text-on.mp4",
+          "kind": "video",
+          "durationInSeconds": 5.546667
+        }
+      ],
+      "audio": null,
+      "scenes": [
+        {
+          "id": "create-jobmtsy7-1",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "BOLD.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#AD00FF",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "BOLD.",
+              "x": 0.5,
+              "y": 0.5,
+              "size": 0.42,
+              "rotation": 0,
+              "color": "#AD00FF",
+              "dir": "zoom",
+              "start": 0,
+              "dur": 0.5,
+              "order": 1,
+              "effect": "zoomcut"
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtsy7-2",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "DIFFERENT.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#FF0063",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "DIFFERENT.",
+              "x": 0.5,
+              "y": 0.75,
+              "size": 0.32,
+              "rotation": 15,
+              "color": "#FF0063",
+              "dir": "right",
+              "start": 0,
+              "dur": 0.4,
+              "order": 1,
+              "effect": "slide"
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtsy7-3",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "SHARP.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#AD00FF",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "SHARP.",
+              "x": 0.42,
+              "y": 0.4,
+              "size": 0.38,
+              "rotation": -12,
+              "color": "#AD00FF",
+              "dir": "left",
+              "start": 0,
+              "dur": 0.35,
+              "order": 1,
+              "effect": "zoomcut"
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtsy7-4",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "SHARP. FEARLESS.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#AD00FF",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "SHARP.",
+              "x": 0.35,
+              "y": 0.4,
+              "size": 0.3,
+              "rotation": -12,
+              "color": "#AD00FF",
+              "dir": "zoom",
+              "start": 0,
+              "dur": 0.3,
+              "order": 1
+            },
+            {
+              "text": "FEARLESS.",
+              "x": 0.6,
+              "y": 0.55,
+              "size": 0.36,
+              "rotation": 8,
+              "color": "#FF0063",
+              "dir": "right",
+              "start": 0.15,
+              "dur": 0.4,
+              "order": 2,
+              "effect": "rotate3d"
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtsy7-5",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "UNMISSABLE.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#AD00FF",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "UNMISSABLE.",
+              "x": 0.5,
+              "y": 0.5,
+              "size": 0.4,
+              "rotation": 0,
+              "color": "#AD00FF",
+              "dir": "down",
+              "start": 0,
+              "dur": 0.3,
+              "order": 1,
+              "effect": "wordpop"
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtsy7-6",
+          "durationInSeconds": 1.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "UNMISSABLE. RELIABLE.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#FF0063",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "RELIABLE.",
+              "x": 0.5,
+              "y": 0.5,
+              "size": 0.38,
+              "rotation": 0,
+              "color": "#FF0063",
+              "dir": "left",
+              "start": 0,
+              "dur": 0.3,
+              "order": 1
+            },
+            {
+              "text": "UNMISSABLE.",
+              "x": 0.6,
+              "y": 0.5,
+              "size": 0.4,
+              "rotation": 0,
+              "color": "#AD00FF",
+              "dir": "right",
+              "start": 0.1,
+              "dur": 0.35,
+              "order": 2,
+              "effect": "slide"
+            }
+          ]
+        },
+        {
+          "id": "create-jobmtsy7-7",
+          "durationInSeconds": 3.5,
+          "overlays": [],
+          "type": "text",
+          "prompt": "D2 MEDIA MAKE YOUR MESSAGE MATTER.",
+          "subtitle": "",
+          "background": "#0E0B20",
+          "color": "#AD00FF",
+          "variant": "kinetic",
+          "kineticWords": [
+            {
+              "text": "D2",
+              "x": 0.4,
+              "y": 0.38,
+              "size": 0.36,
+              "rotation": 0,
+              "color": "#AD00FF",
+              "dir": "down",
+              "start": 0,
+              "dur": 0.6,
+              "order": 1,
+              "effect": "colorcycle"
+            },
+            {
+              "text": "MEDIA",
+              "x": 0.62,
+              "y": 0.38,
+              "size": 0.36,
+              "rotation": 0,
+              "color": "#AD00FF",
+              "dir": "down",
+              "start": 0.15,
+              "dur": 0.6,
+              "order": 1,
+              "effect": "colorcycle"
+            },
+            {
+              "text": "MAKE",
+              "x": 0.28,
+              "y": 0.62,
+              "size": 0.16,
+              "rotation": 0,
+              "color": "#FF0063",
+              "dir": "up",
+              "start": 0.8,
+              "dur": 0.5,
+              "order": 2
+            },
+            {
+              "text": "YOUR",
+              "x": 0.42,
+              "y": 0.62,
+              "size": 0.16,
+              "rotation": 0,
+              "color": "#FF0063",
+              "dir": "up",
+              "start": 0.9,
+              "dur": 0.5,
+              "order": 2
+            },
+            {
+              "text": "MESSAGE",
+              "x": 0.62,
+              "y": 0.62,
+              "size": 0.16,
+              "rotation": 0,
+              "color": "#FF0063",
+              "dir": "up",
+              "start": 1,
+              "dur": 0.5,
+              "order": 2
+            },
+            {
+              "text": "MATTER.",
+              "x": 0.5,
+              "y": 0.7,
+              "size": 0.16,
+              "rotation": 0,
+              "color": "#FF0063",
+              "dir": "up",
+              "start": 1.1,
+              "dur": 0.5,
+              "order": 2
+            }
+          ],
+          "tagline": "MAKE YOUR MESSAGE MATTER."
+        }
+      ]
+    }
+  }
+]

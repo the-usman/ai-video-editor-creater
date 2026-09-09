@@ -6,6 +6,7 @@
 //   DELETE /api/asset     { src }              -> removes an asset + scenes that use it
 //   POST   /api/render                         -> renders GeneratedVideo to out/video.mp4
 //   GET    /api/download                       -> downloads the last rendered mp4
+//   POST   /api/image/create  { prompt, provider, width, height } -> makes a downloadable image
 //   POST   /api/chat      { messages, project } -> Claude turns the chat into timeline edits
 //
 // Run from the project root:  npm run server   (uses tsx so it can share src/project/*)
@@ -20,6 +21,15 @@ import multer from "multer";
 import { defaultProject } from "../src/project/defaultProject";
 import { applyAction, describeProject, OperationError } from "../src/project/operations";
 import { SYSTEM_PROMPT, toolDefinitions } from "../src/project/tools";
+import {
+  createJobs,
+  generateImage,
+  newJobId,
+  renderTypographySvg,
+  runCreateJob,
+  type CreateJob,
+  type ImageProvider,
+} from "./creator";
 import type { AssetKind, Project } from "../src/project/types";
 
 // --- tiny .env loader (KEY=VALUE lines, no deps) ---------------------------
@@ -146,6 +156,41 @@ app.delete("/api/asset", (req, res) => {
   }
 });
 
+// --- code editor ---------------------------------------------------------
+// The generated animation code lives in src/generated/CustomScenes.tsx. The
+// "Open in editor" button opens this file in the user's installed editor
+// (VS Code's `code` CLI preferred, else the OS-default app) so they can edit
+// the LLM-written animation code however they like.
+
+const codeFile = join(process.cwd(), "src", "generated", "CustomScenes.tsx");
+
+const launchEditor = (path: string): void => {
+  const fallback = () => {
+    if (process.platform === "darwin") spawn("open", [path]).unref();
+    else if (process.platform === "win32") spawn("cmd", ["/c", "start", "", path], { shell: true }).unref();
+    else spawn("xdg-open", [path]).unref();
+  };
+  const code = spawn("code", [path], { cwd: process.cwd(), shell: process.platform === "win32" });
+  code.on("error", fallback);
+  code.on("close", (exitCode) => {
+    if (exitCode !== 0) fallback();
+  });
+};
+
+app.post("/api/code/open", (_req, res) => {
+  if (!existsSync(codeFile)) {
+    return res
+      .status(404)
+      .json({ error: "No animation code yet — generate a Text / Animated text video in Creator mode first." });
+  }
+  try {
+    launchEditor(codeFile);
+    res.json({ ok: true, message: `Opened in your editor — save the file there and the preview updates automatically.` });
+  } catch (err) {
+    res.status(500).json({ error: `Could not open the editor: ${String(err)}` });
+  }
+});
+
 // --- render + download --------------------------------------------------
 let rendering = false;
 
@@ -202,6 +247,60 @@ app.get("/api/download", (req, res) => {
   }
   const name = typeof req.query.name === "string" ? req.query.name : "video.mp4";
   res.download(outFile, name.endsWith(".mp4") ? name : `${name}.mp4`);
+});
+
+// --- standalone image maker ------------------------------------------------
+// POST /api/image/create  { prompt, provider, width, height, imageModel }
+// Creates ONE downloadable image (AI or typographic SVG poster) from text.
+const clampInt = (v: unknown, lo: number, hi: number, fallback: number): number => {
+  const n = Number(v);
+  return Number.isFinite(n) ? Math.round(Math.min(hi, Math.max(lo, n))) : fallback;
+};
+
+app.post("/api/image/create", async (req, res) => {
+  const falKey = process.env.FAL_KEY?.trim() ?? "";
+  const prompt = String(req.body?.prompt ?? "").trim();
+  const rawProvider = String(req.body?.provider ?? "auto").toLowerCase();
+  const provider: ImageProvider =
+    rawProvider === "fal" || rawProvider === "pollinations" || rawProvider === "typography"
+      ? rawProvider
+      : falKey
+        ? "fal"
+        : "pollinations";
+  const width = clampInt(req.body?.width, 320, 2048, 1280);
+  const height = clampInt(req.body?.height, 320, 2048, 720);
+  if (!prompt) return res.status(400).json({ error: "Type a description first." });
+  if (provider === "fal" && !falKey) {
+    return res.status(400).json({
+      error: "fal.ai needs a FAL_KEY in .env — pick the Free AI or Text poster option instead.",
+    });
+  }
+
+  const fileBase = `img-standalone-${Date.now()}-${Math.floor(Math.random() * 1e6)}`;
+  const ext = provider === "typography" ? ".svg" : ".jpg";
+  const outFile = join(uploadsDir, "generated", `${fileBase}${ext}`);
+  try {
+    if (provider === "typography") {
+      // The image IS the text: a typographic poster set in a rotated font.
+      const { svg } = renderTypographySvg(prompt, width, height);
+      mkdirSync(join(outFile, ".."), { recursive: true });
+      writeFileSync(outFile, svg, "utf8");
+    } else {
+      await generateImage(
+        provider,
+        falKey,
+        String(req.body?.imageModel ?? ""),
+        `${prompt}. highly detailed, cinematic`,
+        outFile,
+        width,
+        height,
+      );
+    }
+    const name = basename(outFile);
+    return res.json({ src: `/uploads/generated/${name}`, name });
+  } catch (err) {
+    return res.status(500).json({ error: `Image failed: ${String(err)}` });
+  }
 });
 
 // --- chat --------------------------------------------------------------
@@ -306,6 +405,199 @@ app.post("/api/chat", async (req, res) => {
   }
 });
 
+// --- creator mode (fal.ai images + ElevenLabs voiceover) -----------------
+// POST /api/create            { topic, title?, style?, numScenes?, formats[]? }
+//                            -> { jobs: [{ jobId, format, title }] }
+// GET  /api/create/status/:id -> { status, steps, log, result?, error? }
+// GET  /api/creator-versions  -> list of generated videos (one per format)
+// POST /api/creator-versions/set  { id } -> make a version the active project
+
+const FORMATS = ["images", "text", "animated", "mix"] as const;
+type CreateFormatId = (typeof FORMATS)[number];
+
+const FORMAT_LABELS: Record<CreateFormatId, string> = {
+  images: "Images",
+  text: "Text",
+  animated: "Animated text",
+  mix: "Image + text",
+};
+
+const versionsFile = join(publicDir, "creator-versions.json");
+type CreatorVersion = {
+  id: string;
+  format: CreateFormatId;
+  title: string;
+  createdAt: number;
+  project: Project;
+};
+const readVersions = (): CreatorVersion[] => {
+  try {
+    const arr = JSON.parse(readFileSync(versionsFile, "utf8")) as CreatorVersion[];
+    return Array.isArray(arr) ? arr : [];
+  } catch {
+    return [];
+  }
+};
+const writeVersions = (versions: CreatorVersion[]) =>
+  writeFileSync(versionsFile, JSON.stringify(versions, null, 2));
+
+const prunedJobs = () => {
+  if (createJobs.size <= 50) return;
+  const oldest = [...createJobs.values()].sort((a, b) => a.createdAt - b.createdAt);
+  for (const job of oldest.slice(0, createJobs.size - 50)) {
+    createJobs.delete(job.id);
+  }
+};
+
+app.post("/api/create", (req, res) => {
+  const anthropicKey = process.env.ANTHROPIC_API_KEY?.trim() ?? "";
+  const falKey = process.env.FAL_KEY?.trim() ?? "";
+  const elevenKey = process.env.ELEVENLABS_API_KEY?.trim() ?? "";
+  const topic = String(req.body?.topic ?? "").trim();
+  const baseTitle = String(req.body?.title ?? "").trim() || topic;
+  const style = String(req.body?.style ?? "").trim();
+  const rawNumScenes = Number(req.body?.numScenes);
+  const numScenes = Number.isFinite(rawNumScenes) && rawNumScenes >= 2 ? Math.round(rawNumScenes) : undefined;
+  const targetDuration = Number(req.body?.targetDuration);
+  const targetSeconds = Number.isFinite(targetDuration) && targetDuration >= 5 ? Math.round(targetDuration) : undefined;
+  const reqWidth = Number(req.body?.width);
+  const reqHeight = Number(req.body?.height);
+  const width = Number.isFinite(reqWidth) && reqWidth > 0 ? Math.round(reqWidth) : undefined;
+  const height = Number.isFinite(reqHeight) && reqHeight > 0 ? Math.round(reqHeight) : undefined;
+
+  // One video per selected format.
+  const rawFormats = Array.isArray(req.body?.formats)
+    ? req.body.formats
+    : req.body?.format
+      ? [req.body.format]
+      : ["images"];
+  const formats = [...new Set(rawFormats as unknown[])]
+    .filter((f): f is CreateFormatId => typeof f === "string" && (FORMATS as readonly string[]).includes(f))
+    .slice(0, 4) as CreateFormatId[];
+  if (formats.length === 0) formats.push("images");
+
+  const needsImages = formats.some((f) => f === "images" || f === "mix");
+  // Which AI image service to use. "auto" (default) prefers fal.ai when a key
+  // is present, otherwise falls back to the free Pollinations.ai. "typography"
+  // needs nothing: scenes become text/font posters (no AI images).
+  const rawProvider = String(req.body?.imageProvider ?? "auto").toLowerCase();
+  const requestedProvider: "fal" | "pollinations" | "typography" | "auto" =
+    rawProvider === "fal" || rawProvider === "pollinations" || rawProvider === "typography"
+      ? rawProvider
+      : "auto";
+  const imageProvider: "fal" | "pollinations" | "typography" =
+    requestedProvider === "auto" ? (falKey ? "fal" : "pollinations") : requestedProvider;
+  const missing: string[] = [];
+  if (!anthropicKey) missing.push("ANTHROPIC_API_KEY");
+  if (needsImages && imageProvider === "fal" && !falKey) missing.push("FAL_KEY");
+  if (!topic) missing.push("a topic");
+  if (missing.length) {
+    return res.status(400).json({
+      error: `Creator mode needs ${missing.join(", ")}. Set the keys in .env and restart the server. In the Creator panel you can also pick the "Free AI" or "Text posters" image source, which need no keys.`,
+    });
+  }
+
+  // Optional per-request image model override (otherwise .env FAL_IMAGE_MODEL or default).
+  const imageModel =
+    String(req.body?.imageModel ?? "").trim() || process.env.FAL_IMAGE_MODEL?.trim() || "";
+  // Uploaded images to mix into the video: array of public-relative srcs.
+  const uploadedImages = Array.isArray(req.body?.uploadedImages)
+    ? req.body.uploadedImages.filter((x: unknown): x is string => typeof x === "string" && !!x)
+    : [];
+
+  const jobs = formats.map((format) => {
+    const job: CreateJob = {
+      id: newJobId(),
+      topic,
+      status: "running" as CreateJob["status"],
+      steps: [] as { label: string; done: boolean }[],
+      log: [] as string[],
+      createdAt: Date.now(),
+    };
+    createJobs.set(job.id, job);
+    return {
+      job,
+      format,
+      title: formats.length > 1 ? `${baseTitle} — ${FORMAT_LABELS[format]}` : baseTitle,
+    };
+  });
+  prunedJobs();
+
+  res.json({
+    jobs: jobs.map(({ job, format, title }) => ({ jobId: job.id, format, title })),
+  });
+
+  // Run formats one after another so they don't step on project.json.
+  void (async () => {
+    for (const { job, format, title } of jobs) {
+      try {
+        const project = await runCreateJob(job, {
+          topic,
+          title,
+          style,
+          numScenes,
+          targetDuration: targetSeconds,
+          width,
+          height,
+          format,
+          imageModel,
+          imageProvider,
+          uploadedImages,
+          anthropicKey,
+          anthropicModel: process.env.ANTHROPIC_MODEL,
+          falKey,
+          elevenKey,
+          voiceId: process.env.ELEVENLABS_VOICE_ID?.trim(),
+          readProject,
+          writeProject,
+        });
+        if (job.status === "done") {
+          const versions = readVersions();
+          versions.push({ id: job.id, format, title: project.title, createdAt: Date.now(), project });
+          writeVersions(versions.slice(-24));
+        }
+      } catch {
+        /* status/error already set inside runCreateJob */
+      }
+    }
+  })();
+});
+
+app.get("/api/create/status/:id", (req, res) => {
+  const job = createJobs.get(req.params.id);
+  if (!job) return res.status(404).json({ error: "Unknown job. Start a new one." });
+  res.json({
+    status: job.status,
+    steps: job.steps,
+    log: job.log,
+    result: job.status === "done" ? job.result : undefined,
+    error: job.error,
+    topic: job.topic,
+  });
+});
+
+app.get("/api/creator-versions", (_req, res) => {
+  res.json({ versions: readVersions().map((v) => ({ id: v.id, format: v.format, title: v.title, createdAt: v.createdAt })) });
+});
+
+app.post("/api/creator-versions/set", (req, res) => {
+  const id = String(req.body?.id ?? "");
+  const version = readVersions().find((v) => v.id === id);
+  if (!version) return res.status(404).json({ error: "Unknown version." });
+  writeProject(version.project);
+  res.json({ project: version.project });
+});
+
+// --- production static app -------------------------------------------------
+// In production (`npx vite build`, outputs dist-app/) Express serves the editor
+// UI. Kept after the API routes so /api and /uploads always win. Local dev uses
+// the Vite dev server instead, so this is a no-op when dist-app is absent.
+const distDir = join(process.cwd(), "dist-app");
+if (existsSync(distDir)) {
+  app.use(express.static(distDir, { maxAge: "1h" }));
+  app.get(/^\/(app\/)?$/, (_req, res) => res.sendFile(join(distDir, "index.html")));
+}
+
 app
   .listen(PORT, () => {
     console.log(`\n  Video Builder server on http://localhost:${PORT}`);
@@ -314,6 +606,11 @@ app
       `  Model: ${MODEL}   API key: ${
         k ? `${k.slice(0, 11)}…${k.slice(-4)} (len ${k.length})` : "MISSING — add it to .env"
       }`,
+    );
+    const fal = process.env.FAL_KEY?.trim();
+    const elv = process.env.ELEVENLABS_API_KEY?.trim();
+    console.log(
+      `  Creator: fal.ai ${fal ? "✓" : "NO KEY"} · images default: ${fal ? "fal.ai" : "free Pollinations.ai"} · typography posters: OK (no key) · ElevenLabs ${elv ? "✓" : "NO KEY"} · voice ${process.env.ELEVENLABS_VOICE_ID?.trim() || "default"} · image model ${process.env.FAL_IMAGE_MODEL?.trim() || "fal-ai/fast-sdxl"}`,
     );
     console.log(`  Project -> ${projectFile}\n`);
   })

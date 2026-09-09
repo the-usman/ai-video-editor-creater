@@ -13,11 +13,12 @@ import {
   sceneDurationInFrames,
   transitionDurationInFrames,
 } from "../project/timeline";
-import type { Project, Scene } from "../project/types";
+import type { Project, Scene, TextScene as TextSceneType } from "../project/types";
 import { ImageScene } from "./scenes/ImageScene";
 import { Overlays } from "./scenes/Overlays";
 import { TextScene } from "./scenes/TextScene";
 import { VideoScene } from "./scenes/VideoScene";
+import { CustomScenes, type CustomSceneProps } from "../generated/CustomScenes";
 
 export type GeneratedVideoProps = {
   project: Project;
@@ -25,12 +26,58 @@ export type GeneratedVideoProps = {
 
 const isRemote = (src: string) => src.startsWith("http://") || src.startsWith("https://");
 
+/** Renders an LLM-written / hand-edited custom scene from src/generated/CustomScenes.tsx. */
+const CustomView: React.FC<{ scene: TextSceneType; comp: React.FC<CustomSceneProps> }> = ({
+  scene,
+  comp: Comp,
+}) => {
+  const words =
+    scene.kineticWords && scene.kineticWords.length > 0
+      ? scene.kineticWords.map((w) => w.text)
+      : (scene.prompt || scene.subtitle || "").split(/\s+/).filter(Boolean);
+  const secondaryColor =
+    scene.kineticWords && scene.kineticWords.length > 1 ? scene.kineticWords[1].color : undefined;
+  const accent = secondaryColor ?? (scene.color === "#ffffff" ? "#FF0063" : scene.color);
+  const props: CustomSceneProps = {
+    scene: {
+      caption: scene.prompt || scene.subtitle || "",
+      narration: scene.subtitle || "",
+      background: scene.background,
+      color: scene.color,
+      accent,
+      tagline: scene.tagline,
+      design: scene.design ?? scene.prompt,
+      words,
+    },
+  };
+  return <Comp scene={props.scene} />;
+};
+
 const SceneRenderer: React.FC<{ scene: Scene }> = ({ scene }) => {
+  const custom =
+    scene.type === "text" &&
+    scene.variant === "custom" &&
+    scene.customIndex != null &&
+    CustomScenes[scene.customIndex]
+      ? { comp: CustomScenes[scene.customIndex]!, scene: scene as TextSceneType }
+      : null;
   return (
     <AbsoluteFill>
-      {scene.type === "text" && <TextScene scene={scene} />}
-      {scene.type === "image" && <ImageScene scene={scene} />}
-      {scene.type === "video" && <VideoScene scene={scene} />}
+      {custom ? (
+        <CustomView scene={custom.scene} comp={custom.comp} />
+      ) : scene.type === "text" ? (
+        <TextScene scene={scene} />
+      ) : scene.type === "image" ? (
+        <ImageScene scene={scene} />
+      ) : (
+        <VideoScene scene={scene} />
+      )}
+      {scene.audioSrc ? (
+        <Audio
+          name="Scene voiceover"
+          src={isRemote(scene.audioSrc) ? scene.audioSrc : staticFile(scene.audioSrc)}
+        />
+      ) : null}
       <Overlays
         overlays={scene.overlays}
         sceneDurationInSeconds={scene.durationInSeconds}

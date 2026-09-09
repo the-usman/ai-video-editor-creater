@@ -1,0 +1,47 @@
+# Dokploy / Docker Compose deployment for the AI Video Editor.
+#
+# Usage:
+#   1. In Dokploy, create a service from this repository (or paste this file).
+#   2. Import/type your secrets in the compose environment (or a Dokploy .env):
+#        ANTHROPIC_API_KEY   (required for Chat + Creator)
+#        FAL_KEY             (optional; fal.ai AI images)
+#        ELEVENLABS_API_KEY  (optional; AI voice-over)
+#   3. Done — the editor is served on http://<host>:3001.
+#
+# Persistent data lives in the named volumes below, so uploads, rendered video
+# and the saved project survive restarts and redeploys.
+
+services:
+  ai-video-editor:
+    build: .
+    image: ai-video-editor:latest
+    container_name: ai-video-editor
+    restart: unless-stopped
+    ports:
+      - "${APP_PORT:-3001}:3001"
+    environment:
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY:-}
+      - ANTHROPIC_MODEL=${ANTHROPIC_MODEL:-}
+      - FAL_KEY=${FAL_KEY:-}
+      - FAL_IMAGE_MODEL=${FAL_IMAGE_MODEL:-}
+      - ELEVENLABS_API_KEY=${ELEVENLABS_API_KEY:-}
+      - ELEVENLABS_VOICE_ID=${ELEVENLABS_VOICE_ID:-}
+    volumes:
+      - media_data:/app/public
+      - render_data:/app/out
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "node",
+          "-e",
+          "fetch('http://localhost:3001/api/project').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))",
+        ]
+      interval: 60s
+      timeout: 5s
+      retries: 3
+      start_period: 30s
+
+volumes:
+  media_data: # uploads, project.json, creator-versions.json
+  render_data: # rendered video.mp4

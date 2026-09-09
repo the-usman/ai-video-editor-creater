@@ -17,8 +17,10 @@ export const toPlayerProject = (project: Project): Project => ({
   audio: project.audio ? { ...project.audio, src: abs(project.audio.src) } : null,
   scenes: project.scenes.map((scene) => {
     if (scene.type === "image" || scene.type === "video") {
-      return { ...scene, src: abs(scene.src) };
+      const next = { ...scene, src: abs(scene.src) };
+      if (scene.audioSrc) next.audioSrc = abs(scene.audioSrc);
+      return next;
     }
-    return scene;
+    return scene.audioSrc ? { ...scene, audioSrc: abs(scene.audioSrc) } : scene;
   }),
 });

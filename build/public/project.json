@@ -1,0 +1,287 @@
+{
+  "title": "OPTIMIZED PROMPT: 15-Second Kinetic Typography Reel\nProject: D2 Media Communication Brand Reel\nFormat: 9:16 Vertical | 15 Seconds | Text-Only Kinetic Typography\nMaster Vibe: \"We know who we are. We know what we do. And we’re not here to blend in.\" The tone is confident, unconventional, punchy, and premium.\n\n1. GLOBAL RULES & CONSTRAINTS\nVisuals: 100% typography. NO photography, illustrations, icons, people, objects, or imagery.\nAudio: No voiceover. No music-dependent storytelling. Pure visual motion.\nBackground: Solid Indigo #0E0B20 (consistently dominant).\nFont: Jost (Heavy/Black/Bold weights only). Clean, modern, geometric, highly legible.\nLayout: Oversized words that fill the screen. Intentionally crop letters off the edges. Arrange type at different angles, sizes, and positions to create a dynamic editorial collage. Allow words to overlap and interact.\nMotion: Fast, kinetic, purposeful. No simple fading. Use quick slides, snaps, rotations, scale-ups, and overshoots.\n2. COLOR STRATEGY\nAlternate text colors for emphasis and visual rhythm:\n\nColor A (Electric Purple): #AD00FF\nColor B (Hot Coral): #FF0063\n3. SCENE-BY-SCENE STORYBOARD\nScene 1 (0–2 sec): \"BOLD.\"\n\nText: BOLD. (Color A - #AD00FF)\nMotion: The word \"BOLD.\" scales up rapidly from 0% to 120% in the center, snapping with a slight overshoot. The word is so large it bleeds off the left and right edges.\nScene 2 (2–4 sec): \"DIFFERENT.\"\n\nText: DIFFERENT. (Color B - #FF0063)\nMotion: \"BOLD.\" quickly slides off-screen to the left. \"DIFFERENT.\" flies in from the right, rotating 15 degrees as it locks into the lower third of the screen, filling the width.\nScene 3 (4–6 sec): \"SHARP.\"\n\nText: SHARP. (Color A - #AD00FF)\nMotion: \"DIFFERENT.\" slides down off-screen. \"SHARP.\" enters from the top-left corner, diagonally angled. It scales up rapidly, slicing across the screen like a knife.\nScene 4 (6–8 sec): \"FEARLESS.\"\n\nText: FEARLESS. (Color B - #FF0063)\nMotion: A kinetic collage moment. \"SHARP.\" remains, slightly shrinking and moving to the background. \"FEARLESS.\" slides in horizontally from the right, overlapping \"SHARP.\" in a contrasting color and angle.\nScene 5 (8–10 sec): \"UNMISSABLE.\"\n\nText: UNMISSABLE. (Color A - #AD00FF)\nMotion: The \"FEARLESS/SHARP\" collage splits apart and exits the top and bottom. \"UNMISSABLE.\" stomps into the dead center, perfectly straight, taking up 80% of the screen height.\nScene 6 (10–12 sec): \"RELIABLE.\"\n\nText: RELIABLE. (Color B - #FF0063)\nMotion: \"UNMISSABLE.\" slides horizontally to the right, revealing \"RELIABLE.\" underneath it, which was hidden off-screen. They briefly overlap before \"UNMISSABLE\" exits completely on the right.\nScene 7 (12–15 sec): THE PAYOFF (SLOWDOWN)\n\nText 1: D2 MEDIA (Color A - #AD00FF)\nText 2: MAKE YOUR MESSAGE MATTER. (Color B - #FF0063)\nMotion: Pacing slows down significantly for a premium, confident finish. The previous words clear the screen. \"D2 MEDIA\" drops in from the top, locking dead center, perfectly straight, filling 60% of the screen.\nFinal Frame (14–15 sec): \"D2 MEDIA\" remains locked. Beneath it, \"MAKE YOUR MESSAGE MATTER.\" smoothly slides up from the bottom, settling just below \"D2 MEDIA\" in a smaller, but still bold, tracking-wide format. The composition is clean, instantly readable, and powerful.\n4. NEGATIVE PROMPT (FOR AI GENERATORS)\nNo photos, no videos, no stock footage, no people, no faces, no 3d renders, no illustrations, no graphics, no logos, no shapes, no gradients, no corporate templates, no fading transitions, no generic motion.",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transition": "fade",
+  "transitionDurationInSeconds": 0.5,
+  "assets": [
+    {
+      "name": "create-a-15-second-vertical-9-16-text-only-brand-r.mp4",
+      "src": "uploads/1788871555712-create-a-15-second-vertical-9-16-text-on.mp4",
+      "kind": "video",
+      "durationInSeconds": 5.546667
+    }
+  ],
+  "audio": null,
+  "scenes": [
+    {
+      "id": "create-jobmtsy7-1",
+      "durationInSeconds": 1.5,
+      "overlays": [],
+      "type": "text",
+      "prompt": "BOLD.",
+      "subtitle": "",
+      "background": "#0E0B20",
+      "color": "#AD00FF",
+      "variant": "kinetic",
+      "kineticWords": [
+        {
+          "text": "BOLD.",
+          "x": 0.5,
+          "y": 0.5,
+          "size": 0.42,
+          "rotation": 0,
+          "color": "#AD00FF",
+          "dir": "zoom",
+          "start": 0,
+          "dur": 0.5,
+          "order": 1,
+          "effect": "zoomcut"
+        }
+      ]
+    },
+    {
+      "id": "create-jobmtsy7-2",
+      "durationInSeconds": 1.5,
+      "overlays": [],
+      "type": "text",
+      "prompt": "DIFFERENT.",
+      "subtitle": "",
+      "background": "#0E0B20",
+      "color": "#FF0063",
+      "variant": "kinetic",
+      "kineticWords": [
+        {
+          "text": "DIFFERENT.",
+          "x": 0.5,
+          "y": 0.75,
+          "size": 0.32,
+          "rotation": 15,
+          "color": "#FF0063",
+          "dir": "right",
+          "start": 0,
+          "dur": 0.4,
+          "order": 1,
+          "effect": "slide"
+        }
+      ]
+    },
+    {
+      "id": "create-jobmtsy7-3",
+      "durationInSeconds": 1.5,
+      "overlays": [],
+      "type": "text",
+      "prompt": "SHARP.",
+      "subtitle": "",
+      "background": "#0E0B20",
+      "color": "#AD00FF",
+      "variant": "kinetic",
+      "kineticWords": [
+        {
+          "text": "SHARP.",
+          "x": 0.42,
+          "y": 0.4,
+          "size": 0.38,
+          "rotation": -12,
+          "color": "#AD00FF",
+          "dir": "left",
+          "start": 0,
+          "dur": 0.35,
+          "order": 1,
+          "effect": "zoomcut"
+        }
+      ]
+    },
+    {
+      "id": "create-jobmtsy7-4",
+      "durationInSeconds": 1.5,
+      "overlays": [],
+      "type": "text",
+      "prompt": "SHARP. FEARLESS.",
+      "subtitle": "",
+      "background": "#0E0B20",
+      "color": "#AD00FF",
+      "variant": "kinetic",
+      "kineticWords": [
+        {
+          "text": "SHARP.",
+          "x": 0.35,
+          "y": 0.4,
+          "size": 0.3,
+          "rotation": -12,
+          "color": "#AD00FF",
+          "dir": "zoom",
+          "start": 0,
+          "dur": 0.3,
+          "order": 1
+        },
+        {
+          "text": "FEARLESS.",
+          "x": 0.6,
+          "y": 0.55,
+          "size": 0.36,
+          "rotation": 8,
+          "color": "#FF0063",
+          "dir": "right",
+          "start": 0.15,
+          "dur": 0.4,
+          "order": 2,
+          "effect": "rotate3d"
+        }
+      ]
+    },
+    {
+      "id": "create-jobmtsy7-5",
+      "durationInSeconds": 1.5,
+      "overlays": [],
+      "type": "text",
+      "prompt": "UNMISSABLE.",
+      "subtitle": "",
+      "background": "#0E0B20",
+      "color": "#AD00FF",
+      "variant": "kinetic",
+      "kineticWords": [
+        {
+          "text": "UNMISSABLE.",
+          "x": 0.5,
+          "y": 0.5,
+          "size": 0.4,
+          "rotation": 0,
+          "color": "#AD00FF",
+          "dir": "down",
+          "start": 0,
+          "dur": 0.3,
+          "order": 1,
+          "effect": "wordpop"
+        }
+      ]
+    },
+    {
+      "id": "create-jobmtsy7-6",
+      "durationInSeconds": 1.5,
+      "overlays": [],
+      "type": "text",
+      "prompt": "UNMISSABLE. RELIABLE.",
+      "subtitle": "",
+      "background": "#0E0B20",
+      "color": "#FF0063",
+      "variant": "kinetic",
+      "kineticWords": [
+        {
+          "text": "RELIABLE.",
+          "x": 0.5,
+          "y": 0.5,
+          "size": 0.38,
+          "rotation": 0,
+          "color": "#FF0063",
+          "dir": "left",
+          "start": 0,
+          "dur": 0.3,
+          "order": 1
+        },
+        {
+          "text": "UNMISSABLE.",
+          "x": 0.6,
+          "y": 0.5,
+          "size": 0.4,
+          "rotation": 0,
+          "color": "#AD00FF",
+          "dir": "right",
+          "start": 0.1,
+          "dur": 0.35,
+          "order": 2,
+          "effect": "slide"
+        }
+      ]
+    },
+    {
+      "id": "create-jobmtsy7-7",
+      "durationInSeconds": 3.5,
+      "overlays": [],
+      "type": "text",
+      "prompt": "D2 MEDIA MAKE YOUR MESSAGE MATTER.",
+      "subtitle": "",
+      "background": "#0E0B20",
+      "color": "#AD00FF",
+      "variant": "kinetic",
+      "kineticWords": [
+        {
+          "text": "D2",
+          "x": 0.4,
+          "y": 0.38,
+          "size": 0.36,
+          "rotation": 0,
+          "color": "#AD00FF",
+          "dir": "down",
+          "start": 0,
+          "dur": 0.6,
+          "order": 1,
+          "effect": "colorcycle"
+        },
+        {
+          "text": "MEDIA",
+          "x": 0.62,
+          "y": 0.38,
+          "size": 0.36,
+          "rotation": 0,
+          "color": "#AD00FF",
+          "dir": "down",
+          "start": 0.15,
+          "dur": 0.6,
+          "order": 1,
+          "effect": "colorcycle"
+        },
+        {
+          "text": "MAKE",
+          "x": 0.28,
+          "y": 0.62,
+          "size": 0.16,
+          "rotation": 0,
+          "color": "#FF0063",
+          "dir": "up",
+          "start": 0.8,
+          "dur": 0.5,
+          "order": 2
+        },
+        {
+          "text": "YOUR",
+          "x": 0.42,
+          "y": 0.62,
+          "size": 0.16,
+          "rotation": 0,
+          "color": "#FF0063",
+          "dir": "up",
+          "start": 0.9,
+          "dur": 0.5,
+          "order": 2
+        },
+        {
+          "text": "MESSAGE",
+          "x": 0.62,
+          "y": 0.62,
+          "size": 0.16,
+          "rotation": 0,
+          "color": "#FF0063",
+          "dir": "up",
+          "start": 1,
+          "dur": 0.5,
+          "order": 2
+        },
+        {
+          "text": "MATTER.",
+          "x": 0.5,
+          "y": 0.7,
+          "size": 0.16,
+          "rotation": 0,
+          "color": "#FF0063",
+          "dir": "up",
+          "start": 1.1,
+          "dur": 0.5,
+          "order": 2
+        }
+      ],
+      "tagline": "MAKE YOUR MESSAGE MATTER."
+    }
+  ]
+}

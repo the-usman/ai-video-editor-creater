@@ -1,0 +1,16 @@
+# Build context exclusions — keep builds fast and never bake user data in.
+node_modules
+build
+dist-app
+out
+public
+.git
+.gitignore
+.env
+.env.*
+!.env.example
+*.mp4
+*.mov
+*.mkv
+npm-debug.log*
+.DS_Store
