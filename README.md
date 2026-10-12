@@ -1,114 +1,153 @@
-# Remotion video
+# AI Video Editor
 
-<p align="center">
-  <a href="https://github.com/remotion-dev/logo">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-dark.apng">
-      <img alt="Animated Remotion Logo" src="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-light.gif">
-    </picture>
-  </a>
-</p>
+An AI-powered video editor and generator built on [Remotion](https://www.remotion.dev),
+React and Express. Chat with Claude to edit a timeline, or type a topic and let
+**Creator mode** produce a complete narrated video for you.
 
-Welcome to your Remotion project!
+The editor app has three modes (tabs at the top of the sidebar):
 
-## AI Video Editor
-
-A standalone editor app: a **chat sidebar** on the left (talk to Claude, drop
-media), a **live preview** and a **scene inspector** on the right. Claude edits
-the timeline; the preview updates instantly.
-
-### One-time setup
-
-```console
-cp .env.example .env          # then edit .env and paste your ANTHROPIC_API_KEY
-```
-
-### Run
-
-```console
-npm run dev                   # helper server (:3001) + editor app (:5173)
-```
-
-Your browser opens **http://localhost:5173/app/** automatically. (`npm run server`
-/ `npm run app` run them separately. If port 3001 is stuck: `npx kill-port 3001`.)
-
-### Use it
-
-1. **Add media** – click *＋ Add files* or drag a video / images / music
-   anywhere onto the sidebar. Each clip's length is read on upload; a video
-   scene keeps the **whole clip** by default. Hover a thumbnail for **✕** to
-   delete a file (and any scenes using it).
-2. **Attach + chat** – click media thumbnails to select them (they get a blue
-   ring), then type what you want. Or just describe it:
-   - “Make a 15s slideshow from my photos with a fade between each”
-   - “Add ‘SUMMER 2026’ over the video, big, top centre”
-   - “Trim scene 2 to 4s and slow it to 0.5x”
-   - “Split scene 1 in half, then put my music under everything at 40%”
-3. **Quick-add** – the *＋* on a thumbnail drops that asset straight into the
-   video.
-4. **Fine-tune** – the inspector under the preview edits every scene, overlay,
-   speed and the audio track by hand.
-
-Everything saves to `public/project.json`. Click **⬇ Download MP4** (top right) to
-render and download the finished video — a one-minute video takes a couple of
-minutes, so leave the tab open. (`npm run render` does the same from a terminal;
-`npm run studio` opens Remotion Studio.)
-
-### How it fits together
-
-| Piece | File |
+| Mode | What it does |
 | --- | --- |
-| Editor app (sidebar chat + preview + inspector) | `app/` |
-| Live preview (`@remotion/player`) | `app/components/Preview.tsx` |
-| Timeline edit operations (one per AI tool) | `src/project/operations.ts` |
-| Tool schema + system prompt for Claude | `src/project/tools.ts` |
-| Video assembled from the project data | `src/GeneratedVideo/` |
-| Text overlays (text on top of a scene) | `src/GeneratedVideo/scenes/Overlays.tsx` |
-| Shared data model | `src/project/types.ts` |
-| Server: uploads, project state, `/api/render` + `/api/download`, `/api/chat` (Claude tool loop) | `server/index.ts` (port 3001) |
-| Saved project state / uploaded media | `public/project.json`, `public/uploads/` |
+| **Editor** | Chat with Claude, drop in media, and edit scenes, overlays and audio. Live preview + manual inspector. |
+| **Creator** | Enter a topic → Claude writes a storyboard, ElevenLabs narrates it, images are generated, and a finished video is assembled automatically. |
+| **Image** | Generate a single AI image (or typographic poster) and add it to your media library. |
 
-Scenes in `GeneratedVideo` are generated from the project data, so edit them in
-the app rather than the Studio timeline.
+---
 
-## Commands
+## Features
 
-**Install Dependencies**
+### Editor mode
+- **Media library** – upload videos, images and music (click *＋ Add files* or drag & drop). Clip length is read on upload; a video scene keeps the whole clip by default. Delete files with the ✕ on a thumbnail (scenes using them are removed too).
+- **Chat-driven editing** – select thumbnails (blue ring) and describe the edit, e.g.
+  - “Make a 15s slideshow from my photos with a fade between each”
+  - “Add ‘SUMMER 2026’ over the video, big, top centre”
+  - “Trim scene 2 to 4s and slow it to 0.5x”
+  - “Split scene 1 in half, then put my music under everything at 40%”
+- **Quick-add** – the *＋* on a thumbnail drops the asset straight into the video.
+- **Scene inspector** – hand-edit every scene, text overlay, speed, transition and the audio track.
+- **Live preview** – powered by `@remotion/player`; updates instantly as Claude edits.
+- **Download MP4** – renders the finished video server-side and downloads it.
+
+Claude edits the timeline through tool calls (`server/index.ts` → `/api/chat`):
+`add_text_scene`, `add_image_scene`, `add_video_scene`, `add_slideshow`,
+`add_text_overlay`, `remove_overlays`, `split_scene`, `trim_scene`, `set_speed`,
+`set_duration`, `reorder_scene`, `delete_scene`, `set_transition`
+(`none` / `fade` / `slide` / `wipe`), `set_audio`, `remove_audio`,
+`remove_asset`, `set_project`, `clear_scenes`.
+
+### Creator mode
+1. Claude writes a storyboard (narration + image prompt per scene).
+2. ElevenLabs renders each narration line as a voice-over.
+3. Images are generated per scene.
+4. Everything is assembled into a project and loaded into the preview.
+
+Options: topic, title, style (cinematic, travel vlog, nature, tech explainer, inspirational…), number of scenes, target duration, and output size (16:9 720p/1080p, 9:16 vertical, 1:1 square). You can generate several **formats** at once, one video each:
+- **Images** – AI-generated stills with voice-over
+- **Text** – typography scenes
+- **Animated text** – text with animated effects (explosive, melt, matrix, glitch, neon, wavy, typewriter, 3D spin, and more)
+- **Mix**
+
+Generated versions are listed and switchable; the LLM-written animation code lives in `src/generated/CustomScenes.tsx` and can be opened in your editor from the app (hot-reloads on save).
+
+### Image mode / image providers
+| Provider | Key needed | Notes |
+| --- | --- | --- |
+| **fal.ai** | `FAL_KEY` | Best quality; default when a key is set |
+| **Pollinations.ai** | none | Free AI images; default when no `FAL_KEY` |
+| **Typography poster** | none | Text rendered as a poster with rotating fonts, no AI |
+
+---
+
+## Getting started
+
+**Requirements:** Node.js 20+ and an [Anthropic API key](https://console.anthropic.com).
 
 ```console
-npm i
+npm install
+cp .env.example .env     # then edit .env and add your keys
+npm run dev              # helper server (:3001) + editor app (:5173)
 ```
 
-**Start builder + preview**
+Open **http://localhost:5173/app/** (it opens automatically). If port 3001 is stuck: `npx kill-port 3001`.
+
+### Environment variables
+
+| Variable | Required | Purpose |
+| --- | --- | --- |
+| `ANTHROPIC_API_KEY` | Yes | Chat editing and Creator storyboards |
+| `ANTHROPIC_MODEL` | No | Override the Claude model (default `claude-sonnet-5`) |
+| `FAL_KEY` | No | fal.ai image generation |
+| `FAL_IMAGE_MODEL` | No | Override the fal.ai image model |
+| `ELEVENLABS_API_KEY` | No | AI voice-over in Creator mode |
+| `ELEVENLABS_VOICE_ID` | No | Voice to use (default Rachel `21m00Tcm4TlvDq8ikWAM`) |
+
+---
+
+## Scripts
+
+| Command | Description |
+| --- | --- |
+| `npm run dev` | Run server and editor app together |
+| `npm run server` | Express API only (port 3001) |
+| `npm run app` | Vite editor UI only (port 5173) |
+| `npm run studio` | Open Remotion Studio |
+| `npm run render` | Render `GeneratedVideo` to `out/video.mp4` |
+| `npm run build` | Bundle the Remotion project |
+| `npm run lint` | ESLint + TypeScript check |
+| `npm run upgrade` | Upgrade Remotion |
+
+---
+
+## Project structure
+
+| Path | Purpose |
+| --- | --- |
+| `app/` | Editor UI: `Chat`, `AssetTray`, `Preview`, `Inspector`, `Creator`, `ImageMaker` |
+| `server/index.ts` | Express API (port 3001) |
+| `server/creator.ts` | Creator pipeline: storyboard → voice-over → images → project |
+| `src/project/types.ts` | Shared data model |
+| `src/project/operations.ts` | Timeline edit operations (one per AI tool) |
+| `src/project/tools.ts` | Tool schema + system prompt for Claude |
+| `src/GeneratedVideo/` | Video composition: image/video/text scenes, overlays, text effects |
+| `src/generated/CustomScenes.tsx` | LLM-generated animation code |
+| `public/project.json` | Saved project state |
+| `public/uploads/` | Uploaded and generated media |
+| `public/creator-versions.json` | Creator-generated video versions |
+
+Scenes in `GeneratedVideo` are generated from project data — edit them in the app, not the Studio timeline.
+
+### API endpoints
+
+| Method | Route | Description |
+| --- | --- | --- |
+| GET / POST | `/api/project` | Load / save project |
+| POST | `/api/upload` | Upload media (up to 20 files) |
+| DELETE | `/api/asset` | Delete an uploaded asset |
+| POST | `/api/chat` | Claude tool loop for editing |
+| POST | `/api/image/create` | Generate a single image |
+| POST | `/api/create` | Start a Creator job |
+| GET | `/api/create/status/:id` | Poll Creator job progress |
+| GET | `/api/creator-versions` | List generated versions |
+| POST | `/api/creator-versions/set` | Activate a version |
+| POST | `/api/code/open` | Open generated animation code in your editor |
+| POST | `/api/render` | Render the video to MP4 |
+| GET | `/api/download` | Download the rendered MP4 |
+
+---
+
+## Docker / Dokploy deployment
+
+A single container runs the API, serves the built UI and renders videos (Chrome is installed at build time).
 
 ```console
-npm run dev
+docker compose up -d --build     # editor served on http://localhost:3001
 ```
 
-**Render the generated video**
+Set `ANTHROPIC_API_KEY` (and optionally `FAL_KEY`, `ELEVENLABS_API_KEY`, `APP_PORT`) in your environment or Dokploy `.env`. Named volumes persist `public/` (uploads, project) and `out/` (renders) across redeploys.
 
-```console
-npm run render
-```
+---
 
-**Upgrade Remotion**
-
-```console
-npx remotion upgrade
-```
-
-## Docs
-
-Get started with Remotion by reading the [fundamentals page](https://www.remotion.dev/docs/the-fundamentals).
-
-## Help
-
-We provide help on our [Discord server](https://discord.gg/6VzzNDwUwV).
-
-## Issues
-
-Found an issue with Remotion? [File an issue here](https://github.com/remotion-dev/remotion/issues/new).
-
-## License
-
-Note that for some entities a company license is needed. [Read the terms here](https://github.com/remotion-dev/remotion/blob/main/LICENSE.md).
+## Notes
+- Rendering a one-minute video takes a couple of minutes — keep the tab open.
+- Docs: [Remotion fundamentals](https://www.remotion.dev/docs/the-fundamentals) · Help: [Remotion Discord](https://discord.gg/6VzzNDwUwV)
+- Remotion may require a company license for some uses: [read the terms](https://github.com/remotion-dev/remotion/blob/main/LICENSE.md).
